@@ -4,10 +4,10 @@ Playwright with Javascript tutorials
 12-Oct-2024(Sat):
 ----------------
 
-Part 01 | Playwright with Javascript | Introduction | Playwright Vs Selenium Vs Cypress 
-Part 02 | Playwright with Javascript | Installation
-Part 03 | Playwright with Javascript | How To Create and Run Tests
-Part 04 | Playwright with Javascript | Locating Web Elements | Locators-Property, XPath, CSS
+Part 01 | Playwright with Javascript | Introduction | Playwright Vs Selenium Vs Cypress ==> DONE
+Part 02 | Playwright with Javascript | Installation ==> DONE
+Part 03 | Playwright with Javascript | How To Create and Run Tests ==> DONE
+Part 04 | Playwright with Javascript | Locating Web Elements | Locators-Property, XPath, CSS ==>
 Part 05 | Playwright with Javascript | Locating Web Elements | Playwright built-in locator methods
 
 
@@ -66,3 +66,20 @@ Part 36 | Playwright with Javascript | Reporters | List, Dot, Json, JUnit & HTML
 Part 37 | Playwright with Javascript | How to Generate Allure Reports
 Part 38 | Playwright with Javascript | How To Retry Failed Test Cases | Retries and Test Flakiness
 Part 39 | Playwright with Javascript | Rest API Testing | HTTP Requests |Get,Post,Put & Delete
+
+
+IMP
+----
+// test('HomePageTest',async ({page})=>{})
+
+Terminal commands
+-----------------
+
+
+
+npm playwright -v
+npx playwright test
+npx playwright test --headed
+npx playwright test Part_03_HomepageTest.spec.js --headed --project=chromium
+npx playwright test Part_03_HomepageTest.spec.js --headed --project=chromium --debug
+npx playwright show-report
