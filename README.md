@@ -9,11 +9,11 @@ DONE ==> Part 02 | Playwright with Javascript | Installation
 DONE ==> Part 03 | Playwright with Javascript | How To Create and Run Tests
 DONE ==> Part 04 | Playwright with Javascript | Locating Web Elements | Locators-Property, XPath, CSS
 DONE ==> Part 05 | Playwright with Javascript | Locating Web Elements | Playwright built-in locator methods
-Part 06 | Playwright with Javascript | Record & Play Scripts In Playwright |Test Generator| Codegen
-Part 07 | Playwright with Javascript | Assertions
-Part 08 | Playwright with Javascript | Hard Assertions vs Soft Assertions
-Part 09 | Playwright with Javascript | How to handle Input box & Radio Buttons
-Part 10 | Playwright with Javascript | How to handle Checkboxes
+DONE ==> Part 06 | Playwright with Javascript | Record & Play Scripts In Playwright |Test Generator| Codegen
+DONE ==> Part 07 | Playwright with Javascript | Assertions
+DONE ==> Part 08 | Playwright with Javascript | Hard Assertions vs Soft Assertions
+DONE ==> Part 09 | Playwright with Javascript | How to handle Input box & Radio Buttons
+DONE ==> Part 10 | Playwright with Javascript | How to handle Checkboxes
 
 #1 - Setup Node JS, Install Visual Studio Code Editor, Write First Code with JavaScript
 #2 - Var vs Let vs Const in JavaScript
@@ -128,3 +128,10 @@ npx playwright test --headed
 npx playwright test Test.spec.js --headed --project=chromium
 npx playwright test Test.spec.js --headed --project=chromium --debug
 npx playwright show-report
+
+npx playwright codegen
+npx playwright codegen -o tests/newtest.spec.js
+npx playwright codegen -o tests/newtest.spec.js --target javascript -b chromium
+npx playwright codegen  --device "iPhone 13"
+npx playwright codegen --viewport-size "1280,720"
+
