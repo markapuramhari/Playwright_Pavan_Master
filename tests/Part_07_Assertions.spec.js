@@ -1,3 +1,20 @@
+/*
+
+1. URL
+2. Title
+3. Visible
+4. Enable
+5. Checked
+6. Attribute
+7. Text
+8. ContainText
+9. value
+10. Count
+
+*/
+
+
+
 import {test,expect} from '@playwright/test'
 test('All Assertions Test',async ({page})=>{
 

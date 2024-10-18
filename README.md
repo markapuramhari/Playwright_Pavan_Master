@@ -37,15 +37,16 @@ DONE ==> Part 01 | Playwright with Javascript | Introduction | Playwright Vs Sel
 DONE ==> Part 02 | Playwright with Javascript | Installation
 DONE ==> Part 03 | Playwright with Javascript | How To Create and Run Tests
 DONE ==> Part 04 | Playwright with Javascript | Locating Web Elements | Locators-Property, XPath, CSS
-Part 05 | Playwright with Javascript | Locating Web Elements | Playwright built-in locator methods
+DONE ==> Part 05 | Playwright with Javascript | Locating Web Elements | Playwright built-in locator methods
 
 
-Part 06 | Playwright with Javascript | Record & Play Scripts In Playwright |Test Generator| Codegen
-Part 07 | Playwright with Javascript | Assertions
-Part 08 | Playwright with Javascript | Hard Assertions vs Soft Assertions
-Part 09 | Playwright with Javascript | How to handle Input box & Radio Buttons
-Part 10 | Playwright with Javascript | How to handle Checkboxes
+DONE ==> Part 06 | Playwright with Javascript | Record & Play Scripts In Playwright |Test Generator| Codegen
+DONE ==> Part 07 | Playwright with Javascript | Assertions
+DONE ==> Part 08 | Playwright with Javascript | Hard Assertions vs Soft Assertions
+DONE ==> Part 09 | Playwright with Javascript | How to handle Input box & Radio Buttons
+DONE ==> Part 10 | Playwright with Javascript | How to handle Checkboxes
 
+---------------------------------------------------------------------------------------------
 
 Part 11 | Playwright with Javascript | How to handle DropDown
 Part 12 | Playwright with Javascript | How to handle Multi Select DropDown
@@ -53,7 +54,7 @@ Part 13 | Playwright with Javascript | How to handle Bootstrap multi select Drop
 Part 14 | Playwright with Javascript | How to handle Auto Suggest/Auto Complete DropDown
 Part 15 | Playwright with Javascript | How to Handle Hidden Items in DropDown
 
----------------------------------------------------------------------------------------------
+
 
 Part 16 | Playwright with Javascript | How to Handle Dialogs Or Alerts | alert(),confirm(), prompt()
 Part 17 | Playwright with Javascript | How to Handle Frames/iFrames

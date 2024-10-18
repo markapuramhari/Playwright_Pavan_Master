@@ -25,6 +25,11 @@ test('Loginpage Test',async ({page})=>{
     const LogOutlink= await page.locator("//a[normalize-space()='Log out']")
     await expect(LogOutlink).toBeVisible()
 
+    await expect(await page.getByText('Log out')).toBeVisible()
+    await expect(await page.getByText('Home')).toBeVisible()
+    await expect(await page.getByText('Product Store 2017')).toBeVisible()
+    await expect(await page.locator("//p[@class='m-0 text-center text-white']")).toBeVisible()
+
     const name= await page.locator("//a[@id='nameofuser']")
 	await expect(name).toBeVisible()
 

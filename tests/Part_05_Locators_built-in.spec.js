@@ -3,13 +3,22 @@ IMP:
 ----
 page.getByAltText()   --> use for images,        DOM==> alt='company-branding'
 page.getByPlaceholder() --> use for input box  , DOM==> placeholder='Username'
-page.getByRole() --> use for button,link,action  DOM==> 'tag',{attribute:'value'}
+page.getByRole() --> use for button,link,action  DOM==> 'role',{name:'value'}  i.e role: link, button, img, heading
 page.getByText() --> use for test content only   DOM==> text
 
 
 page.getByLabel() --> use <label>                DOM ==> <label>password</label>
 page.getByTitle() --> use for Title attributes   DOM ==> title='username'
 page.getByTestId() --> use for data-testid       DOM ==> data-testid='diractions'
+
+
+getByRole(role: "alert" | "alertdialog" | "application" | "article" | "banner" | "blockquote" 
+    | "button" | "caption" | "cell" | "checkbox" | "code" | "columnheader" | "combobox" | "complementary" 
+    | "contentinfo" | "definition" | "deletion" | "dialog" | "directory" | "document" | "emphasis" 
+    | "feed" | "figure" | "form" | "generic" | "grid" | "gridcell" | "group" | "heading" | "img" 
+    | "insertion" | "link" | "list" | "listbox" | "listitem" | "log" | "main" | "marquee" | "math" | "meter" 
+    | "menu" | "menubar" | "menuitem" | "menuitemcheckbox" | "menuitemradio" | "navigation" 
+    | "none" | "note" | "option" | "paragraph" | "presentation" | "progressbar" | "radio" |
 
 */
 
@@ -23,7 +32,7 @@ test("built-in Locators",async ({page})=>{
 
     await page.getByPlaceholder('Username').fill('Admin')
     await page.getByPlaceholder('Password').fill('admin123')
-    await page.getByRole('button',{type:'submit'}).click()
+    await page.getByRole('button',{type:'submit'}).click()  //link, button, img, heading
 
 //Validates 
 

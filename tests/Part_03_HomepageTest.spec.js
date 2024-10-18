@@ -16,6 +16,12 @@ test('Homepage Test',async ({page})=>{
     console.log('page Title is: ',pageTitle)
     await expect(page).toHaveTitle('STORE')
 
+
+//Text Validation
+
+    await expect(await page.getByRole('link',{name:'LOG in'})).toBeVisible()
+    await expect(await page.getByRole('link',{name:'Sign up '})).toBeVisible()
+
     await page.waitForTimeout(2000)
     await page.close()
 
