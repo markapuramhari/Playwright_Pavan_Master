@@ -17,12 +17,12 @@ test('Check Boxes', async({page})=>{
     for(const locator of checkboxesLocators){
         await page.locator(locator).check()
     }
-    await page.waitForTimeout(3000)
+    await page.waitForTimeout(2000)
 
     for(const locator of checkboxesLocators){
         await page.locator(locator).uncheck()
     }
 
-    await page.waitForTimeout(3000)
+    await page.waitForTimeout(2000)
     await page.close()
 })

@@ -33,6 +33,9 @@ test('Loginpage Test',async ({page})=>{
     const name= await page.locator("//a[@id='nameofuser']")
 	await expect(name).toBeVisible()
 
+    await expect(await page.getByRole('link',{name:'Welcome'})).toBeVisible()
+    await expect(await page.getByText('welcome')).toBeVisible()
+
     await page.waitForTimeout(2000)
     await page.close()
 })
