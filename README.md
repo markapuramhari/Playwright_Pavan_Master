@@ -49,27 +49,27 @@ DONE ==> Part 10 | Playwright with Javascript | How to handle Checkboxes
 
 ---------------------------------------------------------------------------------------------
 
-Part 11 | Playwright with Javascript | How to handle DropDown
-Part 12 | Playwright with Javascript | How to handle Multi Select DropDown
-Part 13 | Playwright with Javascript | How to handle Bootstrap multi select DropDown
-Part 14 | Playwright with Javascript | How to handle Auto Suggest/Auto Complete DropDown
-Part 15 | Playwright with Javascript | How to Handle Hidden Items in DropDown
+DONE ==> Part 11 | Playwright with Javascript | How to handle DropDown
+DONE ==> Part 12 | Playwright with Javascript | How to handle Multi Select DropDown
+DONE ==> Part 13 | Playwright with Javascript | How to handle Bootstrap multi select DropDown
+DONE ==> Part 14 | Playwright with Javascript | How to handle Auto Suggest/Auto Complete DropDown
+DONE ==> Part 15 | Playwright with Javascript | How to Handle Hidden Items in DropDown
 
 
 
-Part 16 | Playwright with Javascript | How to Handle Dialogs Or Alerts | alert(),confirm(), prompt()
-Part 17 | Playwright with Javascript | How to Handle Frames/iFrames
-Part 18 | Playwright with Javascript | How to Handle Inner/Nested Frames
-Part 19 | Playwright with Javascript | How to Handle WebTable/Pagination Table
-Part 20 | Playwright with Javascript | How to Handle Date Pickers/Calendars
+DONE ==> Part 16 | Playwright with Javascript | How to Handle Dialogs Or Alerts | alert(),confirm(), prompt()
+DONE ==> Part 17 | Playwright with Javascript | How to Handle Frames/iFrames
+DONE ==> Part 18 | Playwright with Javascript | How to Handle Inner/Nested Frames
+DONE ==> Part 19 | Playwright with Javascript | How to Handle WebTable/Pagination Table
+DONE ==> Part 20 | Playwright with Javascript | How to Handle Date Pickers/Calendars
 
 
 
-Part 21 | Playwright with Javascript | Mouse Hover Action
-Part 22 | Playwright with Javascript | Mouse Right Click/Context Click Action
-Part 23 | Playwright with Javascript | Mouse Double Click Action
-Part 24 | Playwright with Javascript | Mouse Drag And Drop Action
-Part 25 | Playwright with Javascript | Keyboard Actions in Playwright
+DONE ==> Part 21 | Playwright with Javascript | Mouse Hover Action
+DONE ==> Part 22 | Playwright with Javascript | Mouse Right Click/Context Click Action
+DONE ==> Part 23 | Playwright with Javascript | Mouse Double Click Action
+DONE ==> Part 24 | Playwright with Javascript | Mouse Drag And Drop Action
+DONE ==> Part 25 | Playwright with Javascript | Keyboard Actions in Playwright
 
 --------------------------------------------------------------------------------------
 
