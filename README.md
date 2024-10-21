@@ -30,6 +30,7 @@ Features of Playwright:
 Playwright with Javascript tutorials:
 ------------------------------------
 https://github.com/pavanoltraining/playwrightautomation
+https://github.com/markapuramhari/Playwright_Pavan_Master
 https://www.youtube.com/watch?v=_TAg4hpdlDU&list=PLFGoYjJG_fqrRjl9Mn0asiAIxmKC1X-N-&pp=iAQB
 
 
