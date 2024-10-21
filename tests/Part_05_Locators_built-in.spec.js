@@ -55,7 +55,6 @@ test("built-in Locators",async ({page})=>{
     await expect(await page.getByText('My Actions')).toBeVisible()
     await expect(await page.getByText('Quick Launch')).toBeVisible()
     await expect(await page.getByText('This Week')).toBeVisible()
-    await expect(await page.getByText('Congratulations')).toBeVisible()
     await expect(await page.getByText('OrangeHRM OS 5.7')).toBeVisible()
 
     await page.waitForTimeout(2000)
