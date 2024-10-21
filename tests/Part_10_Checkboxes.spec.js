@@ -14,13 +14,13 @@ test('Check Boxes', async({page})=>{
 //Click Mutipul check boxes
     const checkboxesLocators=['#sunday','#monday','#thursday','#saturday'];
 
-    for(const locator of checkboxesLocators){
-        await page.locator(locator).check()
+    for(const locators of checkboxesLocators){
+        await page.locator(locators).check()
     }
     await page.waitForTimeout(2000)
 
-    for(const locator of checkboxesLocators){
-        await page.locator(locator).uncheck()
+    for(const locators of checkboxesLocators){
+        await page.locator(locators).uncheck()
     }
 
     await page.waitForTimeout(2000)

@@ -1,15 +1,15 @@
 /*
 
-1. URL
-2. Title
-3. Visible
-4. Enable
-5. Checked
-6. Attribute
-7. Text
-8. ContainText
-9. value
-10. Count
+1. URL ==> expect(page).toHaveURL('-----')
+2. Title ==> expect(page).toHaveTitle('-----')
+3. Visible ==> expect(locator).toBeVisible()
+4. Enable ==> expect(locator).toBeEnabled()
+5. Checked ==> expect(locator).toBeChecked()
+6. Attribute ==> expect(locator).toHaveAttribute('attribute','value')
+7. Text ==> expect(locator).toHaveText('--------') 
+8. ContainText ==> expect(locator).toContainText('-------')
+9. value ==> expect(locator).toHaveValue('-----')
+10. Count ==> expect(locator).toHaveCount(--)
 
 */
 
@@ -29,6 +29,7 @@ test('All Assertions Test',async ({page})=>{
 //3. expect(locator).toBeVisible()
     const logo= await page.locator('.header-logo')    
     await expect(logo).toBeVisible()
+    await expect(await page.getByRole('button',{name:'Register'})).toBeVisible()
 
 //4. expect(locator).toBeEnabled()
     const searchEle= await page.locator('#small-searchterms')

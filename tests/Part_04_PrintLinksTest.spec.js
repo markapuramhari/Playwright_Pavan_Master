@@ -5,6 +5,7 @@ test("Mutipule Elements",async ({page})=>{
 
 // Print Multipule links
 
+    await page.waitForSelector('a')
     const links= await page.$$('a')
 
     for(const link of links){

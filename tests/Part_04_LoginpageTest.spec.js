@@ -5,7 +5,9 @@ test('Loginpage Test',async ({page})=>{
     await page.goto('https://www.demoblaze.com/index.html')
 
     //await page.locator('id=login2').click() (or)
-    await page.click('id=login2')
+   // await page.click('id=login2') (or)
+    await page.getByRole('link',{name:'Log in'}).click()
+
 
 //username
 
@@ -18,7 +20,8 @@ test('Loginpage Test',async ({page})=>{
 
 //click
 
-    await page.click("//button[normalize-space()='Log in']")
+    //await page.click("//button[normalize-space()='Log in']")
+    await page.getByRole('button',{name:'Log in'}).click()
 
  //Validation
  
