@@ -33,6 +33,7 @@ test('test',async({page})=>{
     const cart= new CartPage(page)
     await page.waitForTimeout(3000)
     const status=await cart.checkProductInCart('Samsung galaxy s6')
+    await page.waitForTimeout(3000)
     await expect(await status).toBe(true)
 
     await page.waitForTimeout(3000)

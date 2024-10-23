@@ -102,3 +102,40 @@ npx playwright codegen -o tests/newtest.spec.js --target javascript -b chromium
 npx playwright codegen  --device "iPhone 13"
 npx playwright codegen --viewport-size "1280,720"
 
+
+
+Reporters
+---------
+1. List ==> 
+npx playwright test Part_36_Reporters.spec.js --headed --project=chromium --reporter=list
+2. line ==> 
+npx playwright test Part_36_Reporters.spec.js --headed --project=chromium --reporter=line
+3. dot ==> 
+npx playwright test Part_36_Reporters.spec.js --headed --project=chromium --reporter=dot
+4. HTML ==> 
+npx playwright test Part_36_Reporters.spec.js --headed --project=chromium --reporter=html
+npx playwright show-report
+5. Json ==>
+npx playwright test Part_36_Reporters.spec.js --headed --project=chromium --reporter=json
+6. JUnit ==>
+npx playwright test Part_36_Reporters.spec.js --headed --project=chromium --reporter=junit
+
+Thied party Reporters:
+-------------------
+1. Allure:  reporter: [['allure-playwright',{outputFolder: 'my-allure-results'}]],
+npm i -D @playwright/test allure-playwright
+npm install -g allure-commandline --save-dev
+
+allure generate allure-results -o allure-report --clean
+allure open allure-report
+
+2. Monocart
+3. Tesults
+4. ReportPortal
+5. Currents
+6. Serenity/JS
+
+Flaky Test:
+-----------
+
+npx playwright test Part_38_ReTryTest.spec.js --headed --project=chromium --retries=1
