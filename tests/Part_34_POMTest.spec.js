@@ -23,6 +23,7 @@ test('test',async({page})=>{
   
 //HomePage    
     const home= new HomePage(page)
+    await page.waitForTimeout(2000)
     await home.addProductToCart('Samsung galaxy s6')
     await page.waitForTimeout(2000)
     await home.gotoCart()
