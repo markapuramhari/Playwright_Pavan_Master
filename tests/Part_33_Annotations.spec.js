@@ -45,7 +45,7 @@ test('Annotations Test5',async({page})=>{
 })
 
 //if both fail that time test case PASS
-test.only('Annotations Test6',async({page,browserName})=>{
+test('Annotations Test6',async({page,browserName})=>{
 
     console.log('Test6....')
     if(browserName=='firefox'){ 
@@ -55,7 +55,7 @@ test.only('Annotations Test6',async({page,browserName})=>{
 
  //slow
 
- test.only('Annotations Test7',async({page,browserName})=>{
+ test('Annotations Test7',async({page,browserName})=>{
 
     test.slow() //increase 3 times 
     //(OR)
