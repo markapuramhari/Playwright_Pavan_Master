@@ -1,0 +1,68 @@
+import {test,expect} from '@playwright/test'
+
+// only 
+test('Annotations Test1',async({page})=>{
+
+    console.log('Test1....')
+
+})
+test('Annotations Test2',async({page})=>{
+
+    console.log('Test2....')
+
+})
+
+//skip
+
+
+test('Annotations Test3',async({page,browserName})=>{
+
+    if(browserName=='chromium'){
+        test.skip()
+    }
+    console.log('Test3....')
+
+})
+
+
+//Fixme
+
+test('Annotations Test4',async({page})=>{
+
+   
+    console.log('Test4....')
+    test.fixme()
+
+})
+
+//Fail ==> Expected to fail, but passed so FAIL. if both fail that time test case PASS
+test('Annotations Test5',async({page})=>{
+
+   test.fail() //expect :fail
+    console.log('Test5....')
+    await expect(1).toBe(2) //actual :fail
+
+})
+
+//if both fail that time test case PASS
+test.only('Annotations Test6',async({page,browserName})=>{
+
+    console.log('Test6....')
+    if(browserName=='firefox'){ 
+        test.fail()
+    }
+ })
+
+ //slow
+
+ test.only('Annotations Test7',async({page,browserName})=>{
+
+    test.slow() //increase 3 times 
+    //(OR)
+    test.setTimeout(5000)
+    console.log('Test7....')
+    await page.goto('https://demo.opencart.com/')
+ })
+
+
+
