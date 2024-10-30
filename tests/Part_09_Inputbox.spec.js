@@ -9,6 +9,7 @@ test("Input Box",async ({page})=>{
     await expect(await page.locator('#FirstName')).toBeEditable()
     await expect(await page.locator('#FirstName')).toBeEnabled()
 
-    await page.locator('#FirstName').fill('Hari')
+    await page.fill('#FirstName','Hari')
     await page.waitForTimeout(2000)
+    await page.close()
 })

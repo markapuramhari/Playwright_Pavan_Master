@@ -1,9 +1,15 @@
 import {test,expect} from '@playwright/test'
+// alert
+// confirm
+// prompt
+
+
 test('Alert with OK',async ({page})=>{
 
 await page.goto('https://testautomationpractice.blogspot.com/')
 
 //Enabling Dilaog window handler
+//Alert with OK
     page.on('dialog',async dialog=>{
     expect(dialog.type()).toContain('alert')
     expect(dialog.message()).toContain('I am an alert box!')
@@ -12,11 +18,14 @@ await page.goto('https://testautomationpractice.blogspot.com/')
 
 await page.click('#alertBtn')
 
-
 await page.waitForTimeout(3000)
 await page.close()
 
 })
+
+
+
+
 test('Confirmation Dialog with OK & Cancel',async ({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')
@@ -37,6 +46,10 @@ test('Confirmation Dialog with OK & Cancel',async ({page})=>{
     await page.close()
     
     })
+
+
+
+
 
 
 test('Prompt Dialog with Text',async ({page})=>{

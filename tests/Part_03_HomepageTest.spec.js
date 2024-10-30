@@ -1,6 +1,6 @@
 //const {test,expect}= require('@playwright/test') 
 import {test,expect} from '@playwright/test'
-test('Homepage Test',async ({page})=>{
+test('Homepage Test',{tag:'@reg'},async ({page})=>{
 
     await page.goto('https://www.demoblaze.com/index.html')
 
@@ -16,7 +16,6 @@ test('Homepage Test',async ({page})=>{
     console.log('page Title is: ',pageTitle)
     await expect(page).toHaveTitle('STORE')
 
-
 //Text Validation
 
     await expect(await page.getByRole('link',{name:'LOG in'})).toBeVisible()
@@ -24,11 +23,4 @@ test('Homepage Test',async ({page})=>{
 
     await page.waitForTimeout(2000)
     await page.close()
-
-
-
-
-
-
 })
-

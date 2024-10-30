@@ -7,6 +7,7 @@ class CartPage{
     }
 
     async checkProductInCart(productName) {
+        await this.page.waitForSelector(this.noOfProducts)
         const productsInCart= await this.page.$$(this.noOfProducts)
 
         for(const products of productsInCart){
@@ -14,7 +15,7 @@ class CartPage{
 
             if(productName ===await products.textContent()){
                 return true
-                break
+                break;
             }
 
         }

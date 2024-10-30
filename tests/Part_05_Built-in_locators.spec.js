@@ -18,6 +18,7 @@ IMP:
 
     await expect(await page.getByText('Time at Work')).toBeVisible()
 
+----------------------------------------
 
 5) page.getByLabel() --> use <label>                DOM ==> <label>password</label>
 6) page.getByTitle() --> use for Title attributes   DOM ==> title='username'
@@ -44,7 +45,7 @@ test("built-in Locators",async ({page})=>{
 
     await page.getByPlaceholder('Username').fill('Admin')
     await page.getByPlaceholder('Password').fill('admin123')
-    await page.getByRole('button',{type:'submit'}).click()  //link, button, img, heading
+    await page.getByRole('button',{type:'Login'}).click()  //link, button, img, heading
 
 //Validates 
 
@@ -52,6 +53,7 @@ test("built-in Locators",async ({page})=>{
     await expect(await page.getByText(username)).toBeVisible()
 
     await expect(await page.getByText('Time at Work')).toBeVisible()
+    await expect(await page.getByText('Time at Work')).toHaveText('Time at Work')
     await expect(await page.getByText('My Actions')).toBeVisible()
     await expect(await page.getByText('Quick Launch')).toBeVisible()
     await expect(await page.getByText('This Week')).toBeVisible()

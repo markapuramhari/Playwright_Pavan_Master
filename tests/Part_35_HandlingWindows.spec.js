@@ -1,9 +1,8 @@
 import {test,expect, chromium} from '@playwright/test'
-test('Handling pages/Windows no link',async ({})=>{
+test('Handling pages/Windows 2 pages',async ({})=>{
 
     const browser= await chromium.launch()
     const context= await browser.newContext()
-
     const page1= await context.newPage()
     const page2= await context.newPage()
 
@@ -20,12 +19,12 @@ test('Handling pages/Windows no link',async ({})=>{
 
 })
 
-test('Handling Multiple pages/Windows link',async ({})=>{
+test('Handling Multiple pages/Windows 1 page',async ({})=>{
 
     const browser= await chromium.launch()
     const context= await browser.newContext()
-
     const page1= await context.newPage()
+
     await page1.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
     await expect(page1).toHaveTitle('OrangeHRM')
 

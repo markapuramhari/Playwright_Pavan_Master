@@ -4,6 +4,7 @@ import { HomePage } from '../pages/HomePage'
 import { CartPage } from '../pages/CartPage'
 
 test('test',async({page})=>{
+    //test.slow()
 
 //without POM
     // await page.goto('https://www.demoblaze.com/index.html')
@@ -16,7 +17,6 @@ test('test',async({page})=>{
 
 //Loginpage
     const login= new LoginPage(page)
-
     await login.gotoLoginPage()
     await login.login('markapuram','markapuram')
     await page.waitForTimeout(2000)
@@ -27,15 +27,17 @@ test('test',async({page})=>{
     await home.addProductToCart('Samsung galaxy s6')
     await page.waitForTimeout(2000)
     await home.gotoCart()
+
     
 
 //CartPage
 
     const cart= new CartPage(page)
-    await page.waitForTimeout(3000)
+    await page.waitForTimeout(2000)
     const status=await cart.checkProductInCart('Samsung galaxy s6')
-    await page.waitForTimeout(3000)
     await expect(await status).toBe(true)
 
     await page.waitForTimeout(3000)
+
+    await page.close()
 })

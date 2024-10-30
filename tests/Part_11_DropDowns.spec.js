@@ -1,43 +1,39 @@
 import {test,expect} from '@playwright/test'
 
-test('DropDowns', async({page})=>{
+test('DropDowns',{tag:'@reg'}, async({page})=>{
 
 
     await page.goto('https://testautomationpractice.blogspot.com/')
 
 //1. Select option from DropDown using SelectOption
 
-   // await page.locator('#country').selectOption({label:'India'})  //label
-   // await page.locator('#country').selectOption('India')    //visible text
-    //await page.locator('#country').selectOption({value:'uk'}) //value
-   // await page.locator('#country').selectOption({index:1})       // index
-   await page.selectOption('#country','India') //by visible Text
+   await page.locator('#country').selectOption({label:'India'})  //label
+   await page.locator('#country').selectOption('France')    //visible text
+    await page.locator('#country').selectOption({value:'uk'}) //value
+   await page.locator('#country').selectOption({index:1})       // index
+   await page.selectOption('#country','Germany') //by visible Text
  
    
 //1. Select option from DropDown using loop (OR)
 
-/* not working
+// const optionsfor= await page.$$("//select[@id='country']")
 
-const optionsfor= await page.$$("//select[@id='country']/option")
+// for(const option of optionsfor){
+//     const selectvalue= await option.textContent()
+//     console.log('selectvalue: ',selectvalue)
 
-for(const option of optionsfor){
-    let selectvalue= await option.textContent()
-
-    if(selectvalue.includes('France')){
-        await page.selectOption("//select[@id='country']",selectvalue)
-        break;
-    }
-}
-
-*/
-
+//     if(selectvalue.includes('Germany')){
+//         await page.selectOption('#country','Germany')
+//         break;
+//     }
+// }
 
 
 //Assertions
 
 //2. Count number of options in DropDown (Approach 01)
-    const options= await page.locator("//select[@id='country']/option")
-    await expect(options).toHaveCount(10)
+    // const options= await page.locator("//select[@id='country']/option")
+    // await expect(options).toHaveCount(10)
 
 //2. Count number of options in DropDown (Approach 02)
 
@@ -65,8 +61,8 @@ for(const option of optionsfor){
             break 
         }
     }
-    expect(status).toBeTruthy()   //true
-   // await page.waitForTimeout(3000);
+   await expect(status).toBeTruthy()   //true
+   await page.waitForTimeout(3000);
 
    await page.close()
 })

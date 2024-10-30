@@ -1,15 +1,15 @@
 /*
 
-1. URL ==> expect(page).toHaveURL('-----')
-2. Title ==> expect(page).toHaveTitle('-----')
-3. Visible ==> expect(locator).toBeVisible()
-4. Enable ==> expect(locator).toBeEnabled()
-5. Checked ==> expect(locator).toBeChecked()
-6. Attribute ==> expect(locator).toHaveAttribute('attribute','value')
-7. Text ==> expect(locator).toHaveText('--------') 
-8. ContainText ==> expect(locator).toContainText('-------')
-9. value ==> expect(locator).toHaveValue('-----')
-10. Count ==> expect(locator).toHaveCount(--)
+1. URL ==> 
+2. Title ==>
+3. Visible ==> 
+4. Enabled ==> 
+5. Checked ==> 
+6. Attribute ==> 
+7. Text ==> 
+8. ContainText ==> 
+9. Value ==> 
+10. Count ==>
 
 */
 
@@ -51,9 +51,15 @@ test('All Assertions Test',async ({page})=>{
     const Reg= await page.locator('.page-title h1')
     await expect(Reg).toHaveText("Register")
 
+    const text= await page.getByText('Company Details')
+	await expect(text).toHaveText('Company Details')
+	
+	
+
 //8.  expect(locator).toContainText()  
     const Reg1= await page.locator('.page-title h1')
     await expect(Reg1).toContainText("egi")
+    await expect(text).toContainText('Details')
 
 //9. expect(locator).toHaveValue()
     const emailInput= await page.locator('#Email')
@@ -63,4 +69,12 @@ test('All Assertions Test',async ({page})=>{
 //10. expect(locator).toHaveCount()
     const options= await page.locator("//select[@name='DateOfBirthMonth']/option")
     await expect(options).toHaveCount(13)
+
+    await page.waitForSelector("a")
+    const links=await page.$$("a")
+    await expect(await links.length).toBe(61)
+
+
+    await page.waitForTimeout(3000)
+    await page.close()
 })

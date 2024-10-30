@@ -24,3 +24,5 @@ test('Tags Test5',{tag:['@sanity','@reg']},async({page})=>{
     console.log('this is Test5....')
 
 })
+
+//--grep reg

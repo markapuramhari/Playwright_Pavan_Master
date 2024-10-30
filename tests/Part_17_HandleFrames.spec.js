@@ -6,7 +6,7 @@ test('Frames',async ({page})=>{
     await page.goto('https://ui.vision/demo/webtest/frames/')
 
 
-//total frams
+//total frames
 
     const allframes= await page.frames()
     console.log('allframes:',allframes.length)
@@ -23,15 +23,6 @@ test('Frames',async ({page})=>{
 //Approach 2: using frame locator
 
     await page.frameLocator("frame[src='frame_1.html']").locator("//input[@name='mytext1']").fill('Hari')
-
-
-
-
-
-
-
-
-
 
     await page.waitForTimeout(3000)
     await page.close()

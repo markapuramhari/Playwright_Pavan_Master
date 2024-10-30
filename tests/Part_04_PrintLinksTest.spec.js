@@ -8,10 +8,18 @@ test("Mutipule Elements",async ({page})=>{
     await page.waitForSelector('a')
     const links= await page.$$('a')
 
+    let status=false
     for(const link of links){
         const linktext= await link.textContent()
         console.log('All links: '+linktext)
+        if(linktext.includes('Log in')){
+            status = true
+            break
+        }
+
     }
+
+    await expect(status).toBeTruthy()
     
 //Print Products list
 
@@ -23,8 +31,15 @@ test("Mutipule Elements",async ({page})=>{
     for(const product of products){
         const productname= await product.textContent()
         console.log(productname)
+        if(productname.includes('Iphone 6 32gb')){
+            product.click()
+            break
+        }
     }
 
-    await page.waitForTimeout(2000)
+    await expect(await page.getByText('Iphone 6 32gb')).toBeVisible()
+    await expect(await page.getByRole('link',{name:'Add to Cart'})).toBeVisible()
+
+    await page.waitForTimeout(3000)
     await page.close()
 })

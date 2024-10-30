@@ -25,6 +25,7 @@ test('Record Videos',async ({page})=>{
  //Validation
  
     const LogOutlink= await page.locator("//a[normalize-space()='Log out']")
+    await page.waitForTimeout(2000)
     await expect(LogOutlink).toBeVisible()
 
     await expect(await page.getByText('Log out')).toBeVisible()

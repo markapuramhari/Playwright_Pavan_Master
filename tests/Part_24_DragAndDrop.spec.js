@@ -14,8 +14,6 @@ test('Drag and Drop',async({page})=>{
 //Approach 1
     await rome.dragTo(italy)
 
-
-
 //Appraoch 2
 
     await washington.hover()

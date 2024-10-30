@@ -24,8 +24,7 @@ test('Re-Try Test',async({page})=>{
     await page.getByRole('button',{name:'Log in'}).click()
 
  //Validation
- 
-    //pawait page.waitForTimeout(3000)
     const LogOutlink= await page.locator("//a[normalize-space()='Log out']")
+    await page.waitForTimeout(3000)
     await expect(LogOutlink).toBeVisible()
 })
