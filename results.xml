@@ -1,10 +1,1799 @@
-<testsuites id="" name="" tests="3" failures="0" skipped="0" errors="0" time="6.052505999999999">
-<testsuite name="Part_36_Reporters.spec.js" timestamp="2024-10-23T06:12:34.619Z" hostname="chromium" tests="3" failures="0" skipped="0" time="10.983" errors="0">
-<testcase name="Test1" classname="Part_36_Reporters.spec.js" time="3.286">
+<testsuites id="" name="" tests="189" failures="2" skipped="6" errors="0" time="352.732371">
+<testsuite name="a.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="10.737" errors="0">
+<testcase name="Part 12 Multi Select DropDown Test" classname="a.spec.js" time="10.737">
 </testcase>
-<testcase name="Test2" classname="Part_36_Reporters.spec.js" time="3.016">
+</testsuite>
+<testsuite name="Part_03_HomepageTest.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.345" errors="0">
+<testcase name="Homepage Test" classname="Part_03_HomepageTest.spec.js" time="7.345">
+<system-out>
+<![CDATA[page URL is:  https://www.demoblaze.com/index.html
+page Title is:  STORE
+]]>
+</system-out>
 </testcase>
-<testcase name="Test3" classname="Part_36_Reporters.spec.js" time="4.681">
+</testsuite>
+<testsuite name="Part_04_LoginpageTest.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="9.734" errors="0">
+<testcase name="Loginpage Test" classname="Part_04_LoginpageTest.spec.js" time="9.734">
+</testcase>
+</testsuite>
+<testsuite name="Part_04_PrintLinksTest.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="10.008" errors="0">
+<testcase name="Mutipule Elements" classname="Part_04_PrintLinksTest.spec.js" time="10.008">
+<system-out>
+<![CDATA[All links: 
+      PRODUCT STORE
+All links: Home (current)
+All links: Contact
+All links: About us
+All links: Cart
+All links: Log in
+---------------------------------
+Samsung galaxy s6
+Nokia lumia 1520
+Nexus 6
+Samsung galaxy s7
+Iphone 6 32gb
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_05_Built-in_locators.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="9.276" errors="0">
+<testcase name="built-in Locators" classname="Part_05_Built-in_locators.spec.js" time="9.276">
+</testcase>
+</testsuite>
+<testsuite name="Part_07_Assertions.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.455" errors="0">
+<testcase name="All Assertions Test" classname="Part_07_Assertions.spec.js" time="6.455">
+</testcase>
+</testsuite>
+<testsuite name="Part_08_SoftAssertions.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.06" errors="0">
+<testcase name="Part 08 Soft Assertions Test" classname="Part_08_SoftAssertions.spec.js" time="6.06">
+</testcase>
+</testsuite>
+<testsuite name="Part_09_Inputbox.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.203" errors="0">
+<testcase name="Input Box" classname="Part_09_Inputbox.spec.js" time="5.203">
+</testcase>
+</testsuite>
+<testsuite name="Part_09_RadioButtons.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.546" errors="0">
+<testcase name="Radio buttons" classname="Part_09_RadioButtons.spec.js" time="3.546">
+</testcase>
+</testsuite>
+<testsuite name="Part_10_Checkboxes.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="14.159" errors="0">
+<testcase name="Check Boxes" classname="Part_10_Checkboxes.spec.js" time="14.159">
+</testcase>
+</testsuite>
+<testsuite name="Part_11_DropDowns.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="8.707" errors="0">
+<testcase name="DropDowns" classname="Part_11_DropDowns.spec.js" time="8.707">
+<system-out>
+<![CDATA[No of options:  10
+Country List:  
+        United States
+      
+Country List:  
+        Canada
+      
+Country List:  
+        United Kingdom
+      
+Country List:  
+        Germany
+      
+Country List:  
+        France
+      
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_12_MultiSelectDropDown.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.999" errors="0">
+<testcase name="Multi Select DropDown" classname="Part_12_MultiSelectDropDown.spec.js" time="7.999">
+<system-out>
+<![CDATA[clount of options: 7
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_13_BootstrapDropDown.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.442" errors="0">
+<testcase name="Bootstrap DropDown" classname="Part_13_BootstrapDropDown.spec.js" time="4.442">
+<system-out>
+<![CDATA[Values are:   Web Development
+Values are:   jQuery
+Values are:   Bootstrap
+Values are:   HTML
+Values are:   CSS
+Values are:   Angular
+Values are:   Programming Languages
+Values are:   Java
+Values are:   C#
+Values are:   Python
+Values are:   Databases
+Values are:   MySQL
+Values are:   Oracle
+Values are:   MS SQL Server
+Values are:   Web Development
+Values are:   jQuery
+Values are:   Bootstrap
+Values are:   HTML
+Values are:   CSS
+Values are:   Angular
+Values are:   Programming Languages
+Values are:   Java
+Values are:   C#
+Values are:   Python
+Values are:   Databases
+Values are:   MySQL
+Values are:   Oracle
+Values are:   MS SQL Server
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_14_AutoSuggestDropDown.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="1" skipped="0" time="1.761" errors="0">
+<testcase name="Auto Suggest DropDowns" classname="Part_14_AutoSuggestDropDown.spec.js" time="1.761">
+<failure message="Part_14_AutoSuggestDropDown.spec.js:3:5 Auto Suggest DropDowns" type="FAILURE">
+<![CDATA[  [chromium] › Part_14_AutoSuggestDropDown.spec.js:3:5 › Auto Suggest DropDowns ────────────────────
+
+    Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/
+    Call log:
+      - navigating to "https://www.redbus.in/", waiting until "load"
+
+
+       5 |
+       6 |    
+    >  7 |     await page.goto('https://www.redbus.in/')
+         |                ^
+       8 |
+       9 |     await page.locator('#src').fill('Hyderabad')
+      10 |
+
+        at C:\Users\harib\Desktop\Playwright_Pavan_Master\tests\Part_14_AutoSuggestDropDown.spec.js:7:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/
+    Call log:
+      - navigating to "https://www.redbus.in/", waiting until "load"
+
+
+       5 |
+       6 |    
+    >  7 |     await page.goto('https://www.redbus.in/')
+         |                ^
+       8 |
+       9 |     await page.locator('#src').fill('Hyderabad')
+      10 |
+
+        at C:\Users\harib\Desktop\Playwright_Pavan_Master\tests\Part_14_AutoSuggestDropDown.spec.js:7:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/
+    Call log:
+      - navigating to "https://www.redbus.in/", waiting until "load"
+
+
+       5 |
+       6 |    
+    >  7 |     await page.goto('https://www.redbus.in/')
+         |                ^
+       8 |
+       9 |     await page.locator('#src').fill('Hyderabad')
+      10 |
+
+        at C:\Users\harib\Desktop\Playwright_Pavan_Master\tests\Part_14_AutoSuggestDropDown.spec.js:7:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #3 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/
+    Call log:
+      - navigating to "https://www.redbus.in/", waiting until "load"
+
+
+       5 |
+       6 |    
+    >  7 |     await page.goto('https://www.redbus.in/')
+         |                ^
+       8 |
+       9 |     await page.locator('#src').fill('Hyderabad')
+      10 |
+
+        at C:\Users\harib\Desktop\Playwright_Pavan_Master\tests\Part_14_AutoSuggestDropDown.spec.js:7:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry3\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry3\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry3\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry3\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium\video.webm]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium\trace.zip]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry1\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry1\video.webm]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry1\trace.zip]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry2\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry2\video.webm]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry2\trace.zip]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry3\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry3\video.webm]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-chromium-retry3\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_15_HiddenDropDown.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="14.125" errors="0">
+<testcase name="Hidden DropDown" classname="Part_15_HiddenDropDown.spec.js" time="14.125">
+<system-out>
+<![CDATA[jobTitles:  Account Assistant
+jobTitles:  Automaton Tester
+jobTitles:  Chief Executive Officer
+jobTitles:  Chief Financial Officer
+jobTitles:  Chief Technical Officer
+jobTitles:  Content Specialist
+jobTitles:  Customer Success Manager
+jobTitles:  Database Administrator
+jobTitles:  Finance Manager
+jobTitles:  Financial Analyst
+jobTitles:  Head of Support
+jobTitles:  HR Associate
+jobTitles:  HR Manager
+jobTitles:  IT Manager
+jobTitles:  Job Title 0
+jobTitles:  Job Title 1
+jobTitles:  Job Title 2
+jobTitles:  Job Title 3
+jobTitles:  Network Administrator
+jobTitles:  Payroll Administrator
+jobTitles:  Pre-Sales Coordinator
+jobTitles:  QA Engineer
+jobTitles:  QA Lead
+jobTitles:  qwer
+jobTitles:  rsjsrii
+jobTitles:  Sales Representative
+jobTitles:  Social Media Marketer
+jobTitles:  Software Architect
+jobTitles:  Software Engineer
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_16_Alerts.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="3" failures="0" skipped="0" time="27.817" errors="0">
+<testcase name="Alert with OK" classname="Part_16_Alerts.spec.js" time="6.985">
+</testcase>
+<testcase name="Confirmation Dialog with OK &amp; Cancel" classname="Part_16_Alerts.spec.js" time="10.451">
+</testcase>
+<testcase name="Prompt Dialog with Text" classname="Part_16_Alerts.spec.js" time="10.381">
+</testcase>
+</testsuite>
+<testsuite name="Part_17_HandleFrames.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="8.126" errors="0">
+<testcase name="Frames" classname="Part_17_HandleFrames.spec.js" time="8.126">
+<system-out>
+<![CDATA[allframes: 7
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_18_HandleInnerFrames.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.494" errors="0">
+<testcase name="Inner Frames" classname="Part_18_HandleInnerFrames.spec.js" time="7.494">
+</testcase>
+</testsuite>
+<testsuite name="Part_19_Table.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="16.906" errors="0">
+<testcase name="Handling Table" classname="Part_19_Table.spec.js" time="16.906">
+<system-out>
+<![CDATA[no of colums:  4
+no of rows:  5
+1
+Smartphone
+$10.99
+2
+Laptop
+$19.99
+3
+Tablet 
+$5.99
+4
+Smartwatch
+$7.99
+5
+Wireless Earbuds
+$8.99
+totalpages:  4
+1
+Smartphone
+$10.99
+2
+Laptop
+$19.99
+3
+Tablet 
+$5.99
+4
+Smartwatch
+$7.99
+5
+Wireless Earbuds
+$8.99
+6
+Bluetooth Speaker
+$9.99
+7
+Television
+$20.99
+8
+Action Camera
+$15.99
+9
+Gaming Console
+$5.99
+10
+Digital Camera
+$16.99
+11
+Smart Home Hub
+$20.99
+12
+Router
+$24.99
+13
+Portable Charger
+$30.99
+14
+Fitness Tracker
+$19.99
+15
+Desktop Computer
+$2.99
+16
+E-Reader
+$10.99
+17
+VR Headset
+$11.99
+18
+Streaming Device
+$13.99
+19
+Soundbar
+$16.99
+20
+Wireless Mouse 20
+$17.99
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_20_DatePicker.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="12.449" errors="0">
+<testcase name="Date Picker" classname="Part_20_DatePicker.spec.js" time="12.449">
+</testcase>
+</testsuite>
+<testsuite name="Part_21_MouseHover.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.522" errors="0">
+<testcase name="Mouse hover" classname="Part_21_MouseHover.spec.js" time="7.522">
+</testcase>
+</testsuite>
+<testsuite name="Part_22_MouseRightClick.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.369" errors="0">
+<testcase name="Mouse Right Click" classname="Part_22_MouseRightClick.spec.js" time="4.369">
+</testcase>
+</testsuite>
+<testsuite name="Part_23_MouseDoubleClick.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.328" errors="0">
+<testcase name="Double Click" classname="Part_23_MouseDoubleClick.spec.js" time="6.328">
+</testcase>
+</testsuite>
+<testsuite name="Part_24_DragAndDrop.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="9.477" errors="0">
+<testcase name="Drag and Drop" classname="Part_24_DragAndDrop.spec.js" time="9.477">
+</testcase>
+</testsuite>
+<testsuite name="Part_25_KeyboardActions.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.951" errors="0">
+<testcase name="Keyboard Actions" classname="Part_25_KeyboardActions.spec.js" time="7.951">
+</testcase>
+</testsuite>
+<testsuite name="Part_26_UploadFiles.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="2" failures="0" skipped="0" time="27.525" errors="0">
+<testcase name="Single Upload File" classname="Part_26_UploadFiles.spec.js" time="13.802">
+</testcase>
+<testcase name="Multiple Upload Files" classname="Part_26_UploadFiles.spec.js" time="13.723">
+</testcase>
+</testsuite>
+<testsuite name="Part_27_Hooks.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="2" failures="0" skipped="0" time="23.228" errors="0">
+<testcase name="Homepage Test" classname="Part_27_Hooks.spec.js" time="9.573">
+</testcase>
+<testcase name="AddToCart Test" classname="Part_27_Hooks.spec.js" time="13.655">
+</testcase>
+</testsuite>
+<testsuite name="Part_27_Hooks1.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="2" failures="0" skipped="0" time="23.927" errors="0">
+<testcase name="Homepage Test" classname="Part_27_Hooks1.spec.js" time="10.045">
+</testcase>
+<testcase name="AddToCart Test" classname="Part_27_Hooks1.spec.js" time="13.882">
+</testcase>
+</testsuite>
+<testsuite name="Part_27_Hooks2.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="2" failures="0" skipped="0" time="12.494" errors="0">
+<testcase name="Homepage Test" classname="Part_27_Hooks2.spec.js" time="5.188">
+</testcase>
+<testcase name="AddToCart Test" classname="Part_27_Hooks2.spec.js" time="7.306">
+</testcase>
+</testsuite>
+<testsuite name="Part_28_Grouping_Hooks.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="4" failures="0" skipped="0" time="1.952" errors="0">
+<testcase name="Group1 › Test 1" classname="Part_28_Grouping_Hooks.spec.js" time="0.484">
+<system-out>
+<![CDATA[this is before all Hook...
+this is before Each Hook....
+This is Test1
+this is after Each Hook.....
+]]>
+</system-out>
+</testcase>
+<testcase name="Group1 › Test 2" classname="Part_28_Grouping_Hooks.spec.js" time="0.57">
+<system-out>
+<![CDATA[this is before Each Hook....
+This is Test2
+this is after Each Hook.....
+]]>
+</system-out>
+</testcase>
+<testcase name="Group 2 › Test 3" classname="Part_28_Grouping_Hooks.spec.js" time="0.474">
+<system-out>
+<![CDATA[this is before Each Hook....
+This is Test3
+this is after Each Hook.....
+]]>
+</system-out>
+</testcase>
+<testcase name="Group 2 › Test 4" classname="Part_28_Grouping_Hooks.spec.js" time="0.424">
+<system-out>
+<![CDATA[this is before Each Hook....
+This is Test4
+this is after Each Hook.....
+this is after all Hook.....
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_29_Screenshots.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="3" failures="0" skipped="0" time="6.527" errors="0">
+<testcase name="page screenshot" classname="Part_29_Screenshots.spec.js" time="2.123">
+</testcase>
+<testcase name="Full page screenshot" classname="Part_29_Screenshots.spec.js" time="2.57">
+</testcase>
+<testcase name="Element screenshot" classname="Part_29_Screenshots.spec.js" time="1.834">
+</testcase>
+</testsuite>
+<testsuite name="Part_30_RecordVideo_Screenshots.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.384" errors="0">
+<testcase name="Record Videos" classname="Part_30_RecordVideo_Screenshots.spec.js" time="7.384">
+</testcase>
+</testsuite>
+<testsuite name="Part_31_Tracing.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="8.777" errors="0">
+<testcase name="Tracing test" classname="Part_31_Tracing.spec.js" time="8.777">
+</testcase>
+</testsuite>
+<testsuite name="Part_32_Tags.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="5" failures="0" skipped="0" time="2.808" errors="0">
+<testcase name="Tags Test1" classname="Part_32_Tags.spec.js" time="0.455">
+<system-out>
+<![CDATA[this is Test1...
+]]>
+</system-out>
+</testcase>
+<testcase name="Tags Test2" classname="Part_32_Tags.spec.js" time="0.468">
+<system-out>
+<![CDATA[this is Test2....
+]]>
+</system-out>
+</testcase>
+<testcase name="Tags Test3" classname="Part_32_Tags.spec.js" time="0.556">
+<system-out>
+<![CDATA[this is Test3...
+]]>
+</system-out>
+</testcase>
+<testcase name="Tags Test4" classname="Part_32_Tags.spec.js" time="0.741">
+<system-out>
+<![CDATA[this is Test4....
+]]>
+</system-out>
+</testcase>
+<testcase name="Tags Test5" classname="Part_32_Tags.spec.js" time="0.588">
+<system-out>
+<![CDATA[this is Test5....
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_33_Annotations.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="7" failures="0" skipped="2" time="5.201" errors="0">
+<testcase name="Annotations Test1" classname="Part_33_Annotations.spec.js" time="0.419">
+<system-out>
+<![CDATA[Test1....
+]]>
+</system-out>
+</testcase>
+<testcase name="Annotations Test2" classname="Part_33_Annotations.spec.js" time="0.502">
+<system-out>
+<![CDATA[Test2....
+]]>
+</system-out>
+</testcase>
+<testcase name="Annotations Test3" classname="Part_33_Annotations.spec.js" time="0.44">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Annotations Test4" classname="Part_33_Annotations.spec.js" time="0.645">
+<properties>
+<property name="fixme" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Annotations Test5" classname="Part_33_Annotations.spec.js" time="0.515">
+<properties>
+<property name="fail" value="">
+</property>
+</properties>
+<system-out>
+<![CDATA[Test5....
+]]>
+</system-out>
+</testcase>
+<testcase name="Annotations Test6" classname="Part_33_Annotations.spec.js" time="0.671">
+<system-out>
+<![CDATA[Test6....
+]]>
+</system-out>
+</testcase>
+<testcase name="Annotations Test7" classname="Part_33_Annotations.spec.js" time="2.009">
+<properties>
+<property name="slow" value="">
+</property>
+</properties>
+<system-out>
+<![CDATA[Test7....
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_34_POMTest.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="17.422" errors="0">
+<testcase name="test" classname="Part_34_POMTest.spec.js" time="17.422">
+<system-out>
+<![CDATA[Samsung galaxy s6
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_35_HandlingWindows.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="2" failures="0" skipped="0" time="25.618" errors="0">
+<testcase name="Handling pages/Windows 2 pages" classname="Part_35_HandlingWindows.spec.js" time="12.335">
+<system-out>
+<![CDATA[no of pages: 2
+]]>
+</system-out>
+</testcase>
+<testcase name="Handling Multiple pages/Windows 1 page" classname="Part_35_HandlingWindows.spec.js" time="13.283">
+</testcase>
+</testsuite>
+<testsuite name="Part_36_Reporters.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="3" failures="0" skipped="0" time="13.149" errors="0">
+<testcase name="Test1" classname="Part_36_Reporters.spec.js" time="2.369">
+</testcase>
+<testcase name="Test2" classname="Part_36_Reporters.spec.js" time="6.467">
+</testcase>
+<testcase name="Test3" classname="Part_36_Reporters.spec.js" time="4.313">
+</testcase>
+</testsuite>
+<testsuite name="Part_38_ReTryTest.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.863" errors="0">
+<testcase name="Re-Try Test" classname="Part_38_ReTryTest.spec.js" time="5.863">
+</testcase>
+</testsuite>
+<testsuite name="a.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="7.178" errors="0">
+<testcase name="Part 12 Multi Select DropDown Test" classname="a.spec.js" time="7.178">
+</testcase>
+</testsuite>
+<testsuite name="Part_03_HomepageTest.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="4.109" errors="0">
+<testcase name="Homepage Test" classname="Part_03_HomepageTest.spec.js" time="4.109">
+<system-out>
+<![CDATA[page URL is:  https://www.demoblaze.com/index.html
+page Title is:  STORE
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_04_LoginpageTest.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="6.962" errors="0">
+<testcase name="Loginpage Test" classname="Part_04_LoginpageTest.spec.js" time="6.962">
+</testcase>
+</testsuite>
+<testsuite name="Part_04_PrintLinksTest.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="8.164" errors="0">
+<testcase name="Mutipule Elements" classname="Part_04_PrintLinksTest.spec.js" time="8.164">
+<system-out>
+<![CDATA[All links: 
+      PRODUCT STORE
+All links: Home (current)
+All links: Contact
+All links: About us
+All links: Cart
+All links: Log in
+---------------------------------
+Samsung galaxy s6
+Nokia lumia 1520
+Nexus 6
+Samsung galaxy s7
+Iphone 6 32gb
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_05_Built-in_locators.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="11.056" errors="0">
+<testcase name="built-in Locators" classname="Part_05_Built-in_locators.spec.js" time="11.056">
+</testcase>
+</testsuite>
+<testsuite name="Part_07_Assertions.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="6.455" errors="0">
+<testcase name="All Assertions Test" classname="Part_07_Assertions.spec.js" time="6.455">
+</testcase>
+</testsuite>
+<testsuite name="Part_08_SoftAssertions.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="5.634" errors="0">
+<testcase name="Part 08 Soft Assertions Test" classname="Part_08_SoftAssertions.spec.js" time="5.634">
+</testcase>
+</testsuite>
+<testsuite name="Part_09_Inputbox.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="4.544" errors="0">
+<testcase name="Input Box" classname="Part_09_Inputbox.spec.js" time="4.544">
+</testcase>
+</testsuite>
+<testsuite name="Part_09_RadioButtons.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="2.766" errors="0">
+<testcase name="Radio buttons" classname="Part_09_RadioButtons.spec.js" time="2.766">
+</testcase>
+</testsuite>
+<testsuite name="Part_10_Checkboxes.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="14.13" errors="0">
+<testcase name="Check Boxes" classname="Part_10_Checkboxes.spec.js" time="14.13">
+</testcase>
+</testsuite>
+<testsuite name="Part_11_DropDowns.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="10.59" errors="0">
+<testcase name="DropDowns" classname="Part_11_DropDowns.spec.js" time="10.59">
+<system-out>
+<![CDATA[No of options:  10
+Country List:  
+        United States
+      
+Country List:  
+        Canada
+      
+Country List:  
+        United Kingdom
+      
+Country List:  
+        Germany
+      
+Country List:  
+        France
+      
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_12_MultiSelectDropDown.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="6.548" errors="0">
+<testcase name="Multi Select DropDown" classname="Part_12_MultiSelectDropDown.spec.js" time="6.548">
+<system-out>
+<![CDATA[clount of options: 7
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_13_BootstrapDropDown.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="10.095" errors="0">
+<testcase name="Bootstrap DropDown" classname="Part_13_BootstrapDropDown.spec.js" time="10.095">
+<system-out>
+<![CDATA[Values are:   Web Development
+Values are:   jQuery
+Values are:   Bootstrap
+Values are:   HTML
+Values are:   CSS
+Values are:   Angular
+Values are:   Programming Languages
+Values are:   Java
+Values are:   C#
+Values are:   Python
+Values are:   Databases
+Values are:   MySQL
+Values are:   Oracle
+Values are:   MS SQL Server
+Values are:   Web Development
+Values are:   jQuery
+Values are:   Bootstrap
+Values are:   HTML
+Values are:   CSS
+Values are:   Angular
+Values are:   Programming Languages
+Values are:   Java
+Values are:   C#
+Values are:   Python
+Values are:   Databases
+Values are:   MySQL
+Values are:   Oracle
+Values are:   MS SQL Server
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_14_AutoSuggestDropDown.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="6.301" errors="0">
+<testcase name="Auto Suggest DropDowns" classname="Part_14_AutoSuggestDropDown.spec.js" time="6.301">
+<system-out>
+<![CDATA[values are:  Hyderabad
+values are:  Kukatpally
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_15_HiddenDropDown.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="16.407" errors="0">
+<testcase name="Hidden DropDown" classname="Part_15_HiddenDropDown.spec.js" time="16.407">
+<system-out>
+<![CDATA[jobTitles:  Account Assistant
+jobTitles:  Automaton Tester
+jobTitles:  Chief Executive Officer
+jobTitles:  Chief Financial Officer
+jobTitles:  Chief Technical Officer
+jobTitles:  Content Specialist
+jobTitles:  Customer Success Manager
+jobTitles:  Database Administrator
+jobTitles:  Finance Manager
+jobTitles:  Financial Analyst
+jobTitles:  Head of Support
+jobTitles:  HR Associate
+jobTitles:  HR Manager
+jobTitles:  IT Manager
+jobTitles:  Job Title 0
+jobTitles:  Job Title 1
+jobTitles:  Job Title 2
+jobTitles:  Job Title 3
+jobTitles:  Network Administrator
+jobTitles:  Payroll Administrator
+jobTitles:  Pre-Sales Coordinator
+jobTitles:  QA Engineer
+jobTitles:  QA Lead
+jobTitles:  qwer
+jobTitles:  rsjsrii
+jobTitles:  Sales Representative
+jobTitles:  Social Media Marketer
+jobTitles:  Software Architect
+jobTitles:  Software Engineer
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_16_Alerts.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="3" failures="0" skipped="0" time="29.099" errors="0">
+<testcase name="Alert with OK" classname="Part_16_Alerts.spec.js" time="7.352">
+</testcase>
+<testcase name="Confirmation Dialog with OK &amp; Cancel" classname="Part_16_Alerts.spec.js" time="11.253">
+</testcase>
+<testcase name="Prompt Dialog with Text" classname="Part_16_Alerts.spec.js" time="10.494">
+</testcase>
+</testsuite>
+<testsuite name="Part_17_HandleFrames.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="9.321" errors="0">
+<testcase name="Frames" classname="Part_17_HandleFrames.spec.js" time="9.321">
+<system-out>
+<![CDATA[allframes: 7
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_18_HandleInnerFrames.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="9.846" errors="0">
+<testcase name="Inner Frames" classname="Part_18_HandleInnerFrames.spec.js" time="9.846">
+</testcase>
+</testsuite>
+<testsuite name="Part_19_Table.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="21.22" errors="0">
+<testcase name="Handling Table" classname="Part_19_Table.spec.js" time="21.22">
+<system-out>
+<![CDATA[no of colums:  4
+no of rows:  5
+1
+Smartphone
+$10.99
+2
+Laptop
+$19.99
+3
+Tablet 
+$5.99
+4
+Smartwatch
+$7.99
+5
+Wireless Earbuds
+$8.99
+totalpages:  4
+1
+Smartphone
+$10.99
+2
+Laptop
+$19.99
+3
+Tablet 
+$5.99
+4
+Smartwatch
+$7.99
+5
+Wireless Earbuds
+$8.99
+6
+Bluetooth Speaker
+$9.99
+7
+Television
+$20.99
+8
+Action Camera
+$15.99
+9
+Gaming Console
+$5.99
+10
+Digital Camera
+$16.99
+11
+Smart Home Hub
+$20.99
+12
+Router
+$24.99
+13
+Portable Charger
+$30.99
+14
+Fitness Tracker
+$19.99
+15
+Desktop Computer
+$2.99
+16
+E-Reader
+$10.99
+17
+VR Headset
+$11.99
+18
+Streaming Device
+$13.99
+19
+Soundbar
+$16.99
+20
+Wireless Mouse 20
+$17.99
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_20_DatePicker.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="15.23" errors="0">
+<testcase name="Date Picker" classname="Part_20_DatePicker.spec.js" time="15.23">
+</testcase>
+</testsuite>
+<testsuite name="Part_21_MouseHover.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="7.451" errors="0">
+<testcase name="Mouse hover" classname="Part_21_MouseHover.spec.js" time="7.451">
+</testcase>
+</testsuite>
+<testsuite name="Part_22_MouseRightClick.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="4.326" errors="0">
+<testcase name="Mouse Right Click" classname="Part_22_MouseRightClick.spec.js" time="4.326">
+</testcase>
+</testsuite>
+<testsuite name="Part_23_MouseDoubleClick.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="7.634" errors="0">
+<testcase name="Double Click" classname="Part_23_MouseDoubleClick.spec.js" time="7.634">
+</testcase>
+</testsuite>
+<testsuite name="Part_24_DragAndDrop.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="14.065" errors="0">
+<testcase name="Drag and Drop" classname="Part_24_DragAndDrop.spec.js" time="14.065">
+</testcase>
+</testsuite>
+<testsuite name="Part_25_KeyboardActions.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="10.726" errors="0">
+<testcase name="Keyboard Actions" classname="Part_25_KeyboardActions.spec.js" time="10.726">
+</testcase>
+</testsuite>
+<testsuite name="Part_26_UploadFiles.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="2" failures="0" skipped="0" time="30.39" errors="0">
+<testcase name="Single Upload File" classname="Part_26_UploadFiles.spec.js" time="14.634">
+</testcase>
+<testcase name="Multiple Upload Files" classname="Part_26_UploadFiles.spec.js" time="15.756">
+</testcase>
+</testsuite>
+<testsuite name="Part_27_Hooks.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="2" failures="0" skipped="0" time="27.625" errors="0">
+<testcase name="Homepage Test" classname="Part_27_Hooks.spec.js" time="13.096">
+</testcase>
+<testcase name="AddToCart Test" classname="Part_27_Hooks.spec.js" time="14.529">
+</testcase>
+</testsuite>
+<testsuite name="Part_27_Hooks1.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="2" failures="0" skipped="0" time="23.76" errors="0">
+<testcase name="Homepage Test" classname="Part_27_Hooks1.spec.js" time="10.442">
+</testcase>
+<testcase name="AddToCart Test" classname="Part_27_Hooks1.spec.js" time="13.318">
+</testcase>
+</testsuite>
+<testsuite name="Part_27_Hooks2.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="2" failures="0" skipped="0" time="12.769" errors="0">
+<testcase name="Homepage Test" classname="Part_27_Hooks2.spec.js" time="5.293">
+</testcase>
+<testcase name="AddToCart Test" classname="Part_27_Hooks2.spec.js" time="7.476">
+</testcase>
+</testsuite>
+<testsuite name="Part_28_Grouping_Hooks.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="4" failures="0" skipped="0" time="1.683" errors="0">
+<testcase name="Group1 › Test 1" classname="Part_28_Grouping_Hooks.spec.js" time="0.436">
+<system-out>
+<![CDATA[this is before all Hook...
+this is before Each Hook....
+This is Test1
+this is after Each Hook.....
+]]>
+</system-out>
+</testcase>
+<testcase name="Group1 › Test 2" classname="Part_28_Grouping_Hooks.spec.js" time="0.41">
+<system-out>
+<![CDATA[this is before Each Hook....
+This is Test2
+this is after Each Hook.....
+]]>
+</system-out>
+</testcase>
+<testcase name="Group 2 › Test 3" classname="Part_28_Grouping_Hooks.spec.js" time="0.417">
+<system-out>
+<![CDATA[this is before Each Hook....
+This is Test3
+this is after Each Hook.....
+]]>
+</system-out>
+</testcase>
+<testcase name="Group 2 › Test 4" classname="Part_28_Grouping_Hooks.spec.js" time="0.42">
+<system-out>
+<![CDATA[this is before Each Hook....
+This is Test4
+this is after Each Hook.....
+this is after all Hook.....
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_29_Screenshots.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="3" failures="0" skipped="0" time="10.391" errors="0">
+<testcase name="page screenshot" classname="Part_29_Screenshots.spec.js" time="1.98">
+</testcase>
+<testcase name="Full page screenshot" classname="Part_29_Screenshots.spec.js" time="1.864">
+</testcase>
+<testcase name="Element screenshot" classname="Part_29_Screenshots.spec.js" time="6.547">
+</testcase>
+</testsuite>
+<testsuite name="Part_30_RecordVideo_Screenshots.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="7.339" errors="0">
+<testcase name="Record Videos" classname="Part_30_RecordVideo_Screenshots.spec.js" time="7.339">
+</testcase>
+</testsuite>
+<testsuite name="Part_31_Tracing.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="8.565" errors="0">
+<testcase name="Tracing test" classname="Part_31_Tracing.spec.js" time="8.565">
+</testcase>
+</testsuite>
+<testsuite name="Part_32_Tags.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="5" failures="0" skipped="0" time="2.734" errors="0">
+<testcase name="Tags Test1" classname="Part_32_Tags.spec.js" time="0.474">
+<system-out>
+<![CDATA[this is Test1...
+]]>
+</system-out>
+</testcase>
+<testcase name="Tags Test2" classname="Part_32_Tags.spec.js" time="0.587">
+<system-out>
+<![CDATA[this is Test2....
+]]>
+</system-out>
+</testcase>
+<testcase name="Tags Test3" classname="Part_32_Tags.spec.js" time="0.835">
+<system-out>
+<![CDATA[this is Test3...
+]]>
+</system-out>
+</testcase>
+<testcase name="Tags Test4" classname="Part_32_Tags.spec.js" time="0.404">
+<system-out>
+<![CDATA[this is Test4....
+]]>
+</system-out>
+</testcase>
+<testcase name="Tags Test5" classname="Part_32_Tags.spec.js" time="0.434">
+<system-out>
+<![CDATA[this is Test5....
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_33_Annotations.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="7" failures="0" skipped="2" time="4.513" errors="0">
+<testcase name="Annotations Test1" classname="Part_33_Annotations.spec.js" time="0.596">
+<system-out>
+<![CDATA[Test1....
+]]>
+</system-out>
+</testcase>
+<testcase name="Annotations Test2" classname="Part_33_Annotations.spec.js" time="0.482">
+<system-out>
+<![CDATA[Test2....
+]]>
+</system-out>
+</testcase>
+<testcase name="Annotations Test3" classname="Part_33_Annotations.spec.js" time="0.529">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Annotations Test4" classname="Part_33_Annotations.spec.js" time="0.556">
+<properties>
+<property name="fixme" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Annotations Test5" classname="Part_33_Annotations.spec.js" time="0.441">
+<properties>
+<property name="fail" value="">
+</property>
+</properties>
+<system-out>
+<![CDATA[Test5....
+]]>
+</system-out>
+</testcase>
+<testcase name="Annotations Test6" classname="Part_33_Annotations.spec.js" time="0.435">
+<system-out>
+<![CDATA[Test6....
+]]>
+</system-out>
+</testcase>
+<testcase name="Annotations Test7" classname="Part_33_Annotations.spec.js" time="1.474">
+<properties>
+<property name="slow" value="">
+</property>
+</properties>
+<system-out>
+<![CDATA[Test7....
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_34_POMTest.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="16.982" errors="0">
+<testcase name="test" classname="Part_34_POMTest.spec.js" time="16.982">
+<system-out>
+<![CDATA[Samsung galaxy s6
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_35_HandlingWindows.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="2" failures="0" skipped="0" time="27.184" errors="0">
+<testcase name="Handling pages/Windows 2 pages" classname="Part_35_HandlingWindows.spec.js" time="12.282">
+<system-out>
+<![CDATA[no of pages: 2
+]]>
+</system-out>
+</testcase>
+<testcase name="Handling Multiple pages/Windows 1 page" classname="Part_35_HandlingWindows.spec.js" time="14.902">
+</testcase>
+</testsuite>
+<testsuite name="Part_36_Reporters.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="3" failures="0" skipped="0" time="9.87" errors="0">
+<testcase name="Test1" classname="Part_36_Reporters.spec.js" time="2.096">
+</testcase>
+<testcase name="Test2" classname="Part_36_Reporters.spec.js" time="3.607">
+</testcase>
+<testcase name="Test3" classname="Part_36_Reporters.spec.js" time="4.167">
+</testcase>
+</testsuite>
+<testsuite name="Part_38_ReTryTest.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="6.194" errors="0">
+<testcase name="Re-Try Test" classname="Part_38_ReTryTest.spec.js" time="6.194">
+</testcase>
+</testsuite>
+<testsuite name="a.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="9.128" errors="0">
+<testcase name="Part 12 Multi Select DropDown Test" classname="a.spec.js" time="9.128">
+</testcase>
+</testsuite>
+<testsuite name="Part_03_HomepageTest.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="4.209" errors="0">
+<testcase name="Homepage Test" classname="Part_03_HomepageTest.spec.js" time="4.209">
+<system-out>
+<![CDATA[page URL is:  https://www.demoblaze.com/index.html
+page Title is:  STORE
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_04_LoginpageTest.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="6.92" errors="0">
+<testcase name="Loginpage Test" classname="Part_04_LoginpageTest.spec.js" time="6.92">
+</testcase>
+</testsuite>
+<testsuite name="Part_04_PrintLinksTest.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="7.807" errors="0">
+<testcase name="Mutipule Elements" classname="Part_04_PrintLinksTest.spec.js" time="7.807">
+<system-out>
+<![CDATA[All links: 
+      PRODUCT STORE
+All links: Home (current)
+All links: Contact
+All links: About us
+All links: Cart
+All links: Log in
+---------------------------------
+Samsung galaxy s6
+Nokia lumia 1520
+Nexus 6
+Samsung galaxy s7
+Iphone 6 32gb
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_05_Built-in_locators.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="10.163" errors="0">
+<testcase name="built-in Locators" classname="Part_05_Built-in_locators.spec.js" time="10.163">
+</testcase>
+</testsuite>
+<testsuite name="Part_07_Assertions.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="7.653" errors="0">
+<testcase name="All Assertions Test" classname="Part_07_Assertions.spec.js" time="7.653">
+</testcase>
+</testsuite>
+<testsuite name="Part_08_SoftAssertions.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="7.112" errors="0">
+<testcase name="Part 08 Soft Assertions Test" classname="Part_08_SoftAssertions.spec.js" time="7.112">
+</testcase>
+</testsuite>
+<testsuite name="Part_09_Inputbox.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="3.89" errors="0">
+<testcase name="Input Box" classname="Part_09_Inputbox.spec.js" time="3.89">
+</testcase>
+</testsuite>
+<testsuite name="Part_09_RadioButtons.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="2.553" errors="0">
+<testcase name="Radio buttons" classname="Part_09_RadioButtons.spec.js" time="2.553">
+</testcase>
+</testsuite>
+<testsuite name="Part_10_Checkboxes.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="13.556" errors="0">
+<testcase name="Check Boxes" classname="Part_10_Checkboxes.spec.js" time="13.556">
+</testcase>
+</testsuite>
+<testsuite name="Part_11_DropDowns.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="7.543" errors="0">
+<testcase name="DropDowns" classname="Part_11_DropDowns.spec.js" time="7.543">
+<system-out>
+<![CDATA[No of options:  10
+Country List:  
+        United States
+      
+Country List:  
+        Canada
+      
+Country List:  
+        United Kingdom
+      
+Country List:  
+        Germany
+      
+Country List:  
+        France
+      
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_12_MultiSelectDropDown.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="6.814" errors="0">
+<testcase name="Multi Select DropDown" classname="Part_12_MultiSelectDropDown.spec.js" time="6.814">
+<system-out>
+<![CDATA[clount of options: 7
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_13_BootstrapDropDown.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="4.866" errors="0">
+<testcase name="Bootstrap DropDown" classname="Part_13_BootstrapDropDown.spec.js" time="4.866">
+<system-out>
+<![CDATA[Values are:   Web Development
+Values are:   jQuery
+Values are:   Bootstrap
+Values are:   HTML
+Values are:   CSS
+Values are:   Angular
+Values are:   Programming Languages
+Values are:   Java
+Values are:   C#
+Values are:   Python
+Values are:   Databases
+Values are:   MySQL
+Values are:   Oracle
+Values are:   MS SQL Server
+Values are:   Web Development
+Values are:   jQuery
+Values are:   Bootstrap
+Values are:   HTML
+Values are:   CSS
+Values are:   Angular
+Values are:   Programming Languages
+Values are:   Java
+Values are:   C#
+Values are:   Python
+Values are:   Databases
+Values are:   MySQL
+Values are:   Oracle
+Values are:   MS SQL Server
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_14_AutoSuggestDropDown.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="1" skipped="0" time="2.284" errors="0">
+<testcase name="Auto Suggest DropDowns" classname="Part_14_AutoSuggestDropDown.spec.js" time="2.284">
+<failure message="Part_14_AutoSuggestDropDown.spec.js:3:5 Auto Suggest DropDowns" type="FAILURE">
+<![CDATA[  [Google Chrome] › Part_14_AutoSuggestDropDown.spec.js:3:5 › Auto Suggest DropDowns ───────────────
+
+    Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/
+    Call log:
+      - navigating to "https://www.redbus.in/", waiting until "load"
+
+
+       5 |
+       6 |    
+    >  7 |     await page.goto('https://www.redbus.in/')
+         |                ^
+       8 |
+       9 |     await page.locator('#src').fill('Hyderabad')
+      10 |
+
+        at C:\Users\harib\Desktop\Playwright_Pavan_Master\tests\Part_14_AutoSuggestDropDown.spec.js:7:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/
+    Call log:
+      - navigating to "https://www.redbus.in/", waiting until "load"
+
+
+       5 |
+       6 |    
+    >  7 |     await page.goto('https://www.redbus.in/')
+         |                ^
+       8 |
+       9 |     await page.locator('#src').fill('Hyderabad')
+      10 |
+
+        at C:\Users\harib\Desktop\Playwright_Pavan_Master\tests\Part_14_AutoSuggestDropDown.spec.js:7:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry1\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry1\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry1\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry1\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/
+    Call log:
+      - navigating to "https://www.redbus.in/", waiting until "load"
+
+
+       5 |
+       6 |    
+    >  7 |     await page.goto('https://www.redbus.in/')
+         |                ^
+       8 |
+       9 |     await page.locator('#src').fill('Hyderabad')
+      10 |
+
+        at C:\Users\harib\Desktop\Playwright_Pavan_Master\tests\Part_14_AutoSuggestDropDown.spec.js:7:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry2\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry2\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry2\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry2\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #3 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/
+    Call log:
+      - navigating to "https://www.redbus.in/", waiting until "load"
+
+
+       5 |
+       6 |    
+    >  7 |     await page.goto('https://www.redbus.in/')
+         |                ^
+       8 |
+       9 |     await page.locator('#src').fill('Hyderabad')
+      10 |
+
+        at C:\Users\harib\Desktop\Playwright_Pavan_Master\tests\Part_14_AutoSuggestDropDown.spec.js:7:16
+
+    attachment #1: screenshot (image/png) ──────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry3\test-failed-1.png
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #2: video (video/webm) ──────────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry3\video.webm
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    attachment #3: trace (application/zip) ─────────────────────────────────────────────────────────
+    test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry3\trace.zip
+    Usage:
+
+        npx playwright show-trace test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry3\trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+]]>
+</failure>
+<system-out>
+<![CDATA[
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome\video.webm]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome\trace.zip]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry1\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry1\video.webm]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry1\trace.zip]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry2\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry2\video.webm]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry2\trace.zip]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry3\test-failed-1.png]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry3\video.webm]]
+
+[[ATTACHMENT|test-results\Part_14_AutoSuggestDropDown-Auto-Suggest-DropDowns-Google-Chrome-retry3\trace.zip]]
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_15_HiddenDropDown.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="14.574" errors="0">
+<testcase name="Hidden DropDown" classname="Part_15_HiddenDropDown.spec.js" time="14.574">
+<system-out>
+<![CDATA[jobTitles:  Account Assistant
+jobTitles:  Automaton Tester
+jobTitles:  Chief Executive Officer
+jobTitles:  Chief Financial Officer
+jobTitles:  Chief Technical Officer
+jobTitles:  Content Specialist
+jobTitles:  Customer Success Manager
+jobTitles:  Database Administrator
+jobTitles:  Finance Manager
+jobTitles:  Financial Analyst
+jobTitles:  Head of Support
+jobTitles:  HR Associate
+jobTitles:  HR Manager
+jobTitles:  IT Manager
+jobTitles:  Job Title 0
+jobTitles:  Job Title 1
+jobTitles:  Job Title 2
+jobTitles:  Job Title 3
+jobTitles:  Network Administrator
+jobTitles:  Payroll Administrator
+jobTitles:  Pre-Sales Coordinator
+jobTitles:  QA Engineer
+jobTitles:  QA Lead
+jobTitles:  qwer
+jobTitles:  rsjsrii
+jobTitles:  Sales Representative
+jobTitles:  Social Media Marketer
+jobTitles:  Software Architect
+jobTitles:  Software Engineer
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_16_Alerts.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="3" failures="0" skipped="0" time="28.091" errors="0">
+<testcase name="Alert with OK" classname="Part_16_Alerts.spec.js" time="8.276">
+</testcase>
+<testcase name="Confirmation Dialog with OK &amp; Cancel" classname="Part_16_Alerts.spec.js" time="9.882">
+</testcase>
+<testcase name="Prompt Dialog with Text" classname="Part_16_Alerts.spec.js" time="9.933">
+</testcase>
+</testsuite>
+<testsuite name="Part_17_HandleFrames.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="7.344" errors="0">
+<testcase name="Frames" classname="Part_17_HandleFrames.spec.js" time="7.344">
+<system-out>
+<![CDATA[allframes: 7
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_18_HandleInnerFrames.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="7.239" errors="0">
+<testcase name="Inner Frames" classname="Part_18_HandleInnerFrames.spec.js" time="7.239">
+</testcase>
+</testsuite>
+<testsuite name="Part_19_Table.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="17.971" errors="0">
+<testcase name="Handling Table" classname="Part_19_Table.spec.js" time="17.971">
+<system-out>
+<![CDATA[no of colums:  4
+no of rows:  5
+1
+Smartphone
+$10.99
+2
+Laptop
+$19.99
+3
+Tablet 
+$5.99
+4
+Smartwatch
+$7.99
+5
+Wireless Earbuds
+$8.99
+totalpages:  4
+1
+Smartphone
+$10.99
+2
+Laptop
+$19.99
+3
+Tablet 
+$5.99
+4
+Smartwatch
+$7.99
+5
+Wireless Earbuds
+$8.99
+6
+Bluetooth Speaker
+$9.99
+7
+Television
+$20.99
+8
+Action Camera
+$15.99
+9
+Gaming Console
+$5.99
+10
+Digital Camera
+$16.99
+11
+Smart Home Hub
+$20.99
+12
+Router
+$24.99
+13
+Portable Charger
+$30.99
+14
+Fitness Tracker
+$19.99
+15
+Desktop Computer
+$2.99
+16
+E-Reader
+$10.99
+17
+VR Headset
+$11.99
+18
+Streaming Device
+$13.99
+19
+Soundbar
+$16.99
+20
+Wireless Mouse 20
+$17.99
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_20_DatePicker.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="14.029" errors="0">
+<testcase name="Date Picker" classname="Part_20_DatePicker.spec.js" time="14.029">
+</testcase>
+</testsuite>
+<testsuite name="Part_21_MouseHover.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="7.147" errors="0">
+<testcase name="Mouse hover" classname="Part_21_MouseHover.spec.js" time="7.147">
+</testcase>
+</testsuite>
+<testsuite name="Part_22_MouseRightClick.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="4.182" errors="0">
+<testcase name="Mouse Right Click" classname="Part_22_MouseRightClick.spec.js" time="4.182">
+</testcase>
+</testsuite>
+<testsuite name="Part_23_MouseDoubleClick.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="6.95" errors="0">
+<testcase name="Double Click" classname="Part_23_MouseDoubleClick.spec.js" time="6.95">
+</testcase>
+</testsuite>
+<testsuite name="Part_24_DragAndDrop.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="9.892" errors="0">
+<testcase name="Drag and Drop" classname="Part_24_DragAndDrop.spec.js" time="9.892">
+</testcase>
+</testsuite>
+<testsuite name="Part_25_KeyboardActions.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="7.983" errors="0">
+<testcase name="Keyboard Actions" classname="Part_25_KeyboardActions.spec.js" time="7.983">
+</testcase>
+</testsuite>
+<testsuite name="Part_26_UploadFiles.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="2" failures="0" skipped="0" time="27.899" errors="0">
+<testcase name="Single Upload File" classname="Part_26_UploadFiles.spec.js" time="14.03">
+</testcase>
+<testcase name="Multiple Upload Files" classname="Part_26_UploadFiles.spec.js" time="13.869">
+</testcase>
+</testsuite>
+<testsuite name="Part_27_Hooks.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="2" failures="0" skipped="0" time="26.086" errors="0">
+<testcase name="Homepage Test" classname="Part_27_Hooks.spec.js" time="12.244">
+</testcase>
+<testcase name="AddToCart Test" classname="Part_27_Hooks.spec.js" time="13.842">
+</testcase>
+</testsuite>
+<testsuite name="Part_27_Hooks1.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="2" failures="0" skipped="0" time="22.963" errors="0">
+<testcase name="Homepage Test" classname="Part_27_Hooks1.spec.js" time="9.851">
+</testcase>
+<testcase name="AddToCart Test" classname="Part_27_Hooks1.spec.js" time="13.112">
+</testcase>
+</testsuite>
+<testsuite name="Part_27_Hooks2.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="2" failures="0" skipped="0" time="12.415" errors="0">
+<testcase name="Homepage Test" classname="Part_27_Hooks2.spec.js" time="5.194">
+</testcase>
+<testcase name="AddToCart Test" classname="Part_27_Hooks2.spec.js" time="7.221">
+</testcase>
+</testsuite>
+<testsuite name="Part_28_Grouping_Hooks.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="4" failures="0" skipped="0" time="1.792" errors="0">
+<testcase name="Group1 › Test 1" classname="Part_28_Grouping_Hooks.spec.js" time="0.497">
+<system-out>
+<![CDATA[this is before all Hook...
+this is before Each Hook....
+This is Test1
+this is after Each Hook.....
+]]>
+</system-out>
+</testcase>
+<testcase name="Group1 › Test 2" classname="Part_28_Grouping_Hooks.spec.js" time="0.487">
+<system-out>
+<![CDATA[this is before Each Hook....
+This is Test2
+this is after Each Hook.....
+]]>
+</system-out>
+</testcase>
+<testcase name="Group 2 › Test 3" classname="Part_28_Grouping_Hooks.spec.js" time="0.417">
+<system-out>
+<![CDATA[this is before Each Hook....
+This is Test3
+this is after Each Hook.....
+]]>
+</system-out>
+</testcase>
+<testcase name="Group 2 › Test 4" classname="Part_28_Grouping_Hooks.spec.js" time="0.391">
+<system-out>
+<![CDATA[this is before Each Hook....
+This is Test4
+this is after Each Hook.....
+this is after all Hook.....
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_29_Screenshots.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="3" failures="0" skipped="0" time="5.796" errors="0">
+<testcase name="page screenshot" classname="Part_29_Screenshots.spec.js" time="2.308">
+</testcase>
+<testcase name="Full page screenshot" classname="Part_29_Screenshots.spec.js" time="1.692">
+</testcase>
+<testcase name="Element screenshot" classname="Part_29_Screenshots.spec.js" time="1.796">
+</testcase>
+</testsuite>
+<testsuite name="Part_30_RecordVideo_Screenshots.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="6.99" errors="0">
+<testcase name="Record Videos" classname="Part_30_RecordVideo_Screenshots.spec.js" time="6.99">
+</testcase>
+</testsuite>
+<testsuite name="Part_31_Tracing.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="8.091" errors="0">
+<testcase name="Tracing test" classname="Part_31_Tracing.spec.js" time="8.091">
+</testcase>
+</testsuite>
+<testsuite name="Part_32_Tags.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="5" failures="0" skipped="0" time="2.46" errors="0">
+<testcase name="Tags Test1" classname="Part_32_Tags.spec.js" time="0.591">
+<system-out>
+<![CDATA[this is Test1...
+]]>
+</system-out>
+</testcase>
+<testcase name="Tags Test2" classname="Part_32_Tags.spec.js" time="0.409">
+<system-out>
+<![CDATA[this is Test2....
+]]>
+</system-out>
+</testcase>
+<testcase name="Tags Test3" classname="Part_32_Tags.spec.js" time="0.434">
+<system-out>
+<![CDATA[this is Test3...
+]]>
+</system-out>
+</testcase>
+<testcase name="Tags Test4" classname="Part_32_Tags.spec.js" time="0.651">
+<system-out>
+<![CDATA[this is Test4....
+]]>
+</system-out>
+</testcase>
+<testcase name="Tags Test5" classname="Part_32_Tags.spec.js" time="0.375">
+<system-out>
+<![CDATA[this is Test5....
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_33_Annotations.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="7" failures="0" skipped="2" time="5.033" errors="0">
+<testcase name="Annotations Test1" classname="Part_33_Annotations.spec.js" time="0.397">
+<system-out>
+<![CDATA[Test1....
+]]>
+</system-out>
+</testcase>
+<testcase name="Annotations Test2" classname="Part_33_Annotations.spec.js" time="0.486">
+<system-out>
+<![CDATA[Test2....
+]]>
+</system-out>
+</testcase>
+<testcase name="Annotations Test3" classname="Part_33_Annotations.spec.js" time="0.405">
+<properties>
+<property name="skip" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Annotations Test4" classname="Part_33_Annotations.spec.js" time="0.522">
+<properties>
+<property name="fixme" value="">
+</property>
+</properties>
+<skipped>
+</skipped>
+</testcase>
+<testcase name="Annotations Test5" classname="Part_33_Annotations.spec.js" time="0.493">
+<properties>
+<property name="fail" value="">
+</property>
+</properties>
+<system-out>
+<![CDATA[Test5....
+]]>
+</system-out>
+</testcase>
+<testcase name="Annotations Test6" classname="Part_33_Annotations.spec.js" time="0.457">
+<system-out>
+<![CDATA[Test6....
+]]>
+</system-out>
+</testcase>
+<testcase name="Annotations Test7" classname="Part_33_Annotations.spec.js" time="2.273">
+<properties>
+<property name="slow" value="">
+</property>
+</properties>
+<system-out>
+<![CDATA[Test7....
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_34_POMTest.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="17.109" errors="0">
+<testcase name="test" classname="Part_34_POMTest.spec.js" time="17.109">
+<system-out>
+<![CDATA[Samsung galaxy s6
+]]>
+</system-out>
+</testcase>
+</testsuite>
+<testsuite name="Part_35_HandlingWindows.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="2" failures="0" skipped="0" time="27.745" errors="0">
+<testcase name="Handling pages/Windows 2 pages" classname="Part_35_HandlingWindows.spec.js" time="12.686">
+<system-out>
+<![CDATA[no of pages: 2
+]]>
+</system-out>
+</testcase>
+<testcase name="Handling Multiple pages/Windows 1 page" classname="Part_35_HandlingWindows.spec.js" time="15.059">
+</testcase>
+</testsuite>
+<testsuite name="Part_36_Reporters.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="3" failures="0" skipped="0" time="9.835" errors="0">
+<testcase name="Test1" classname="Part_36_Reporters.spec.js" time="2.194">
+</testcase>
+<testcase name="Test2" classname="Part_36_Reporters.spec.js" time="3.683">
+</testcase>
+<testcase name="Test3" classname="Part_36_Reporters.spec.js" time="3.958">
+</testcase>
+</testsuite>
+<testsuite name="Part_38_ReTryTest.spec.js" timestamp="2024-10-31T13:07:53.714Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="5.78" errors="0">
+<testcase name="Re-Try Test" classname="Part_38_ReTryTest.spec.js" time="5.78">
 </testcase>
 </testsuite>
 </testsuites>

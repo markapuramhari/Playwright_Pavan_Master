@@ -8,6 +8,7 @@ test('Test1',async({page})=>{
 test('Test2',async({page})=>{
 
     await page.goto('https://demo.opencart.com/')
+    await page.waitForTimeout(2000)
     await expect(await page).toHaveTitle('Your Store')
 
 })

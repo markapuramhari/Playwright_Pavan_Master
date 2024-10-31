@@ -13,8 +13,8 @@ const { defineConfig, devices } = require('@playwright/test');
 module.exports = defineConfig({
   testDir: './tests',
   /* Run tests in files in parallel */
-  //fullyParallel: false,
-  fullyParallel: true,
+  fullyParallel: false,
+  //fullyParallel: true,
   /* Fail the build on CI if you accidentally left test.only in the source code. */
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
@@ -23,16 +23,17 @@ module.exports = defineConfig({
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
-  reporter: 'html',
+ // reporter: 'html',
   //reporter: 'list',
   //reporter:[['json',{outputFile:'results.json'}]],
   //reporter:[['junit',{outputFile:'results.xml'}]],
   //reporter: [['allure-playwright',{outputFolder: 'allure-results'}]],
 
-  // reporter: [['html'],
-  //           ['list'],
-  //           ['json',{outputFile:'results.json'}],
-  //           ['junit',{outputFile:'results.xml'}]], //mutiple reports
+  reporter: [['html'],
+            ['list'],
+            ['json',{outputFile:'results.json'}],
+            ['junit',{outputFile:'results.xml'}],
+            ['allure-playwright',{outputFolder: 'allure-results'}]], //mutiple reports
 
 /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
@@ -43,8 +44,8 @@ module.exports = defineConfig({
     trace: 'retain-on-failure',
     screenshot:'only-on-failure',
     video:'retain-on-failure',
-    headless: false,   //--headed
-   // headless: true      
+    //headless: false,   //--headed
+   headless: true      
   },
   timeout:30000, //Default to 30 seconds
 
