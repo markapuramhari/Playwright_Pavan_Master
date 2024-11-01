@@ -1,281 +1,173 @@
-<testsuites id="" name="" tests="45" failures="0" skipped="6" errors="0" time="92.847453">
-<testsuite name="Part_31_Tracing.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="chromium" tests="1" failures="0" skipped="0" time="10.476" errors="0">
-<testcase name="Tracing test" classname="Part_31_Tracing.spec.js" time="10.476">
-</testcase>
-</testsuite>
-<testsuite name="Part_33_Annotations.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="chromium" tests="7" failures="0" skipped="2" time="7.992" errors="0">
-<testcase name="Annotations Test1" classname="Part_33_Annotations.spec.js" time="1.843">
+<testsuites id="" name="" tests="27" failures="0" skipped="0" errors="0" time="66.372821">
+<testsuite name="Part_03_HomepageTest.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.181" errors="0">
+<testcase name="Homepage Test" classname="Part_03_HomepageTest.spec.js" time="5.181">
 <system-out>
-<![CDATA[Test1....
-]]>
-</system-out>
-</testcase>
-<testcase name="Annotations Test2" classname="Part_33_Annotations.spec.js" time="0.461">
-<system-out>
-<![CDATA[Test2....
-]]>
-</system-out>
-</testcase>
-<testcase name="Annotations Test3" classname="Part_33_Annotations.spec.js" time="0.888">
-<properties>
-<property name="skip" value="">
-</property>
-</properties>
-<skipped>
-</skipped>
-</testcase>
-<testcase name="Annotations Test4" classname="Part_33_Annotations.spec.js" time="1.197">
-<properties>
-<property name="fixme" value="">
-</property>
-</properties>
-<skipped>
-</skipped>
-</testcase>
-<testcase name="Annotations Test5" classname="Part_33_Annotations.spec.js" time="0.618">
-<properties>
-<property name="fail" value="">
-</property>
-</properties>
-<system-out>
-<![CDATA[Test5....
-]]>
-</system-out>
-</testcase>
-<testcase name="Annotations Test6" classname="Part_33_Annotations.spec.js" time="0.741">
-<system-out>
-<![CDATA[Test6....
-]]>
-</system-out>
-</testcase>
-<testcase name="Annotations Test7" classname="Part_33_Annotations.spec.js" time="2.244">
-<properties>
-<property name="slow" value="">
-</property>
-</properties>
-<system-out>
-<![CDATA[Test7....
+<![CDATA[page URL is:  https://www.demoblaze.com/index.html
+page Title is:  STORE
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="Part_34_POMTest.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="chromium" tests="1" failures="0" skipped="0" time="20.391" errors="0">
-<testcase name="test" classname="Part_34_POMTest.spec.js" time="20.391">
+<testsuite name="Part_04_LoginpageTest.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.838" errors="0">
+<testcase name="Loginpage Test" classname="Part_04_LoginpageTest.spec.js" time="7.838">
+</testcase>
+</testsuite>
+<testsuite name="Part_04_PrintLinksTest.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="chromium" tests="1" failures="0" skipped="0" time="10.253" errors="0">
+<testcase name="Mutipule Elements" classname="Part_04_PrintLinksTest.spec.js" time="10.253">
 <system-out>
-<![CDATA[Samsung galaxy s6
+<![CDATA[All links: 
+      PRODUCT STORE
+All links: Home (current)
+All links: Contact
+All links: About us
+All links: Cart
+All links: Log in
+---------------------------------
+Samsung galaxy s6
+Nokia lumia 1520
+Nexus 6
+Samsung galaxy s7
+Iphone 6 32gb
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="Part_35_HandlingWindows.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="chromium" tests="2" failures="0" skipped="0" time="31.259" errors="0">
-<testcase name="Handling pages/Windows 2 pages" classname="Part_35_HandlingWindows.spec.js" time="15.5">
-<system-out>
-<![CDATA[no of pages: 2
-]]>
-</system-out>
-</testcase>
-<testcase name="Handling Multiple pages/Windows 1 page" classname="Part_35_HandlingWindows.spec.js" time="15.759">
+<testsuite name="Part_05_Built-in_locators.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="chromium" tests="1" failures="0" skipped="0" time="12.376" errors="0">
+<testcase name="built-in Locators" classname="Part_05_Built-in_locators.spec.js" time="12.376">
 </testcase>
 </testsuite>
-<testsuite name="Part_36_Reporters.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="chromium" tests="3" failures="0" skipped="0" time="23.116" errors="0">
-<testcase name="Test1" classname="Part_36_Reporters.spec.js" time="2.659">
-</testcase>
-<testcase name="Test2" classname="Part_36_Reporters.spec.js" time="14.365">
-<system-out>
-<![CDATA[
-[[ATTACHMENT|test-results\Part_36_Reporters-Test2-chromium\test-failed-1.png]]
-
-[[ATTACHMENT|test-results\Part_36_Reporters-Test2-chromium\video.webm]]
-
-[[ATTACHMENT|test-results\Part_36_Reporters-Test2-chromium\trace.zip]]
-]]>
-</system-out>
-</testcase>
-<testcase name="Test3" classname="Part_36_Reporters.spec.js" time="6.092">
+<testsuite name="Part_07_Assertions.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.281" errors="0">
+<testcase name="All Assertions Test" classname="Part_07_Assertions.spec.js" time="6.281">
 </testcase>
 </testsuite>
-<testsuite name="Part_38_ReTryTest.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="chromium" tests="1" failures="0" skipped="0" time="7.334" errors="0">
-<testcase name="Re-Try Test" classname="Part_38_ReTryTest.spec.js" time="7.334">
+<testsuite name="Part_08_SoftAssertions.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="chromium" tests="1" failures="0" skipped="0" time="6.129" errors="0">
+<testcase name="Part 08 Soft Assertions Test" classname="Part_08_SoftAssertions.spec.js" time="6.129">
 </testcase>
 </testsuite>
-<testsuite name="Part_31_Tracing.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="8.81" errors="0">
-<testcase name="Tracing test" classname="Part_31_Tracing.spec.js" time="8.81">
+<testsuite name="Part_09_Inputbox.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="chromium" tests="1" failures="0" skipped="0" time="4.631" errors="0">
+<testcase name="Input Box" classname="Part_09_Inputbox.spec.js" time="4.631">
 </testcase>
 </testsuite>
-<testsuite name="Part_33_Annotations.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="Microsoft Edge" tests="7" failures="0" skipped="2" time="9.133" errors="0">
-<testcase name="Annotations Test1" classname="Part_33_Annotations.spec.js" time="1.534">
+<testsuite name="Part_09_RadioButtons.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="chromium" tests="1" failures="0" skipped="0" time="3.029" errors="0">
+<testcase name="Radio buttons" classname="Part_09_RadioButtons.spec.js" time="3.029">
+</testcase>
+</testsuite>
+<testsuite name="Part_10_Checkboxes.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="chromium" tests="1" failures="0" skipped="0" time="13.748" errors="0">
+<testcase name="Check Boxes" classname="Part_10_Checkboxes.spec.js" time="13.748">
+</testcase>
+</testsuite>
+<testsuite name="Part_03_HomepageTest.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="4.664" errors="0">
+<testcase name="Homepage Test" classname="Part_03_HomepageTest.spec.js" time="4.664">
 <system-out>
-<![CDATA[Test1....
-]]>
-</system-out>
-</testcase>
-<testcase name="Annotations Test2" classname="Part_33_Annotations.spec.js" time="0.963">
-<system-out>
-<![CDATA[Test2....
-]]>
-</system-out>
-</testcase>
-<testcase name="Annotations Test3" classname="Part_33_Annotations.spec.js" time="2.275">
-<properties>
-<property name="skip" value="">
-</property>
-</properties>
-<skipped>
-</skipped>
-</testcase>
-<testcase name="Annotations Test4" classname="Part_33_Annotations.spec.js" time="1.038">
-<properties>
-<property name="fixme" value="">
-</property>
-</properties>
-<skipped>
-</skipped>
-</testcase>
-<testcase name="Annotations Test5" classname="Part_33_Annotations.spec.js" time="0.644">
-<properties>
-<property name="fail" value="">
-</property>
-</properties>
-<system-out>
-<![CDATA[Test5....
-]]>
-</system-out>
-</testcase>
-<testcase name="Annotations Test6" classname="Part_33_Annotations.spec.js" time="1.107">
-<system-out>
-<![CDATA[Test6....
-]]>
-</system-out>
-</testcase>
-<testcase name="Annotations Test7" classname="Part_33_Annotations.spec.js" time="1.572">
-<properties>
-<property name="slow" value="">
-</property>
-</properties>
-<system-out>
-<![CDATA[Test7....
+<![CDATA[page URL is:  https://www.demoblaze.com/index.html
+page Title is:  STORE
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="Part_34_POMTest.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="21.668" errors="0">
-<testcase name="test" classname="Part_34_POMTest.spec.js" time="21.668">
+<testsuite name="Part_04_LoginpageTest.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="9.34" errors="0">
+<testcase name="Loginpage Test" classname="Part_04_LoginpageTest.spec.js" time="9.34">
+</testcase>
+</testsuite>
+<testsuite name="Part_04_PrintLinksTest.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="9.356" errors="0">
+<testcase name="Mutipule Elements" classname="Part_04_PrintLinksTest.spec.js" time="9.356">
 <system-out>
-<![CDATA[Samsung galaxy s6
+<![CDATA[All links: 
+      PRODUCT STORE
+All links: Home (current)
+All links: Contact
+All links: About us
+All links: Cart
+All links: Log in
+---------------------------------
+Samsung galaxy s6
+Nokia lumia 1520
+Nexus 6
+Samsung galaxy s7
+Iphone 6 32gb
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="Part_35_HandlingWindows.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="Microsoft Edge" tests="2" failures="0" skipped="0" time="29.799" errors="0">
-<testcase name="Handling pages/Windows 2 pages" classname="Part_35_HandlingWindows.spec.js" time="14.467">
-<system-out>
-<![CDATA[no of pages: 2
-]]>
-</system-out>
-</testcase>
-<testcase name="Handling Multiple pages/Windows 1 page" classname="Part_35_HandlingWindows.spec.js" time="15.332">
+<testsuite name="Part_05_Built-in_locators.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="12.919" errors="0">
+<testcase name="built-in Locators" classname="Part_05_Built-in_locators.spec.js" time="12.919">
 </testcase>
 </testsuite>
-<testsuite name="Part_36_Reporters.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="Microsoft Edge" tests="3" failures="0" skipped="0" time="13.587" errors="0">
-<testcase name="Test1" classname="Part_36_Reporters.spec.js" time="3.717">
-</testcase>
-<testcase name="Test2" classname="Part_36_Reporters.spec.js" time="4.287">
-</testcase>
-<testcase name="Test3" classname="Part_36_Reporters.spec.js" time="5.583">
+<testsuite name="Part_07_Assertions.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="6.353" errors="0">
+<testcase name="All Assertions Test" classname="Part_07_Assertions.spec.js" time="6.353">
 </testcase>
 </testsuite>
-<testsuite name="Part_38_ReTryTest.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="6.888" errors="0">
-<testcase name="Re-Try Test" classname="Part_38_ReTryTest.spec.js" time="6.888">
+<testsuite name="Part_08_SoftAssertions.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="6.29" errors="0">
+<testcase name="Part 08 Soft Assertions Test" classname="Part_08_SoftAssertions.spec.js" time="6.29">
 </testcase>
 </testsuite>
-<testsuite name="Part_31_Tracing.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="9.893" errors="0">
-<testcase name="Tracing test" classname="Part_31_Tracing.spec.js" time="9.893">
+<testsuite name="Part_09_Inputbox.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="5.414" errors="0">
+<testcase name="Input Box" classname="Part_09_Inputbox.spec.js" time="5.414">
 </testcase>
 </testsuite>
-<testsuite name="Part_33_Annotations.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="Google Chrome" tests="7" failures="0" skipped="2" time="7.478" errors="0">
-<testcase name="Annotations Test1" classname="Part_33_Annotations.spec.js" time="1.012">
+<testsuite name="Part_09_RadioButtons.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="2.669" errors="0">
+<testcase name="Radio buttons" classname="Part_09_RadioButtons.spec.js" time="2.669">
+</testcase>
+</testsuite>
+<testsuite name="Part_10_Checkboxes.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Microsoft Edge" tests="1" failures="0" skipped="0" time="13.714" errors="0">
+<testcase name="Check Boxes" classname="Part_10_Checkboxes.spec.js" time="13.714">
+</testcase>
+</testsuite>
+<testsuite name="Part_03_HomepageTest.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="4.855" errors="0">
+<testcase name="Homepage Test" classname="Part_03_HomepageTest.spec.js" time="4.855">
 <system-out>
-<![CDATA[Test1....
-]]>
-</system-out>
-</testcase>
-<testcase name="Annotations Test2" classname="Part_33_Annotations.spec.js" time="0.509">
-<system-out>
-<![CDATA[Test2....
-]]>
-</system-out>
-</testcase>
-<testcase name="Annotations Test3" classname="Part_33_Annotations.spec.js" time="0.443">
-<properties>
-<property name="skip" value="">
-</property>
-</properties>
-<skipped>
-</skipped>
-</testcase>
-<testcase name="Annotations Test4" classname="Part_33_Annotations.spec.js" time="0.618">
-<properties>
-<property name="fixme" value="">
-</property>
-</properties>
-<skipped>
-</skipped>
-</testcase>
-<testcase name="Annotations Test5" classname="Part_33_Annotations.spec.js" time="1.14">
-<properties>
-<property name="fail" value="">
-</property>
-</properties>
-<system-out>
-<![CDATA[Test5....
-]]>
-</system-out>
-</testcase>
-<testcase name="Annotations Test6" classname="Part_33_Annotations.spec.js" time="0.492">
-<system-out>
-<![CDATA[Test6....
-]]>
-</system-out>
-</testcase>
-<testcase name="Annotations Test7" classname="Part_33_Annotations.spec.js" time="3.264">
-<properties>
-<property name="slow" value="">
-</property>
-</properties>
-<system-out>
-<![CDATA[Test7....
+<![CDATA[page URL is:  https://www.demoblaze.com/index.html
+page Title is:  STORE
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="Part_34_POMTest.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="19.173" errors="0">
-<testcase name="test" classname="Part_34_POMTest.spec.js" time="19.173">
+<testsuite name="Part_04_LoginpageTest.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="7.844" errors="0">
+<testcase name="Loginpage Test" classname="Part_04_LoginpageTest.spec.js" time="7.844">
+</testcase>
+</testsuite>
+<testsuite name="Part_04_PrintLinksTest.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="9.414" errors="0">
+<testcase name="Mutipule Elements" classname="Part_04_PrintLinksTest.spec.js" time="9.414">
 <system-out>
-<![CDATA[Samsung galaxy s6
+<![CDATA[All links: 
+      PRODUCT STORE
+All links: Home (current)
+All links: Contact
+All links: About us
+All links: Cart
+All links: Log in
+---------------------------------
+Samsung galaxy s6
+Nokia lumia 1520
+Nexus 6
+Samsung galaxy s7
+Iphone 6 32gb
 ]]>
 </system-out>
 </testcase>
 </testsuite>
-<testsuite name="Part_35_HandlingWindows.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="Google Chrome" tests="2" failures="0" skipped="0" time="30.147" errors="0">
-<testcase name="Handling pages/Windows 2 pages" classname="Part_35_HandlingWindows.spec.js" time="12.839">
-<system-out>
-<![CDATA[no of pages: 2
-]]>
-</system-out>
-</testcase>
-<testcase name="Handling Multiple pages/Windows 1 page" classname="Part_35_HandlingWindows.spec.js" time="17.308">
+<testsuite name="Part_05_Built-in_locators.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="12.445" errors="0">
+<testcase name="built-in Locators" classname="Part_05_Built-in_locators.spec.js" time="12.445">
 </testcase>
 </testsuite>
-<testsuite name="Part_36_Reporters.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="Google Chrome" tests="3" failures="0" skipped="0" time="15.215" errors="0">
-<testcase name="Test1" classname="Part_36_Reporters.spec.js" time="2.623">
-</testcase>
-<testcase name="Test2" classname="Part_36_Reporters.spec.js" time="6.807">
-</testcase>
-<testcase name="Test3" classname="Part_36_Reporters.spec.js" time="5.785">
+<testsuite name="Part_07_Assertions.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="5.985" errors="0">
+<testcase name="All Assertions Test" classname="Part_07_Assertions.spec.js" time="5.985">
 </testcase>
 </testsuite>
-<testsuite name="Part_38_ReTryTest.spec.js" timestamp="2024-11-01T03:10:12.164Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="6.91" errors="0">
-<testcase name="Re-Try Test" classname="Part_38_ReTryTest.spec.js" time="6.91">
+<testsuite name="Part_08_SoftAssertions.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="6.382" errors="0">
+<testcase name="Part 08 Soft Assertions Test" classname="Part_08_SoftAssertions.spec.js" time="6.382">
+</testcase>
+</testsuite>
+<testsuite name="Part_09_Inputbox.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="4.638" errors="0">
+<testcase name="Input Box" classname="Part_09_Inputbox.spec.js" time="4.638">
+</testcase>
+</testsuite>
+<testsuite name="Part_09_RadioButtons.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="2.778" errors="0">
+<testcase name="Radio buttons" classname="Part_09_RadioButtons.spec.js" time="2.778">
+</testcase>
+</testsuite>
+<testsuite name="Part_10_Checkboxes.spec.js" timestamp="2024-11-01T03:59:27.516Z" hostname="Google Chrome" tests="1" failures="0" skipped="0" time="13.664" errors="0">
+<testcase name="Check Boxes" classname="Part_10_Checkboxes.spec.js" time="13.664">
 </testcase>
 </testsuite>
 </testsuites>

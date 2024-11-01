@@ -99,16 +99,16 @@
   },
   "suites": [
     {
-      "title": "Part_31_Tracing.spec.js",
-      "file": "Part_31_Tracing.spec.js",
+      "title": "Part_03_HomepageTest.spec.js",
+      "file": "Part_03_HomepageTest.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Tracing test",
+          "title": "Homepage Test",
           "ok": true,
           "tags": [
-            "31To38"
+            "03To10"
           ],
           "tests": [
             {
@@ -121,28 +121,159 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 10476,
+                  "duration": 5181,
                   "errors": [],
-                  "stdout": [],
+                  "stdout": [
+                    {
+                      "text": "page URL is:  https://www.demoblaze.com/index.html\n"
+                    },
+                    {
+                      "text": "page Title is:  STORE\n"
+                    }
+                  ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-11-01T03:10:12.954Z",
+                  "startTime": "2024-11-01T03:59:28.159Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "be76c3b7935559cd59cb-e4494cef5e21e2dbe3bc",
-          "file": "Part_31_Tracing.spec.js",
-          "line": 2,
+          "id": "ac137180890e56a2bb1f-6bd899a02fe7c4126f2c",
+          "file": "Part_03_HomepageTest.spec.js",
+          "line": 3,
           "column": 5
         },
         {
-          "title": "Tracing test",
+          "title": "Homepage Test",
           "ok": true,
           "tags": [
-            "31To38"
+            "03To10"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 5,
+                  "status": "passed",
+                  "duration": 4664,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "page URL is:  https://www.demoblaze.com/index.html\n"
+                    },
+                    {
+                      "text": "page Title is:  STORE\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-01T03:59:44.652Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ac137180890e56a2bb1f-397c985d1458a07a5b47",
+          "file": "Part_03_HomepageTest.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Homepage Test",
+          "ok": true,
+          "tags": [
+            "03To10"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 8,
+                  "status": "passed",
+                  "duration": 4855,
+                  "errors": [],
+                  "stdout": [
+                    {
+                      "text": "page URL is:  https://www.demoblaze.com/index.html\n"
+                    },
+                    {
+                      "text": "page Title is:  STORE\n"
+                    }
+                  ],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-01T04:00:03.767Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "ac137180890e56a2bb1f-cffe8c29a79aea00baf3",
+          "file": "Part_03_HomepageTest.spec.js",
+          "line": 3,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Part_04_LoginpageTest.spec.js",
+      "file": "Part_04_LoginpageTest.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Loginpage Test",
+          "ok": true,
+          "tags": [
+            "03To10"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 7838,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-01T03:59:28.231Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b64c5ba5e00c871f01f4-cfeff5e7067bbed4a1f0",
+          "file": "Part_04_LoginpageTest.spec.js",
+          "line": 3,
+          "column": 5
+        },
+        {
+          "title": "Loginpage Test",
+          "ok": true,
+          "tags": [
+            "03To10"
           ],
           "tests": [
             {
@@ -155,28 +286,28 @@
                 {
                   "workerIndex": 4,
                   "status": "passed",
-                  "duration": 8810,
+                  "duration": 9340,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-11-01T03:10:33.279Z",
+                  "startTime": "2024-11-01T03:59:44.677Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "be76c3b7935559cd59cb-6f9bfc5e05ea0f1134f6",
-          "file": "Part_31_Tracing.spec.js",
-          "line": 2,
+          "id": "b64c5ba5e00c871f01f4-210985692ed7d1025b7b",
+          "file": "Part_04_LoginpageTest.spec.js",
+          "line": 3,
           "column": 5
         },
         {
-          "title": "Tracing test",
+          "title": "Loginpage Test",
           "ok": true,
           "tags": [
-            "31To38"
+            "03To10"
           ],
           "tests": [
             {
@@ -189,950 +320,36 @@
                 {
                   "workerIndex": 9,
                   "status": "passed",
-                  "duration": 9893,
+                  "duration": 7844,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-11-01T03:11:00.214Z",
+                  "startTime": "2024-11-01T04:00:04.359Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "be76c3b7935559cd59cb-4952236bfd8bc0135eb7",
-          "file": "Part_31_Tracing.spec.js",
-          "line": 2,
+          "id": "b64c5ba5e00c871f01f4-963d4cd9828e0f335dfe",
+          "file": "Part_04_LoginpageTest.spec.js",
+          "line": 3,
           "column": 5
         }
       ]
     },
     {
-      "title": "Part_33_Annotations.spec.js",
-      "file": "Part_33_Annotations.spec.js",
+      "title": "Part_04_PrintLinksTest.spec.js",
+      "file": "Part_04_PrintLinksTest.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Annotations Test1",
+          "title": "Mutipule Elements",
           "ok": true,
           "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 1843,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Test1....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:12.996Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-a8ed2cb30e1b81d4df7b",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 4,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test2",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 461,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Test2....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:15.962Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-966bd3eecf4115f6df8f",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 9,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test3",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "skip"
-                }
-              ],
-              "expectedStatus": "skipped",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "skipped",
-                  "duration": 888,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:16.436Z",
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-ad445d6737bd40712a7d",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 18,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test4",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "fixme"
-                }
-              ],
-              "expectedStatus": "skipped",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "skipped",
-                  "duration": 1197,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Test4....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:17.339Z",
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-7cdc5bf380bf1a601fb2",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 30,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test5",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "fail"
-                }
-              ],
-              "expectedStatus": "failed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "failed",
-                  "duration": 618,
-                  "error": {
-                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js:43:21",
-                    "location": {
-                      "file": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js",
-                      "column": 21,
-                      "line": 43
-                    },
-                    "snippet": "\u001b[0m \u001b[90m 41 |\u001b[39m    test\u001b[33m.\u001b[39mfail() \u001b[90m//expect :fail\u001b[39m\n \u001b[90m 42 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Test5....'\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m) \u001b[90m//actual :fail\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m\n \u001b[90m 45 |\u001b[39m })\n \u001b[90m 46 |\u001b[39m\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js",
-                        "column": 21,
-                        "line": 43
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n\n\u001b[0m \u001b[90m 41 |\u001b[39m    test\u001b[33m.\u001b[39mfail() \u001b[90m//expect :fail\u001b[39m\n \u001b[90m 42 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Test5....'\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m) \u001b[90m//actual :fail\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m\n \u001b[90m 45 |\u001b[39m })\n \u001b[90m 46 |\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js:43:21\u001b[22m"
-                    }
-                  ],
-                  "stdout": [
-                    {
-                      "text": "Test5....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:18.546Z",
-                  "attachments": [],
-                  "errorLocation": {
-                    "file": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js",
-                    "column": 21,
-                    "line": 43
-                  }
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-17379d5701074a8220c9",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 39,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test6",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 741,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Test6....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:19.173Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-5382696f5c843f9b941c",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 48,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test7",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 5000,
-              "annotations": [
-                {
-                  "type": "slow"
-                }
-              ],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 2244,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Test7....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:19.923Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-eddc215c795e594d5013",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 58,
-          "column": 6
-        },
-        {
-          "title": "Annotations Test1",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
-              "results": [
-                {
-                  "workerIndex": 5,
-                  "status": "passed",
-                  "duration": 1534,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Test1....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:36.776Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-835b947cb459e47757bf",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 4,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test2",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
-              "results": [
-                {
-                  "workerIndex": 5,
-                  "status": "passed",
-                  "duration": 963,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Test2....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:38.811Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-fad7dbdc2e30e7b1d29b",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 9,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test3",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "skip"
-                }
-              ],
-              "expectedStatus": "skipped",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
-              "results": [
-                {
-                  "workerIndex": 5,
-                  "status": "skipped",
-                  "duration": 2275,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:39.791Z",
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-fdab4f79e4abf36924da",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 18,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test4",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "fixme"
-                }
-              ],
-              "expectedStatus": "skipped",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
-              "results": [
-                {
-                  "workerIndex": 5,
-                  "status": "skipped",
-                  "duration": 1038,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Test4....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:42.074Z",
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-d1061e7ea2bdeba769d0",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 30,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test5",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "fail"
-                }
-              ],
-              "expectedStatus": "failed",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
-              "results": [
-                {
-                  "workerIndex": 5,
-                  "status": "failed",
-                  "duration": 644,
-                  "error": {
-                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js:43:21",
-                    "location": {
-                      "file": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js",
-                      "column": 21,
-                      "line": 43
-                    },
-                    "snippet": "\u001b[0m \u001b[90m 41 |\u001b[39m    test\u001b[33m.\u001b[39mfail() \u001b[90m//expect :fail\u001b[39m\n \u001b[90m 42 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Test5....'\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m) \u001b[90m//actual :fail\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m\n \u001b[90m 45 |\u001b[39m })\n \u001b[90m 46 |\u001b[39m\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js",
-                        "column": 21,
-                        "line": 43
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n\n\u001b[0m \u001b[90m 41 |\u001b[39m    test\u001b[33m.\u001b[39mfail() \u001b[90m//expect :fail\u001b[39m\n \u001b[90m 42 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Test5....'\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m) \u001b[90m//actual :fail\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m\n \u001b[90m 45 |\u001b[39m })\n \u001b[90m 46 |\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js:43:21\u001b[22m"
-                    }
-                  ],
-                  "stdout": [
-                    {
-                      "text": "Test5....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:43.125Z",
-                  "attachments": [],
-                  "errorLocation": {
-                    "file": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js",
-                    "column": 21,
-                    "line": 43
-                  }
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-e189582ef4bb70be9325",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 39,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test6",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
-              "results": [
-                {
-                  "workerIndex": 5,
-                  "status": "passed",
-                  "duration": 1107,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Test6....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:43.785Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-0e712d3fca67c0da7116",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 48,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test7",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 5000,
-              "annotations": [
-                {
-                  "type": "slow"
-                }
-              ],
-              "expectedStatus": "passed",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
-              "results": [
-                {
-                  "workerIndex": 5,
-                  "status": "passed",
-                  "duration": 1572,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Test7....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:44.905Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-807dd025f5056e18f949",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 58,
-          "column": 6
-        },
-        {
-          "title": "Annotations Test1",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
-              "results": [
-                {
-                  "workerIndex": 10,
-                  "status": "passed",
-                  "duration": 1012,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Test1....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:11:06.231Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-d7268e32541d80f2a5db",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 4,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test2",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
-              "results": [
-                {
-                  "workerIndex": 10,
-                  "status": "passed",
-                  "duration": 509,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Test2....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:11:07.513Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-c5dd1493a490e98f6e20",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 9,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test3",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "skip"
-                }
-              ],
-              "expectedStatus": "skipped",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
-              "results": [
-                {
-                  "workerIndex": 10,
-                  "status": "skipped",
-                  "duration": 443,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:11:08.032Z",
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-e5065785b5364a47aa5e",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 18,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test4",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "fixme"
-                }
-              ],
-              "expectedStatus": "skipped",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
-              "results": [
-                {
-                  "workerIndex": 10,
-                  "status": "skipped",
-                  "duration": 618,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Test4....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:11:08.482Z",
-                  "attachments": []
-                }
-              ],
-              "status": "skipped"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-169d45b0823870e15752",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 30,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test5",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [
-                {
-                  "type": "fail"
-                }
-              ],
-              "expectedStatus": "failed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
-              "results": [
-                {
-                  "workerIndex": 10,
-                  "status": "failed",
-                  "duration": 1140,
-                  "error": {
-                    "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m",
-                    "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js:43:21",
-                    "location": {
-                      "file": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js",
-                      "column": 21,
-                      "line": 43
-                    },
-                    "snippet": "\u001b[0m \u001b[90m 41 |\u001b[39m    test\u001b[33m.\u001b[39mfail() \u001b[90m//expect :fail\u001b[39m\n \u001b[90m 42 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Test5....'\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m) \u001b[90m//actual :fail\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m\n \u001b[90m 45 |\u001b[39m })\n \u001b[90m 46 |\u001b[39m\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js",
-                        "column": 21,
-                        "line": 43
-                      },
-                      "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n\n\u001b[0m \u001b[90m 41 |\u001b[39m    test\u001b[33m.\u001b[39mfail() \u001b[90m//expect :fail\u001b[39m\n \u001b[90m 42 |\u001b[39m     console\u001b[33m.\u001b[39mlog(\u001b[32m'Test5....'\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 43 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[35m1\u001b[39m)\u001b[33m.\u001b[39mtoBe(\u001b[35m2\u001b[39m) \u001b[90m//actual :fail\u001b[39m\n \u001b[90m    |\u001b[39m                     \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 44 |\u001b[39m\n \u001b[90m 45 |\u001b[39m })\n \u001b[90m 46 |\u001b[39m\u001b[0m\n\n\u001b[2m    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js:43:21\u001b[22m"
-                    }
-                  ],
-                  "stdout": [
-                    {
-                      "text": "Test5....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:11:09.116Z",
-                  "attachments": [],
-                  "errorLocation": {
-                    "file": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js",
-                    "column": 21,
-                    "line": 43
-                  }
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-a06b322fa4cb51ce956a",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 39,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test6",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
-              "results": [
-                {
-                  "workerIndex": 10,
-                  "status": "passed",
-                  "duration": 492,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Test6....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:11:10.269Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-161973eaf36bf9ca3d40",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 48,
-          "column": 5
-        },
-        {
-          "title": "Annotations Test7",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 5000,
-              "annotations": [
-                {
-                  "type": "slow"
-                }
-              ],
-              "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
-              "results": [
-                {
-                  "workerIndex": 10,
-                  "status": "passed",
-                  "duration": 3264,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "Test7....\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:11:10.774Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "f5fdea2816b82f25500b-fb77a4b5aa595445d3c1",
-          "file": "Part_33_Annotations.spec.js",
-          "line": 58,
-          "column": 6
-        }
-      ]
-    },
-    {
-      "title": "Part_34_POMTest.spec.js",
-      "file": "Part_34_POMTest.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "test",
-          "ok": true,
-          "tags": [
-            "31To38"
+            "03To10"
           ],
           "tests": [
             {
@@ -1145,32 +362,65 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 20391,
+                  "duration": 10253,
                   "errors": [],
                   "stdout": [
                     {
+                      "text": "All links: \n      PRODUCT STORE\n"
+                    },
+                    {
+                      "text": "All links: Home (current)\n"
+                    },
+                    {
+                      "text": "All links: Contact\n"
+                    },
+                    {
+                      "text": "All links: About us\n"
+                    },
+                    {
+                      "text": "All links: Cart\n"
+                    },
+                    {
+                      "text": "All links: Log in\n"
+                    },
+                    {
+                      "text": "---------------------------------\n"
+                    },
+                    {
                       "text": "Samsung galaxy s6\n"
+                    },
+                    {
+                      "text": "Nokia lumia 1520\n"
+                    },
+                    {
+                      "text": "Nexus 6\n"
+                    },
+                    {
+                      "text": "Samsung galaxy s7\n"
+                    },
+                    {
+                      "text": "Iphone 6 32gb\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-11-01T03:10:12.976Z",
+                  "startTime": "2024-11-01T03:59:28.176Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "16bab87339925ddbc7bd-dafb0722d53cfde707e8",
-          "file": "Part_34_POMTest.spec.js",
-          "line": 6,
+          "id": "b6358a5678a812fac740-05e10ab36dbcc8d97987",
+          "file": "Part_04_PrintLinksTest.spec.js",
+          "line": 2,
           "column": 5
         },
         {
-          "title": "test",
+          "title": "Mutipule Elements",
           "ok": true,
           "tags": [
-            "31To38"
+            "03To10"
           ],
           "tests": [
             {
@@ -1181,34 +431,67 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 4,
+                  "workerIndex": 6,
                   "status": "passed",
-                  "duration": 21668,
+                  "duration": 9356,
                   "errors": [],
                   "stdout": [
                     {
+                      "text": "All links: \n      PRODUCT STORE\n"
+                    },
+                    {
+                      "text": "All links: Home (current)\n"
+                    },
+                    {
+                      "text": "All links: Contact\n"
+                    },
+                    {
+                      "text": "All links: About us\n"
+                    },
+                    {
+                      "text": "All links: Cart\n"
+                    },
+                    {
+                      "text": "All links: Log in\n"
+                    },
+                    {
+                      "text": "---------------------------------\n"
+                    },
+                    {
                       "text": "Samsung galaxy s6\n"
+                    },
+                    {
+                      "text": "Nokia lumia 1520\n"
+                    },
+                    {
+                      "text": "Nexus 6\n"
+                    },
+                    {
+                      "text": "Samsung galaxy s7\n"
+                    },
+                    {
+                      "text": "Iphone 6 32gb\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-11-01T03:10:42.945Z",
+                  "startTime": "2024-11-01T03:59:44.712Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "16bab87339925ddbc7bd-5c4c4df5669e39827a9e",
-          "file": "Part_34_POMTest.spec.js",
-          "line": 6,
+          "id": "b6358a5678a812fac740-24fa49f60fdd77cd1a5d",
+          "file": "Part_04_PrintLinksTest.spec.js",
+          "line": 2,
           "column": 5
         },
         {
-          "title": "test",
+          "title": "Mutipule Elements",
           "ok": true,
           "tags": [
-            "31To38"
+            "03To10"
           ],
           "tests": [
             {
@@ -1219,42 +502,75 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 11,
+                  "workerIndex": 10,
                   "status": "passed",
-                  "duration": 19173,
+                  "duration": 9414,
                   "errors": [],
                   "stdout": [
                     {
+                      "text": "All links: \n      PRODUCT STORE\n"
+                    },
+                    {
+                      "text": "All links: Home (current)\n"
+                    },
+                    {
+                      "text": "All links: Contact\n"
+                    },
+                    {
+                      "text": "All links: About us\n"
+                    },
+                    {
+                      "text": "All links: Cart\n"
+                    },
+                    {
+                      "text": "All links: Log in\n"
+                    },
+                    {
+                      "text": "---------------------------------\n"
+                    },
+                    {
                       "text": "Samsung galaxy s6\n"
+                    },
+                    {
+                      "text": "Nokia lumia 1520\n"
+                    },
+                    {
+                      "text": "Nexus 6\n"
+                    },
+                    {
+                      "text": "Samsung galaxy s7\n"
+                    },
+                    {
+                      "text": "Iphone 6 32gb\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-11-01T03:11:06.651Z",
+                  "startTime": "2024-11-01T04:00:05.426Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "16bab87339925ddbc7bd-5b195ac85993974564f0",
-          "file": "Part_34_POMTest.spec.js",
-          "line": 6,
+          "id": "b6358a5678a812fac740-e72cc1983c2c4197d790",
+          "file": "Part_04_PrintLinksTest.spec.js",
+          "line": 2,
           "column": 5
         }
       ]
     },
     {
-      "title": "Part_35_HandlingWindows.spec.js",
-      "file": "Part_35_HandlingWindows.spec.js",
+      "title": "Part_05_Built-in_locators.spec.js",
+      "file": "Part_05_Built-in_locators.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Handling pages/Windows 2 pages",
+          "title": "built-in Locators",
           "ok": true,
           "tags": [
-            "31To38"
+            "03To10"
           ],
           "tests": [
             {
@@ -1267,66 +583,28 @@
                 {
                   "workerIndex": 3,
                   "status": "passed",
-                  "duration": 15500,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "no of pages: 2\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:12.978Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "1cb49ed35906cdae5615-4da9dc24886562dcd7db",
-          "file": "Part_35_HandlingWindows.spec.js",
-          "line": 2,
-          "column": 5
-        },
-        {
-          "title": "Handling Multiple pages/Windows 1 page",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 3,
-                  "status": "passed",
-                  "duration": 15759,
+                  "duration": 12376,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-11-01T03:10:29.303Z",
+                  "startTime": "2024-11-01T03:59:28.177Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "1cb49ed35906cdae5615-c458b11e5316c99d4b07",
-          "file": "Part_35_HandlingWindows.spec.js",
-          "line": 22,
+          "id": "11d19eb73ed0b99e3f27-f29c0afe4d8782b2e57a",
+          "file": "Part_05_Built-in_locators.spec.js",
+          "line": 39,
           "column": 5
         },
         {
-          "title": "Handling pages/Windows 2 pages",
+          "title": "built-in Locators",
           "ok": true,
           "tags": [
-            "31To38"
+            "03To10"
           ],
           "tests": [
             {
@@ -1339,66 +617,28 @@
                 {
                   "workerIndex": 5,
                   "status": "passed",
-                  "duration": 14467,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "no of pages: 2\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:46.531Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "1cb49ed35906cdae5615-6136d903786ac5bceb18",
-          "file": "Part_35_HandlingWindows.spec.js",
-          "line": 2,
-          "column": 5
-        },
-        {
-          "title": "Handling Multiple pages/Windows 1 page",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
-              "results": [
-                {
-                  "workerIndex": 5,
-                  "status": "passed",
-                  "duration": 15332,
+                  "duration": 12919,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-11-01T03:11:01.754Z",
+                  "startTime": "2024-11-01T03:59:49.809Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "1cb49ed35906cdae5615-5ceb10fad411eb15baaf",
-          "file": "Part_35_HandlingWindows.spec.js",
-          "line": 22,
+          "id": "11d19eb73ed0b99e3f27-8a7ca886b1e8f301b682",
+          "file": "Part_05_Built-in_locators.spec.js",
+          "line": 39,
           "column": 5
         },
         {
-          "title": "Handling pages/Windows 2 pages",
+          "title": "built-in Locators",
           "ok": true,
           "tags": [
-            "31To38"
+            "03To10"
           ],
           "tests": [
             {
@@ -1409,441 +649,38 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 8,
                   "status": "passed",
-                  "duration": 12839,
-                  "errors": [],
-                  "stdout": [
-                    {
-                      "text": "no of pages: 2\n"
-                    }
-                  ],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:11:10.633Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "1cb49ed35906cdae5615-7c494e80b8e99f0bf2b4",
-          "file": "Part_35_HandlingWindows.spec.js",
-          "line": 2,
-          "column": 5
-        },
-        {
-          "title": "Handling Multiple pages/Windows 1 page",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
-              "results": [
-                {
-                  "workerIndex": 9,
-                  "status": "passed",
-                  "duration": 17308,
+                  "duration": 12445,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-11-01T03:11:24.560Z",
+                  "startTime": "2024-11-01T04:00:09.123Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "1cb49ed35906cdae5615-d32eb2b01ef8461c4db4",
-          "file": "Part_35_HandlingWindows.spec.js",
-          "line": 22,
+          "id": "11d19eb73ed0b99e3f27-b724aca16f18278210ec",
+          "file": "Part_05_Built-in_locators.spec.js",
+          "line": 39,
           "column": 5
         }
       ]
     },
     {
-      "title": "Part_36_Reporters.spec.js",
-      "file": "Part_36_Reporters.spec.js",
+      "title": "Part_07_Assertions.spec.js",
+      "file": "Part_07_Assertions.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Test1",
+          "title": "All Assertions Test",
           "ok": true,
           "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "passed",
-                  "duration": 2659,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:22.189Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "9446682004b921e8a83d-e176d0bd2fd2e70af20f",
-          "file": "Part_36_Reporters.spec.js",
-          "line": 2,
-          "column": 5
-        },
-        {
-          "title": "Test2",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 1,
-                  "status": "failed",
-                  "duration": 8571,
-                  "error": {
-                    "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"Your Store\"\u001b[39m\nReceived string: \u001b[31m\"Just a moment...\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n",
-                    "stack": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"Your Store\"\u001b[39m\nReceived string: \u001b[31m\"Just a moment...\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\n    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_36_Reporters.spec.js:12:30",
-                    "location": {
-                      "file": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_36_Reporters.spec.js",
-                      "column": 30,
-                      "line": 12
-                    },
-                    "snippet": "\u001b[0m \u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://demo.opencart.com/'\u001b[39m)\n \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m2000\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mawait\u001b[39m page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m'Your Store'\u001b[39m)\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 13 |\u001b[39m\n \u001b[90m 14 |\u001b[39m })\n \u001b[90m 15 |\u001b[39m test(\u001b[32m'Test3'\u001b[39m\u001b[33m,\u001b[39m{tag\u001b[33m:\u001b[39m\u001b[32m'@31To38'\u001b[39m}\u001b[33m,\u001b[39m\u001b[36masync\u001b[39m({page})\u001b[33m=>\u001b[39m{\u001b[0m"
-                  },
-                  "errors": [
-                    {
-                      "location": {
-                        "file": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_36_Reporters.spec.js",
-                        "column": 30,
-                        "line": 12
-                      },
-                      "message": "Error: \u001b[31mTimed out 5000ms waiting for \u001b[39m\u001b[2mexpect(\u001b[22m\u001b[31mlocator\u001b[39m\u001b[2m).\u001b[22mtoHaveTitle\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m)\u001b[22m\n\nLocator: locator(':root')\nExpected string: \u001b[32m\"Your Store\"\u001b[39m\nReceived string: \u001b[31m\"Just a moment...\"\u001b[39m\nCall log:\n  \u001b[2m- expect.toHaveTitle with timeout 5000ms\u001b[22m\n\u001b[2m  - waiting for locator(':root')\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\u001b[2m  -   locator resolved to <html dir=\"ltr\" lang=\"en-US\">…</html>\u001b[22m\n\u001b[2m  -   unexpected value \"Just a moment...\"\u001b[22m\n\n\n\u001b[0m \u001b[90m 10 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mgoto(\u001b[32m'https://demo.opencart.com/'\u001b[39m)\n \u001b[90m 11 |\u001b[39m     \u001b[36mawait\u001b[39m page\u001b[33m.\u001b[39mwaitForTimeout(\u001b[35m2000\u001b[39m)\n\u001b[31m\u001b[1m>\u001b[22m\u001b[39m\u001b[90m 12 |\u001b[39m     \u001b[36mawait\u001b[39m expect(\u001b[36mawait\u001b[39m page)\u001b[33m.\u001b[39mtoHaveTitle(\u001b[32m'Your Store'\u001b[39m)\n \u001b[90m    |\u001b[39m                              \u001b[31m\u001b[1m^\u001b[22m\u001b[39m\n \u001b[90m 13 |\u001b[39m\n \u001b[90m 14 |\u001b[39m })\n \u001b[90m 15 |\u001b[39m test(\u001b[32m'Test3'\u001b[39m\u001b[33m,\u001b[39m{tag\u001b[33m:\u001b[39m\u001b[32m'@31To38'\u001b[39m}\u001b[33m,\u001b[39m\u001b[36masync\u001b[39m({page})\u001b[33m=>\u001b[39m{\u001b[0m\n\n\u001b[2m    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_36_Reporters.spec.js:12:30\u001b[22m"
-                    }
-                  ],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:24.860Z",
-                  "attachments": [
-                    {
-                      "name": "screenshot",
-                      "contentType": "image/png",
-                      "path": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\test-results\\Part_36_Reporters-Test2-chromium\\test-failed-1.png"
-                    },
-                    {
-                      "name": "video",
-                      "contentType": "video/webm",
-                      "path": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\test-results\\Part_36_Reporters-Test2-chromium\\video.webm"
-                    },
-                    {
-                      "name": "trace",
-                      "contentType": "application/zip",
-                      "path": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\test-results\\Part_36_Reporters-Test2-chromium\\trace.zip"
-                    }
-                  ],
-                  "errorLocation": {
-                    "file": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_36_Reporters.spec.js",
-                    "column": 30,
-                    "line": 12
-                  }
-                },
-                {
-                  "workerIndex": 6,
-                  "status": "passed",
-                  "duration": 5794,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 1,
-                  "startTime": "2024-11-01T03:10:37.473Z",
-                  "attachments": []
-                }
-              ],
-              "status": "flaky"
-            }
-          ],
-          "id": "9446682004b921e8a83d-09b88f37518b03d7a120",
-          "file": "Part_36_Reporters.spec.js",
-          "line": 8,
-          "column": 5
-        },
-        {
-          "title": "Test3",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "chromium",
-              "projectName": "chromium",
-              "results": [
-                {
-                  "workerIndex": 6,
-                  "status": "passed",
-                  "duration": 6092,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:43.876Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "9446682004b921e8a83d-84aa6e7b7369d3d3e2cb",
-          "file": "Part_36_Reporters.spec.js",
-          "line": 15,
-          "column": 5
-        },
-        {
-          "title": "Test1",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
-              "results": [
-                {
-                  "workerIndex": 7,
-                  "status": "passed",
-                  "duration": 3717,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:51.305Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "9446682004b921e8a83d-3a8938652d4410a069a2",
-          "file": "Part_36_Reporters.spec.js",
-          "line": 2,
-          "column": 5
-        },
-        {
-          "title": "Test2",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
-              "results": [
-                {
-                  "workerIndex": 7,
-                  "status": "passed",
-                  "duration": 4287,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:55.459Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "9446682004b921e8a83d-ed8b0bfc60f79e5f37b8",
-          "file": "Part_36_Reporters.spec.js",
-          "line": 8,
-          "column": 5
-        },
-        {
-          "title": "Test3",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Microsoft Edge",
-              "projectName": "Microsoft Edge",
-              "results": [
-                {
-                  "workerIndex": 7,
-                  "status": "passed",
-                  "duration": 5583,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:10:59.759Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "9446682004b921e8a83d-cd7a3423156f06853423",
-          "file": "Part_36_Reporters.spec.js",
-          "line": 15,
-          "column": 5
-        },
-        {
-          "title": "Test1",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
-              "results": [
-                {
-                  "workerIndex": 10,
-                  "status": "passed",
-                  "duration": 2623,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:11:14.063Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "9446682004b921e8a83d-f9c9eb16751e23f6b606",
-          "file": "Part_36_Reporters.spec.js",
-          "line": 2,
-          "column": 5
-        },
-        {
-          "title": "Test2",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
-              "results": [
-                {
-                  "workerIndex": 10,
-                  "status": "passed",
-                  "duration": 6807,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:11:16.694Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "9446682004b921e8a83d-85822c08628e36693e97",
-          "file": "Part_36_Reporters.spec.js",
-          "line": 8,
-          "column": 5
-        },
-        {
-          "title": "Test3",
-          "ok": true,
-          "tags": [
-            "31To38"
-          ],
-          "tests": [
-            {
-              "timeout": 30000,
-              "annotations": [],
-              "expectedStatus": "passed",
-              "projectId": "Google Chrome",
-              "projectName": "Google Chrome",
-              "results": [
-                {
-                  "workerIndex": 10,
-                  "status": "passed",
-                  "duration": 5785,
-                  "errors": [],
-                  "stdout": [],
-                  "stderr": [],
-                  "retry": 0,
-                  "startTime": "2024-11-01T03:11:23.514Z",
-                  "attachments": []
-                }
-              ],
-              "status": "expected"
-            }
-          ],
-          "id": "9446682004b921e8a83d-14c8e1efc9d1f0cfd700",
-          "file": "Part_36_Reporters.spec.js",
-          "line": 15,
-          "column": 5
-        }
-      ]
-    },
-    {
-      "title": "Part_38_ReTryTest.spec.js",
-      "file": "Part_38_ReTryTest.spec.js",
-      "column": 0,
-      "line": 0,
-      "specs": [
-        {
-          "title": "Re-Try Test",
-          "ok": true,
-          "tags": [
-            "31To38"
+            "03To10"
           ],
           "tests": [
             {
@@ -1856,28 +693,28 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 7334,
+                  "duration": 6281,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-11-01T03:10:24.610Z",
+                  "startTime": "2024-11-01T03:59:33.879Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "ce9e958d06d98a5b0d95-ad165dbdb9b6ab877b88",
-          "file": "Part_38_ReTryTest.spec.js",
-          "line": 2,
+          "id": "d26f0cf8aa8ad72d7fb2-90b14944fc3c8ff4723d",
+          "file": "Part_07_Assertions.spec.js",
+          "line": 19,
           "column": 5
         },
         {
-          "title": "Re-Try Test",
+          "title": "All Assertions Test",
           "ok": true,
           "tags": [
-            "31To38"
+            "03To10"
           ],
           "tests": [
             {
@@ -1888,30 +725,30 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 6,
                   "status": "passed",
-                  "duration": 6888,
+                  "duration": 6353,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-11-01T03:10:51.381Z",
+                  "startTime": "2024-11-01T03:59:54.468Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "ce9e958d06d98a5b0d95-33720e369a69a5d64e55",
-          "file": "Part_38_ReTryTest.spec.js",
-          "line": 2,
+          "id": "d26f0cf8aa8ad72d7fb2-e5a31d5dc51974fd9b2c",
+          "file": "Part_07_Assertions.spec.js",
+          "line": 19,
           "column": 5
         },
         {
-          "title": "Re-Try Test",
+          "title": "All Assertions Test",
           "ok": true,
           "tags": [
-            "31To38"
+            "03To10"
           ],
           "tests": [
             {
@@ -1922,22 +759,462 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 12,
+                  "workerIndex": 9,
                   "status": "passed",
-                  "duration": 6910,
+                  "duration": 5985,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-11-01T03:11:22.259Z",
+                  "startTime": "2024-11-01T04:00:12.703Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "ce9e958d06d98a5b0d95-420ea2c1bb2e55ea7e12",
-          "file": "Part_38_ReTryTest.spec.js",
+          "id": "d26f0cf8aa8ad72d7fb2-22b5d802c69151ef045f",
+          "file": "Part_07_Assertions.spec.js",
+          "line": 19,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Part_08_SoftAssertions.spec.js",
+      "file": "Part_08_SoftAssertions.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Part 08 Soft Assertions Test",
+          "ok": true,
+          "tags": [
+            "03To10"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 6129,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-01T03:59:37.404Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0144baeff8cf04f21812-417848a2998444b6ec94",
+          "file": "Part_08_SoftAssertions.spec.js",
+          "line": 17,
+          "column": 5
+        },
+        {
+          "title": "Part 08 Soft Assertions Test",
+          "ok": true,
+          "tags": [
+            "03To10"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 6290,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-01T03:59:54.583Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0144baeff8cf04f21812-f8cc2d1a00418968881c",
+          "file": "Part_08_SoftAssertions.spec.js",
+          "line": 17,
+          "column": 5
+        },
+        {
+          "title": "Part 08 Soft Assertions Test",
+          "ok": true,
+          "tags": [
+            "03To10"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 11,
+                  "status": "passed",
+                  "duration": 6382,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-01T04:00:16.331Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "0144baeff8cf04f21812-11b079a8a6e38225f1ea",
+          "file": "Part_08_SoftAssertions.spec.js",
+          "line": 17,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Part_09_Inputbox.spec.js",
+      "file": "Part_09_Inputbox.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Input Box",
+          "ok": true,
+          "tags": [
+            "03To10"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 2,
+                  "status": "passed",
+                  "duration": 4631,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-01T03:59:38.758Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b31015662b263b5fc6d1-072136bd6604ceef36da",
+          "file": "Part_09_Inputbox.spec.js",
+          "line": 2,
+          "column": 5
+        },
+        {
+          "title": "Input Box",
+          "ok": true,
+          "tags": [
+            "03To10"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 7,
+                  "status": "passed",
+                  "duration": 5414,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-01T03:59:56.085Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b31015662b263b5fc6d1-f5f604bbaf37de3b573a",
+          "file": "Part_09_Inputbox.spec.js",
+          "line": 2,
+          "column": 5
+        },
+        {
+          "title": "Input Box",
+          "ok": true,
+          "tags": [
+            "03To10"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "status": "passed",
+                  "duration": 4638,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-01T04:00:15.117Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b31015662b263b5fc6d1-6da3c8cfb2ca5a1c5262",
+          "file": "Part_09_Inputbox.spec.js",
+          "line": 2,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Part_09_RadioButtons.spec.js",
+      "file": "Part_09_RadioButtons.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Radio buttons",
+          "ok": true,
+          "tags": [
+            "03To10"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 3029,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-01T03:59:40.179Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1835603ea189617fb3a-517fca3c530711e7d158",
+          "file": "Part_09_RadioButtons.spec.js",
+          "line": 2,
+          "column": 5
+        },
+        {
+          "title": "Radio buttons",
+          "ok": true,
+          "tags": [
+            "03To10"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 6,
+                  "status": "passed",
+                  "duration": 2669,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-01T04:00:00.849Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1835603ea189617fb3a-91443e3b71b99b0d7608",
+          "file": "Part_09_RadioButtons.spec.js",
+          "line": 2,
+          "column": 5
+        },
+        {
+          "title": "Radio buttons",
+          "ok": true,
+          "tags": [
+            "03To10"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 9,
+                  "status": "passed",
+                  "duration": 2778,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-01T04:00:18.713Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "b1835603ea189617fb3a-acdac40a46a4ea4485d1",
+          "file": "Part_09_RadioButtons.spec.js",
+          "line": 2,
+          "column": 5
+        }
+      ]
+    },
+    {
+      "title": "Part_10_Checkboxes.spec.js",
+      "file": "Part_10_Checkboxes.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Check Boxes",
+          "ok": true,
+          "tags": [
+            "03To10"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 3,
+                  "status": "passed",
+                  "duration": 13748,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-01T03:59:40.884Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e6a95d9ce757b8aea722-73b4b4bd85ce27c22fd9",
+          "file": "Part_10_Checkboxes.spec.js",
+          "line": 2,
+          "column": 5
+        },
+        {
+          "title": "Check Boxes",
+          "ok": true,
+          "tags": [
+            "03To10"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Microsoft Edge",
+              "projectName": "Microsoft Edge",
+              "results": [
+                {
+                  "workerIndex": 4,
+                  "status": "passed",
+                  "duration": 13714,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-01T04:00:00.903Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e6a95d9ce757b8aea722-20d71eb312b87b3ca9ff",
+          "file": "Part_10_Checkboxes.spec.js",
+          "line": 2,
+          "column": 5
+        },
+        {
+          "title": "Check Boxes",
+          "ok": true,
+          "tags": [
+            "03To10"
+          ],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "Google Chrome",
+              "projectName": "Google Chrome",
+              "results": [
+                {
+                  "workerIndex": 10,
+                  "status": "passed",
+                  "duration": 13664,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-11-01T04:00:19.783Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "e6a95d9ce757b8aea722-cbd8b3664cebb16a561d",
+          "file": "Part_10_Checkboxes.spec.js",
           "line": 2,
           "column": 5
         }
@@ -1946,11 +1223,11 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-11-01T03:10:11.564Z",
-    "duration": 92847.45300000001,
-    "expected": 38,
-    "skipped": 6,
+    "startTime": "2024-11-01T03:59:27.395Z",
+    "duration": 66372.821,
+    "expected": 27,
+    "skipped": 0,
     "unexpected": 0,
-    "flaky": 1
+    "flaky": 0
   }
 }
