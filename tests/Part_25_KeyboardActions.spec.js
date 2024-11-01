@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test'
 
-test('Keyboard Actions',async({page})=>{
+test('Keyboard Actions',{tag:'@21To30'},async({page})=>{
 
     await page.goto('https://gotranscript.com/text-compare')
 

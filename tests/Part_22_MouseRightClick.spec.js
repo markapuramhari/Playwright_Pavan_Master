@@ -1,5 +1,5 @@
 import{test,expect} from '@playwright/test'
-test('Mouse Right Click',async({page})=>{
+test('Mouse Right Click',{tag:'@21To30'},async({page})=>{
 
 await page.goto('https://swisnl.github.io/jQuery-contextMenu/demo.html')
 

@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test'
 
-test('Auto Suggest DropDowns',{tag:'@reg'}, async({page})=>{
+test('Auto Suggest DropDowns',{tag:'@11To20'}, async({page})=>{
 
 
    

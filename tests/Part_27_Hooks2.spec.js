@@ -21,7 +21,7 @@ test.afterAll(async ({})=>{
 
 
 
-test('Homepage Test',async ()=>{
+test('Homepage Test',{tag:'@21To30'},async ()=>{
 //Homepage
 
     const welcometext= await page.getByText('Welcome')
@@ -34,7 +34,7 @@ test('Homepage Test',async ()=>{
 })
 
 
-test('AddToCart Test',async ()=>{ 
+test('AddToCart Test',{tag:'@21To30'},async ()=>{ 
     //Homepage
     
         const welcometext= await page.getByText('Welcome')

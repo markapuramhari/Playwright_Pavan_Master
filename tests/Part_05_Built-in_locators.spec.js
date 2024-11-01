@@ -36,7 +36,7 @@ getByRole(role: "alert" | "alertdialog" | "application" | "article" | "banner" |
 */
 
 import {test,expect} from '@playwright/test'
-test("built-in Locators",async ({page})=>{
+test("built-in Locators",{tag:'@01To10'},async ({page})=>{
 
     await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 

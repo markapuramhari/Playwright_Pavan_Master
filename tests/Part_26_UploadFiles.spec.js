@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test'
 
-test('Single Upload File',async({page})=>{
+test('Single Upload File',{tag:'@21To30'},async({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')
     await page.locator('#singleFileInput').setInputFiles('tests/uploadFiles/index.html')
@@ -21,7 +21,7 @@ test('Single Upload File',async({page})=>{
 
 
 
-test('Multiple Upload Files',async({page})=>{
+test('Multiple Upload Files',{tag:'@21To30'},async({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')
     await page.locator('#multipleFilesInput').setInputFiles(['tests/uploadFiles/index.html','tests/uploadFiles/index.html'])

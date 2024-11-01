@@ -1,5 +1,5 @@
 import {test,expect, chromium} from '@playwright/test'
-test('Handling pages/Windows 2 pages',async ({})=>{
+test('Handling pages/Windows 2 pages',{tag:'@31To38'},async ({})=>{
 
     const browser= await chromium.launch()
     const context= await browser.newContext()
@@ -19,7 +19,7 @@ test('Handling pages/Windows 2 pages',async ({})=>{
 
 })
 
-test('Handling Multiple pages/Windows 1 page',async ({})=>{
+test('Handling Multiple pages/Windows 1 page',{tag:'@31To38'},async ({})=>{
 
     const browser= await chromium.launch()
     const context= await browser.newContext()

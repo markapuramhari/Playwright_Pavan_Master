@@ -89,15 +89,15 @@ npm init playwright@latest
 npm playwright -v
 
 npx playwright test
-npx playwright test --headed
+npx playwright test --headed --project='Google Chrome' --grep=sanity --grep-invert=reg
 npx playwright test Test.spec.js --headed --project=chromium --ui
 npx playwright test a.spec.js --headed --project='Google Chrome' --project='Microsoft Edge' --project='chromium'
 npx playwright test Test.spec.js --headed --project=chromium --debug
 npx playwright show-report
 
 npx playwright show-trace test-results/Part_31_Tracing-Tracing-test-chromium/trace.zip
-npx playwright test Part_32_Tags.spec.js --headed --project=chromium --grep sanity
-npx playwright test Part_32_Tags.spec.js --headed --project=chromium --grep sanity --grep-invert reg
+npx playwright test Part_32_Tags.spec.js --headed --project=chromium 
+npx playwright test Part_32_Tags.spec.js --headed --project=chromium
 npx playwright test Part_38_ReTryTest.spec.js --headed --project=chromium --retries=2  
 
 npx playwright codegen
