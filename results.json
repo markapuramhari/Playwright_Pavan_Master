@@ -119,12 +119,12 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 10737,
+                  "duration": 10195,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:07:54.418Z",
+                  "startTime": "2024-11-01T01:37:47.123Z",
                   "attachments": []
                 }
               ],
@@ -151,12 +151,12 @@
                 {
                   "workerIndex": 8,
                   "status": "passed",
-                  "duration": 7178,
+                  "duration": 8500,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:36.318Z",
+                  "startTime": "2024-11-01T01:39:24.198Z",
                   "attachments": []
                 }
               ],
@@ -183,12 +183,12 @@
                 {
                   "workerIndex": 12,
                   "status": "passed",
-                  "duration": 9128,
+                  "duration": 7672,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:36.525Z",
+                  "startTime": "2024-11-01T01:41:04.465Z",
                   "attachments": []
                 }
               ],
@@ -225,7 +225,7 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 7345,
+                  "duration": 7786,
                   "errors": [],
                   "stdout": [
                     {
@@ -237,7 +237,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:07:54.443Z",
+                  "startTime": "2024-11-01T01:37:47.100Z",
                   "attachments": []
                 }
               ],
@@ -266,7 +266,7 @@
                 {
                   "workerIndex": 9,
                   "status": "passed",
-                  "duration": 4109,
+                  "duration": 3718,
                   "errors": [],
                   "stdout": [
                     {
@@ -278,7 +278,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:43.291Z",
+                  "startTime": "2024-11-01T01:39:26.709Z",
                   "attachments": []
                 }
               ],
@@ -307,7 +307,7 @@
                 {
                   "workerIndex": 13,
                   "status": "passed",
-                  "duration": 4209,
+                  "duration": 3878,
                   "errors": [],
                   "stdout": [
                     {
@@ -319,7 +319,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:40.528Z",
+                  "startTime": "2024-11-01T01:41:07.637Z",
                   "attachments": []
                 }
               ],
@@ -354,12 +354,12 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 9734,
+                  "duration": 10105,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:07:54.453Z",
+                  "startTime": "2024-11-01T01:37:47.048Z",
                   "attachments": []
                 }
               ],
@@ -386,12 +386,12 @@
                 {
                   "workerIndex": 10,
                   "status": "passed",
-                  "duration": 6962,
+                  "duration": 6390,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:44.168Z",
+                  "startTime": "2024-11-01T01:39:30.585Z",
                   "attachments": []
                 }
               ],
@@ -418,12 +418,12 @@
                 {
                   "workerIndex": 14,
                   "status": "passed",
-                  "duration": 6920,
+                  "duration": 6382,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:42.686Z",
+                  "startTime": "2024-11-01T01:41:10.507Z",
                   "attachments": []
                 }
               ],
@@ -458,7 +458,7 @@
                 {
                   "workerIndex": 3,
                   "status": "passed",
-                  "duration": 10008,
+                  "duration": 11781,
                   "errors": [],
                   "stdout": [
                     {
@@ -500,7 +500,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:07:54.420Z",
+                  "startTime": "2024-11-01T01:37:47.101Z",
                   "attachments": []
                 }
               ],
@@ -525,9 +525,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 9,
                   "status": "passed",
-                  "duration": 8164,
+                  "duration": 8090,
                   "errors": [],
                   "stdout": [
                     {
@@ -569,7 +569,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:44.355Z",
+                  "startTime": "2024-11-01T01:39:30.669Z",
                   "attachments": []
                 }
               ],
@@ -596,7 +596,7 @@
                 {
                   "workerIndex": 13,
                   "status": "passed",
-                  "duration": 7807,
+                  "duration": 8715,
                   "errors": [],
                   "stdout": [
                     {
@@ -638,7 +638,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:45.026Z",
+                  "startTime": "2024-11-01T01:41:11.705Z",
                   "attachments": []
                 }
               ],
@@ -673,12 +673,12 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 9276,
+                  "duration": 10652,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:02.774Z",
+                  "startTime": "2024-11-01T01:37:55.371Z",
                   "attachments": []
                 }
               ],
@@ -703,14 +703,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 8,
                   "status": "passed",
-                  "duration": 11056,
+                  "duration": 9270,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:47.604Z",
+                  "startTime": "2024-11-01T01:39:33.203Z",
                   "attachments": []
                 }
               ],
@@ -737,12 +737,12 @@
                 {
                   "workerIndex": 12,
                   "status": "passed",
-                  "duration": 10163,
+                  "duration": 14430,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:46.263Z",
+                  "startTime": "2024-11-01T01:41:12.495Z",
                   "attachments": []
                 }
               ],
@@ -775,14 +775,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 6455,
+                  "duration": 5663,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:05.069Z",
+                  "startTime": "2024-11-01T01:37:57.763Z",
                   "attachments": []
                 }
               ],
@@ -809,12 +809,12 @@
                 {
                   "workerIndex": 10,
                   "status": "passed",
-                  "duration": 6455,
+                  "duration": 5502,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:51.318Z",
+                  "startTime": "2024-11-01T01:39:37.143Z",
                   "attachments": []
                 }
               ],
@@ -841,12 +841,12 @@
                 {
                   "workerIndex": 14,
                   "status": "passed",
-                  "duration": 7653,
+                  "duration": 5236,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:49.799Z",
+                  "startTime": "2024-11-01T01:41:17.088Z",
                   "attachments": []
                 }
               ],
@@ -879,14 +879,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 2,
                   "status": "passed",
-                  "duration": 6060,
+                  "duration": 5487,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:05.342Z",
+                  "startTime": "2024-11-01T01:37:57.906Z",
                   "attachments": []
                 }
               ],
@@ -911,14 +911,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 9,
                   "status": "passed",
-                  "duration": 5634,
+                  "duration": 5309,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:52.543Z",
+                  "startTime": "2024-11-01T01:39:38.776Z",
                   "attachments": []
                 }
               ],
@@ -943,14 +943,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 13,
+                  "workerIndex": 15,
                   "status": "passed",
-                  "duration": 7112,
+                  "duration": 5462,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:52.862Z",
+                  "startTime": "2024-11-01T01:41:21.366Z",
                   "attachments": []
                 }
               ],
@@ -983,14 +983,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 5203,
+                  "duration": 3849,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:06.058Z",
+                  "startTime": "2024-11-01T01:37:59.351Z",
                   "attachments": []
                 }
               ],
@@ -1017,12 +1017,12 @@
                 {
                   "workerIndex": 11,
                   "status": "passed",
-                  "duration": 4544,
+                  "duration": 4294,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:57.943Z",
+                  "startTime": "2024-11-01T01:39:40.105Z",
                   "attachments": []
                 }
               ],
@@ -1047,14 +1047,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 15,
+                  "workerIndex": 13,
                   "status": "passed",
-                  "duration": 3890,
+                  "duration": 3773,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:57.592Z",
+                  "startTime": "2024-11-01T01:41:20.435Z",
                   "attachments": []
                 }
               ],
@@ -1087,14 +1087,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 3546,
+                  "duration": 1375,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:11.276Z",
+                  "startTime": "2024-11-01T01:38:03.217Z",
                   "attachments": []
                 }
               ],
@@ -1119,14 +1119,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 10,
+                  "workerIndex": 8,
                   "status": "passed",
-                  "duration": 2766,
+                  "duration": 1994,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:57.791Z",
+                  "startTime": "2024-11-01T01:39:42.494Z",
                   "attachments": []
                 }
               ],
@@ -1151,14 +1151,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 12,
+                  "workerIndex": 14,
                   "status": "passed",
-                  "duration": 2553,
+                  "duration": 3542,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:56.473Z",
+                  "startTime": "2024-11-01T01:41:22.337Z",
                   "attachments": []
                 }
               ],
@@ -1191,14 +1191,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 2,
                   "status": "passed",
-                  "duration": 14159,
+                  "duration": 12713,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:11.413Z",
+                  "startTime": "2024-11-01T01:38:03.411Z",
                   "attachments": []
                 }
               ],
@@ -1223,14 +1223,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 10,
                   "status": "passed",
-                  "duration": 14130,
+                  "duration": 12560,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:58.197Z",
+                  "startTime": "2024-11-01T01:39:42.658Z",
                   "attachments": []
                 }
               ],
@@ -1255,14 +1255,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 14,
+                  "workerIndex": 13,
                   "status": "passed",
-                  "duration": 13556,
+                  "duration": 13204,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:57.474Z",
+                  "startTime": "2024-11-01T01:41:24.221Z",
                   "attachments": []
                 }
               ],
@@ -1297,9 +1297,9 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 8707,
+                  "duration": 8720,
                   "errors": [],
                   "stdout": [
                     {
@@ -1323,7 +1323,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:11.538Z",
+                  "startTime": "2024-11-01T01:38:03.447Z",
                   "attachments": []
                 }
               ],
@@ -1352,7 +1352,7 @@
                 {
                   "workerIndex": 9,
                   "status": "passed",
-                  "duration": 10590,
+                  "duration": 7421,
                   "errors": [],
                   "stdout": [
                     {
@@ -1376,7 +1376,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:58.684Z",
+                  "startTime": "2024-11-01T01:39:44.097Z",
                   "attachments": []
                 }
               ],
@@ -1403,9 +1403,9 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 12,
+                  "workerIndex": 14,
                   "status": "passed",
-                  "duration": 7543,
+                  "duration": 8651,
                   "errors": [],
                   "stdout": [
                     {
@@ -1429,7 +1429,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:59.058Z",
+                  "startTime": "2024-11-01T01:41:25.891Z",
                   "attachments": []
                 }
               ],
@@ -1462,9 +1462,9 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 3,
                   "status": "passed",
-                  "duration": 7999,
+                  "duration": 6503,
                   "errors": [],
                   "stdout": [
                     {
@@ -1473,7 +1473,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:12.067Z",
+                  "startTime": "2024-11-01T01:38:04.604Z",
                   "attachments": []
                 }
               ],
@@ -1498,9 +1498,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 10,
+                  "workerIndex": 8,
                   "status": "passed",
-                  "duration": 6548,
+                  "duration": 6636,
                   "errors": [],
                   "stdout": [
                     {
@@ -1509,7 +1509,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:00.581Z",
+                  "startTime": "2024-11-01T01:39:44.505Z",
                   "attachments": []
                 }
               ],
@@ -1534,9 +1534,9 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 13,
+                  "workerIndex": 12,
                   "status": "passed",
-                  "duration": 6814,
+                  "duration": 6137,
                   "errors": [],
                   "stdout": [
                     {
@@ -1545,7 +1545,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:59.999Z",
+                  "startTime": "2024-11-01T01:41:26.945Z",
                   "attachments": []
                 }
               ],
@@ -1578,9 +1578,9 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 1,
                   "status": "passed",
-                  "duration": 4442,
+                  "duration": 5980,
                   "errors": [],
                   "stdout": [
                     {
@@ -1670,7 +1670,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:14.835Z",
+                  "startTime": "2024-11-01T01:38:06.044Z",
                   "attachments": []
                 }
               ],
@@ -1697,7 +1697,7 @@
                 {
                   "workerIndex": 11,
                   "status": "passed",
-                  "duration": 10095,
+                  "duration": 5170,
                   "errors": [],
                   "stdout": [
                     {
@@ -1787,7 +1787,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:02.659Z",
+                  "startTime": "2024-11-01T01:39:44.589Z",
                   "attachments": []
                 }
               ],
@@ -1814,7 +1814,7 @@
                 {
                   "workerIndex": 15,
                   "status": "passed",
-                  "duration": 4866,
+                  "duration": 5880,
                   "errors": [],
                   "stdout": [
                     {
@@ -1904,7 +1904,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:01.733Z",
+                  "startTime": "2024-11-01T01:41:27.010Z",
                   "attachments": []
                 }
               ],
@@ -1939,9 +1939,9 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 0,
+                  "workerIndex": 3,
                   "status": "failed",
-                  "duration": 340,
+                  "duration": 815,
                   "error": {
                     "message": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n",
                     "stack": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n\n    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_14_AutoSuggestDropDown.spec.js:7:16",
@@ -1965,7 +1965,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:19.292Z",
+                  "startTime": "2024-11-01T01:38:11.120Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -1992,7 +1992,7 @@
                 {
                   "workerIndex": 4,
                   "status": "failed",
-                  "duration": 446,
+                  "duration": 405,
                   "error": {
                     "message": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n",
                     "stack": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n\n    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_14_AutoSuggestDropDown.spec.js:7:16",
@@ -2016,7 +2016,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 1,
-                  "startTime": "2024-10-31T13:08:20.452Z",
+                  "startTime": "2024-11-01T01:38:12.658Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -2043,7 +2043,7 @@
                 {
                   "workerIndex": 5,
                   "status": "failed",
-                  "duration": 500,
+                  "duration": 503,
                   "error": {
                     "message": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n",
                     "stack": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n\n    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_14_AutoSuggestDropDown.spec.js:7:16",
@@ -2067,7 +2067,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 2,
-                  "startTime": "2024-10-31T13:08:21.714Z",
+                  "startTime": "2024-11-01T01:38:13.996Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -2094,7 +2094,7 @@
                 {
                   "workerIndex": 6,
                   "status": "failed",
-                  "duration": 475,
+                  "duration": 481,
                   "error": {
                     "message": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n",
                     "stack": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n\n    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_14_AutoSuggestDropDown.spec.js:7:16",
@@ -2118,7 +2118,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 3,
-                  "startTime": "2024-10-31T13:08:23.011Z",
+                  "startTime": "2024-11-01T01:38:15.397Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -2166,9 +2166,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 10,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 6301,
+                  "duration": 5540,
                   "errors": [],
                   "stdout": [
                     {
@@ -2180,7 +2180,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:07.163Z",
+                  "startTime": "2024-11-01T01:39:49.779Z",
                   "attachments": []
                 }
               ],
@@ -2209,7 +2209,7 @@
                 {
                   "workerIndex": 15,
                   "status": "failed",
-                  "duration": 563,
+                  "duration": 592,
                   "error": {
                     "message": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n",
                     "stack": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n\n    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_14_AutoSuggestDropDown.spec.js:7:16",
@@ -2233,7 +2233,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:06.622Z",
+                  "startTime": "2024-11-01T01:41:32.914Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -2260,7 +2260,7 @@
                 {
                   "workerIndex": 16,
                   "status": "failed",
-                  "duration": 695,
+                  "duration": 473,
                   "error": {
                     "message": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n",
                     "stack": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n\n    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_14_AutoSuggestDropDown.spec.js:7:16",
@@ -2284,7 +2284,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 1,
-                  "startTime": "2024-10-31T13:12:08.159Z",
+                  "startTime": "2024-11-01T01:41:34.510Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -2311,7 +2311,7 @@
                 {
                   "workerIndex": 17,
                   "status": "failed",
-                  "duration": 493,
+                  "duration": 450,
                   "error": {
                     "message": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n",
                     "stack": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n\n    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_14_AutoSuggestDropDown.spec.js:7:16",
@@ -2335,7 +2335,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 2,
-                  "startTime": "2024-10-31T13:12:09.889Z",
+                  "startTime": "2024-11-01T01:41:36.077Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -2362,7 +2362,7 @@
                 {
                   "workerIndex": 18,
                   "status": "failed",
-                  "duration": 533,
+                  "duration": 468,
                   "error": {
                     "message": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n",
                     "stack": "Error: page.goto: net::ERR_HTTP2_PROTOCOL_ERROR at https://www.redbus.in/\nCall log:\n  \u001b[2m- navigating to \"https://www.redbus.in/\", waiting until \"load\"\u001b[22m\n\n    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_14_AutoSuggestDropDown.spec.js:7:16",
@@ -2386,7 +2386,7 @@
                   "stdout": [],
                   "stderr": [],
                   "retry": 3,
-                  "startTime": "2024-10-31T13:12:11.606Z",
+                  "startTime": "2024-11-01T01:41:37.660Z",
                   "attachments": [
                     {
                       "name": "screenshot",
@@ -2442,7 +2442,7 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 14125,
+                  "duration": 14639,
                   "errors": [],
                   "stdout": [
                     {
@@ -2488,19 +2488,10 @@
                       "text": "jobTitles:  IT Manager\n"
                     },
                     {
-                      "text": "jobTitles:  Job Title 0\n"
-                    },
-                    {
-                      "text": "jobTitles:  Job Title 1\n"
-                    },
-                    {
-                      "text": "jobTitles:  Job Title 2\n"
-                    },
-                    {
-                      "text": "jobTitles:  Job Title 3\n"
-                    },
-                    {
                       "text": "jobTitles:  Network Administrator\n"
+                    },
+                    {
+                      "text": "jobTitles:  Nhân viên đa cấp\n"
                     },
                     {
                       "text": "jobTitles:  Payroll Administrator\n"
@@ -2535,7 +2526,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:20.080Z",
+                  "startTime": "2024-11-01T01:38:12.049Z",
                   "attachments": []
                 }
               ],
@@ -2560,9 +2551,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 8,
                   "status": "passed",
-                  "duration": 16407,
+                  "duration": 12913,
                   "errors": [],
                   "stdout": [
                     {
@@ -2608,19 +2599,10 @@
                       "text": "jobTitles:  IT Manager\n"
                     },
                     {
-                      "text": "jobTitles:  Job Title 0\n"
-                    },
-                    {
-                      "text": "jobTitles:  Job Title 1\n"
-                    },
-                    {
-                      "text": "jobTitles:  Job Title 2\n"
-                    },
-                    {
-                      "text": "jobTitles:  Job Title 3\n"
-                    },
-                    {
                       "text": "jobTitles:  Network Administrator\n"
+                    },
+                    {
+                      "text": "jobTitles:  Nhân viên đa cấp\n"
                     },
                     {
                       "text": "jobTitles:  Payroll Administrator\n"
@@ -2655,7 +2637,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:09.318Z",
+                  "startTime": "2024-11-01T01:39:51.155Z",
                   "attachments": []
                 }
               ],
@@ -2682,7 +2664,7 @@
                 {
                   "workerIndex": 12,
                   "status": "passed",
-                  "duration": 14574,
+                  "duration": 16697,
                   "errors": [],
                   "stdout": [
                     {
@@ -2728,19 +2710,10 @@
                       "text": "jobTitles:  IT Manager\n"
                     },
                     {
-                      "text": "jobTitles:  Job Title 0\n"
-                    },
-                    {
-                      "text": "jobTitles:  Job Title 1\n"
-                    },
-                    {
-                      "text": "jobTitles:  Job Title 2\n"
-                    },
-                    {
-                      "text": "jobTitles:  Job Title 3\n"
-                    },
-                    {
                       "text": "jobTitles:  Network Administrator\n"
+                    },
+                    {
+                      "text": "jobTitles:  Nhân viên đa cấp\n"
                     },
                     {
                       "text": "jobTitles:  Payroll Administrator\n"
@@ -2775,7 +2748,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:06.630Z",
+                  "startTime": "2024-11-01T01:41:33.108Z",
                   "attachments": []
                 }
               ],
@@ -2808,14 +2781,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 6985,
+                  "duration": 8260,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:20.260Z",
+                  "startTime": "2024-11-01T01:38:12.187Z",
                   "attachments": []
                 }
               ],
@@ -2840,14 +2813,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 10451,
+                  "duration": 8713,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:27.252Z",
+                  "startTime": "2024-11-01T01:38:20.456Z",
                   "attachments": []
                 }
               ],
@@ -2872,14 +2845,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 10381,
+                  "duration": 8882,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:37.711Z",
+                  "startTime": "2024-11-01T01:38:29.178Z",
                   "attachments": []
                 }
               ],
@@ -2904,14 +2877,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 9,
                   "status": "passed",
-                  "duration": 7352,
+                  "duration": 7167,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:12.353Z",
+                  "startTime": "2024-11-01T01:39:51.532Z",
                   "attachments": []
                 }
               ],
@@ -2936,14 +2909,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 9,
                   "status": "passed",
-                  "duration": 11253,
+                  "duration": 10238,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:19.719Z",
+                  "startTime": "2024-11-01T01:39:58.707Z",
                   "attachments": []
                 }
               ],
@@ -2968,14 +2941,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 9,
                   "status": "passed",
-                  "duration": 10494,
+                  "duration": 9764,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:30.987Z",
+                  "startTime": "2024-11-01T01:40:08.956Z",
                   "attachments": []
                 }
               ],
@@ -3000,14 +2973,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 13,
+                  "workerIndex": 14,
                   "status": "passed",
-                  "duration": 8276,
+                  "duration": 27791,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:06.838Z",
+                  "startTime": "2024-11-01T01:41:34.568Z",
                   "attachments": []
                 }
               ],
@@ -3032,14 +3005,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 13,
+                  "workerIndex": 14,
                   "status": "passed",
-                  "duration": 9882,
+                  "duration": 11048,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:15.126Z",
+                  "startTime": "2024-11-01T01:42:02.373Z",
                   "attachments": []
                 }
               ],
@@ -3064,14 +3037,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 13,
+                  "workerIndex": 14,
                   "status": "passed",
-                  "duration": 9933,
+                  "duration": 9781,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:25.022Z",
+                  "startTime": "2024-11-01T01:42:13.415Z",
                   "attachments": []
                 }
               ],
@@ -3104,9 +3077,9 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 7,
+                  "workerIndex": 2,
                   "status": "passed",
-                  "duration": 8126,
+                  "duration": 7374,
                   "errors": [],
                   "stdout": [
                     {
@@ -3115,7 +3088,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:24.391Z",
+                  "startTime": "2024-11-01T01:38:16.142Z",
                   "attachments": []
                 }
               ],
@@ -3140,9 +3113,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 11,
+                  "workerIndex": 10,
                   "status": "passed",
-                  "duration": 9321,
+                  "duration": 7686,
                   "errors": [],
                   "stdout": [
                     {
@@ -3151,7 +3124,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:12.790Z",
+                  "startTime": "2024-11-01T01:39:55.232Z",
                   "attachments": []
                 }
               ],
@@ -3176,9 +3149,9 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 14,
+                  "workerIndex": 13,
                   "status": "passed",
-                  "duration": 7344,
+                  "duration": 8664,
                   "errors": [],
                   "stdout": [
                     {
@@ -3187,7 +3160,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:11.054Z",
+                  "startTime": "2024-11-01T01:41:37.450Z",
                   "attachments": []
                 }
               ],
@@ -3220,14 +3193,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 7,
                   "status": "passed",
-                  "duration": 7494,
+                  "duration": 8529,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:25.589Z",
+                  "startTime": "2024-11-01T01:38:16.760Z",
                   "attachments": []
                 }
               ],
@@ -3252,14 +3225,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 10,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 9846,
+                  "duration": 7832,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:13.498Z",
+                  "startTime": "2024-11-01T01:39:55.333Z",
                   "attachments": []
                 }
               ],
@@ -3286,12 +3259,12 @@
                 {
                   "workerIndex": 19,
                   "status": "passed",
-                  "duration": 7239,
+                  "duration": 7851,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:13.213Z",
+                  "startTime": "2024-11-01T01:41:39.299Z",
                   "attachments": []
                 }
               ],
@@ -3324,9 +3297,9 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 7,
+                  "workerIndex": 2,
                   "status": "passed",
-                  "duration": 16906,
+                  "duration": 19063,
                   "errors": [],
                   "stdout": [
                     {
@@ -3566,7 +3539,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:32.701Z",
+                  "startTime": "2024-11-01T01:38:23.536Z",
                   "attachments": []
                 }
               ],
@@ -3591,9 +3564,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 11,
+                  "workerIndex": 10,
                   "status": "passed",
-                  "duration": 21220,
+                  "duration": 17260,
                   "errors": [],
                   "stdout": [
                     {
@@ -3833,7 +3806,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:22.170Z",
+                  "startTime": "2024-11-01T01:40:02.940Z",
                   "attachments": []
                 }
               ],
@@ -3858,9 +3831,9 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 14,
+                  "workerIndex": 13,
                   "status": "passed",
-                  "duration": 17971,
+                  "duration": 21107,
                   "errors": [],
                   "stdout": [
                     {
@@ -4100,7 +4073,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:18.419Z",
+                  "startTime": "2024-11-01T01:41:46.148Z",
                   "attachments": []
                 }
               ],
@@ -4133,14 +4106,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 7,
                   "status": "passed",
-                  "duration": 12449,
+                  "duration": 12021,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:33.103Z",
+                  "startTime": "2024-11-01T01:38:25.467Z",
                   "attachments": []
                 }
               ],
@@ -4165,14 +4138,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 10,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 15230,
+                  "duration": 12387,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:23.375Z",
+                  "startTime": "2024-11-01T01:40:03.185Z",
                   "attachments": []
                 }
               ],
@@ -4199,12 +4172,12 @@
                 {
                   "workerIndex": 19,
                   "status": "passed",
-                  "duration": 14029,
+                  "duration": 13183,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:20.655Z",
+                  "startTime": "2024-11-01T01:41:47.338Z",
                   "attachments": []
                 }
               ],
@@ -4239,12 +4212,12 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 7522,
+                  "duration": 7356,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:34.224Z",
+                  "startTime": "2024-11-01T01:38:26.712Z",
                   "attachments": []
                 }
               ],
@@ -4269,14 +4242,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 8,
                   "status": "passed",
-                  "duration": 7451,
+                  "duration": 7017,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:25.759Z",
+                  "startTime": "2024-11-01T01:40:04.086Z",
                   "attachments": []
                 }
               ],
@@ -4303,12 +4276,12 @@
                 {
                   "workerIndex": 12,
                   "status": "passed",
-                  "duration": 7147,
+                  "duration": 7936,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:21.223Z",
+                  "startTime": "2024-11-01T01:41:49.850Z",
                   "attachments": []
                 }
               ],
@@ -4343,12 +4316,12 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 4369,
+                  "duration": 4486,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:41.761Z",
+                  "startTime": "2024-11-01T01:38:34.083Z",
                   "attachments": []
                 }
               ],
@@ -4373,14 +4346,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 8,
                   "status": "passed",
-                  "duration": 4326,
+                  "duration": 4030,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:33.231Z",
+                  "startTime": "2024-11-01T01:40:11.120Z",
                   "attachments": []
                 }
               ],
@@ -4407,12 +4380,12 @@
                 {
                   "workerIndex": 12,
                   "status": "passed",
-                  "duration": 4182,
+                  "duration": 4576,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:28.395Z",
+                  "startTime": "2024-11-01T01:41:57.829Z",
                   "attachments": []
                 }
               ],
@@ -4445,14 +4418,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 7,
                   "status": "passed",
-                  "duration": 6328,
+                  "duration": 5414,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:45.565Z",
+                  "startTime": "2024-11-01T01:38:37.503Z",
                   "attachments": []
                 }
               ],
@@ -4477,14 +4450,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 8,
                   "status": "passed",
-                  "duration": 7634,
+                  "duration": 6729,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:37.581Z",
+                  "startTime": "2024-11-01T01:40:15.163Z",
                   "attachments": []
                 }
               ],
@@ -4509,14 +4482,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 12,
+                  "workerIndex": 19,
                   "status": "passed",
-                  "duration": 6950,
+                  "duration": 8164,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:32.605Z",
+                  "startTime": "2024-11-01T01:42:00.552Z",
                   "attachments": []
                 }
               ],
@@ -4549,14 +4522,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 9477,
+                  "duration": 9302,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:46.142Z",
+                  "startTime": "2024-11-01T01:38:38.079Z",
                   "attachments": []
                 }
               ],
@@ -4581,14 +4554,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 10,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 14065,
+                  "duration": 9889,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:38.636Z",
+                  "startTime": "2024-11-01T01:40:15.588Z",
                   "attachments": []
                 }
               ],
@@ -4613,14 +4586,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 19,
+                  "workerIndex": 12,
                   "status": "passed",
-                  "duration": 9892,
+                  "duration": 12247,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:34.702Z",
+                  "startTime": "2024-11-01T01:42:02.430Z",
                   "attachments": []
                 }
               ],
@@ -4653,14 +4626,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 1,
                   "status": "passed",
-                  "duration": 7951,
+                  "duration": 8594,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:48.111Z",
+                  "startTime": "2024-11-01T01:38:38.579Z",
                   "attachments": []
                 }
               ],
@@ -4685,14 +4658,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 9,
                   "status": "passed",
-                  "duration": 10726,
+                  "duration": 6892,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:41.511Z",
+                  "startTime": "2024-11-01T01:40:18.732Z",
                   "attachments": []
                 }
               ],
@@ -4719,12 +4692,12 @@
                 {
                   "workerIndex": 13,
                   "status": "passed",
-                  "duration": 7983,
+                  "duration": 8392,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:34.992Z",
+                  "startTime": "2024-11-01T01:42:07.286Z",
                   "attachments": []
                 }
               ],
@@ -4757,14 +4730,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 7,
+                  "workerIndex": 2,
                   "status": "passed",
-                  "duration": 13802,
+                  "duration": 12413,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:49.699Z",
+                  "startTime": "2024-11-01T01:38:42.616Z",
                   "attachments": []
                 }
               ],
@@ -4789,14 +4762,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 7,
+                  "workerIndex": 2,
                   "status": "passed",
-                  "duration": 13723,
+                  "duration": 12000,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:03.510Z",
+                  "startTime": "2024-11-01T01:38:55.033Z",
                   "attachments": []
                 }
               ],
@@ -4821,14 +4794,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 11,
+                  "workerIndex": 10,
                   "status": "passed",
-                  "duration": 14634,
+                  "duration": 12659,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:43.563Z",
+                  "startTime": "2024-11-01T01:40:20.225Z",
                   "attachments": []
                 }
               ],
@@ -4853,14 +4826,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 11,
+                  "workerIndex": 10,
                   "status": "passed",
-                  "duration": 15756,
+                  "duration": 13429,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:58.220Z",
+                  "startTime": "2024-11-01T01:40:32.884Z",
                   "attachments": []
                 }
               ],
@@ -4885,14 +4858,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 14,
+                  "workerIndex": 19,
                   "status": "passed",
-                  "duration": 14030,
+                  "duration": 13948,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:36.421Z",
+                  "startTime": "2024-11-01T01:42:08.743Z",
                   "attachments": []
                 }
               ],
@@ -4917,14 +4890,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 14,
+                  "workerIndex": 19,
                   "status": "passed",
-                  "duration": 13869,
+                  "duration": 13696,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:50.465Z",
+                  "startTime": "2024-11-01T01:42:22.706Z",
                   "attachments": []
                 }
               ],
@@ -4957,14 +4930,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 7,
                   "status": "passed",
-                  "duration": 9573,
+                  "duration": 9685,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:51.905Z",
+                  "startTime": "2024-11-01T01:38:42.931Z",
                   "attachments": []
                 }
               ],
@@ -4989,14 +4962,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 7,
                   "status": "passed",
-                  "duration": 13655,
+                  "duration": 11454,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:01.493Z",
+                  "startTime": "2024-11-01T01:38:52.625Z",
                   "attachments": []
                 }
               ],
@@ -5021,14 +4994,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 8,
                   "status": "passed",
-                  "duration": 13096,
+                  "duration": 10837,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:45.257Z",
+                  "startTime": "2024-11-01T01:40:21.931Z",
                   "attachments": []
                 }
               ],
@@ -5053,14 +5026,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 8,
                   "status": "passed",
-                  "duration": 14529,
+                  "duration": 13264,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:58.369Z",
+                  "startTime": "2024-11-01T01:40:32.770Z",
                   "attachments": []
                 }
               ],
@@ -5087,12 +5060,12 @@
                 {
                   "workerIndex": 12,
                   "status": "passed",
-                  "duration": 12244,
+                  "duration": 11196,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:39.591Z",
+                  "startTime": "2024-11-01T01:42:14.697Z",
                   "attachments": []
                 }
               ],
@@ -5119,12 +5092,12 @@
                 {
                   "workerIndex": 12,
                   "status": "passed",
-                  "duration": 13842,
+                  "duration": 12942,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:51.854Z",
+                  "startTime": "2024-11-01T01:42:25.912Z",
                   "attachments": []
                 }
               ],
@@ -5159,12 +5132,12 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 10045,
+                  "duration": 10184,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:55.636Z",
+                  "startTime": "2024-11-01T01:38:47.183Z",
                   "attachments": []
                 }
               ],
@@ -5191,12 +5164,12 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 13882,
+                  "duration": 13173,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:06.344Z",
+                  "startTime": "2024-11-01T01:38:57.568Z",
                   "attachments": []
                 }
               ],
@@ -5221,14 +5194,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 10442,
+                  "duration": 10335,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:52.332Z",
+                  "startTime": "2024-11-01T01:40:25.489Z",
                   "attachments": []
                 }
               ],
@@ -5253,14 +5226,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 13318,
+                  "duration": 12702,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:03.797Z",
+                  "startTime": "2024-11-01T01:40:36.170Z",
                   "attachments": []
                 }
               ],
@@ -5287,12 +5260,12 @@
                 {
                   "workerIndex": 13,
                   "status": "passed",
-                  "duration": 9851,
+                  "duration": 10490,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:43.005Z",
+                  "startTime": "2024-11-01T01:42:15.707Z",
                   "attachments": []
                 }
               ],
@@ -5319,12 +5292,12 @@
                 {
                   "workerIndex": 13,
                   "status": "passed",
-                  "duration": 13112,
+                  "duration": 12599,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:53.667Z",
+                  "startTime": "2024-11-01T01:42:27.368Z",
                   "attachments": []
                 }
               ],
@@ -5357,14 +5330,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 5188,
+                  "duration": 6057,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:08:56.075Z",
+                  "startTime": "2024-11-01T01:38:47.389Z",
                   "attachments": []
                 }
               ],
@@ -5389,14 +5362,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 7306,
+                  "duration": 6904,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:04.827Z",
+                  "startTime": "2024-11-01T01:38:57.250Z",
                   "attachments": []
                 }
               ],
@@ -5421,14 +5394,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 10,
+                  "workerIndex": 9,
                   "status": "passed",
-                  "duration": 5293,
+                  "duration": 6002,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:10:52.744Z",
+                  "startTime": "2024-11-01T01:40:25.636Z",
                   "attachments": []
                 }
               ],
@@ -5453,14 +5426,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 10,
+                  "workerIndex": 9,
                   "status": "passed",
-                  "duration": 7476,
+                  "duration": 6976,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:02.983Z",
+                  "startTime": "2024-11-01T01:40:34.869Z",
                   "attachments": []
                 }
               ],
@@ -5485,14 +5458,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 19,
+                  "workerIndex": 14,
                   "status": "passed",
-                  "duration": 5194,
+                  "duration": 5178,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:44.624Z",
+                  "startTime": "2024-11-01T01:42:23.236Z",
                   "attachments": []
                 }
               ],
@@ -5517,14 +5490,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 19,
+                  "workerIndex": 14,
                   "status": "passed",
-                  "duration": 7221,
+                  "duration": 7005,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:12:54.352Z",
+                  "startTime": "2024-11-01T01:42:33.578Z",
                   "attachments": []
                 }
               ],
@@ -5564,9 +5537,9 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 7,
                       "status": "passed",
-                      "duration": 484,
+                      "duration": 229,
                       "errors": [],
                       "stdout": [
                         {
@@ -5584,7 +5557,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-31T13:09:15.193Z",
+                      "startTime": "2024-11-01T01:39:04.100Z",
                       "attachments": []
                     }
                   ],
@@ -5609,9 +5582,9 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 7,
                       "status": "passed",
-                      "duration": 570,
+                      "duration": 242,
                       "errors": [],
                       "stdout": [
                         {
@@ -5626,7 +5599,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-31T13:09:15.715Z",
+                      "startTime": "2024-11-01T01:39:04.341Z",
                       "attachments": []
                     }
                   ],
@@ -5651,9 +5624,9 @@
                   "projectName": "Microsoft Edge",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 8,
                       "status": "passed",
-                      "duration": 436,
+                      "duration": 248,
                       "errors": [],
                       "stdout": [
                         {
@@ -5671,7 +5644,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-31T13:11:12.940Z",
+                      "startTime": "2024-11-01T01:40:46.058Z",
                       "attachments": []
                     }
                   ],
@@ -5696,9 +5669,9 @@
                   "projectName": "Microsoft Edge",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 8,
                       "status": "passed",
-                      "duration": 410,
+                      "duration": 259,
                       "errors": [],
                       "stdout": [
                         {
@@ -5713,7 +5686,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-31T13:11:13.412Z",
+                      "startTime": "2024-11-01T01:40:46.320Z",
                       "attachments": []
                     }
                   ],
@@ -5738,9 +5711,9 @@
                   "projectName": "Google Chrome",
                   "results": [
                     {
-                      "workerIndex": 14,
+                      "workerIndex": 19,
                       "status": "passed",
-                      "duration": 497,
+                      "duration": 430,
                       "errors": [],
                       "stdout": [
                         {
@@ -5758,7 +5731,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-31T13:13:04.374Z",
+                      "startTime": "2024-11-01T01:42:36.444Z",
                       "attachments": []
                     }
                   ],
@@ -5783,9 +5756,9 @@
                   "projectName": "Google Chrome",
                   "results": [
                     {
-                      "workerIndex": 14,
+                      "workerIndex": 19,
                       "status": "passed",
-                      "duration": 487,
+                      "duration": 524,
                       "errors": [],
                       "stdout": [
                         {
@@ -5800,7 +5773,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-31T13:13:04.907Z",
+                      "startTime": "2024-11-01T01:42:36.904Z",
                       "attachments": []
                     }
                   ],
@@ -5833,9 +5806,9 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 7,
                       "status": "passed",
-                      "duration": 474,
+                      "duration": 233,
                       "errors": [],
                       "stdout": [
                         {
@@ -5850,7 +5823,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-31T13:09:16.308Z",
+                      "startTime": "2024-11-01T01:39:04.591Z",
                       "attachments": []
                     }
                   ],
@@ -5875,9 +5848,9 @@
                   "projectName": "chromium",
                   "results": [
                     {
-                      "workerIndex": 3,
+                      "workerIndex": 7,
                       "status": "passed",
-                      "duration": 424,
+                      "duration": 226,
                       "errors": [],
                       "stdout": [
                         {
@@ -5895,7 +5868,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-31T13:09:16.803Z",
+                      "startTime": "2024-11-01T01:39:04.834Z",
                       "attachments": []
                     }
                   ],
@@ -5920,9 +5893,9 @@
                   "projectName": "Microsoft Edge",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 8,
                       "status": "passed",
-                      "duration": 417,
+                      "duration": 239,
                       "errors": [],
                       "stdout": [
                         {
@@ -5937,7 +5910,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-31T13:11:13.849Z",
+                      "startTime": "2024-11-01T01:40:46.589Z",
                       "attachments": []
                     }
                   ],
@@ -5962,9 +5935,9 @@
                   "projectName": "Microsoft Edge",
                   "results": [
                     {
-                      "workerIndex": 9,
+                      "workerIndex": 8,
                       "status": "passed",
-                      "duration": 420,
+                      "duration": 237,
                       "errors": [],
                       "stdout": [
                         {
@@ -5982,7 +5955,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-31T13:11:14.281Z",
+                      "startTime": "2024-11-01T01:40:46.836Z",
                       "attachments": []
                     }
                   ],
@@ -6007,9 +5980,9 @@
                   "projectName": "Google Chrome",
                   "results": [
                     {
-                      "workerIndex": 14,
+                      "workerIndex": 19,
                       "status": "passed",
-                      "duration": 417,
+                      "duration": 474,
                       "errors": [],
                       "stdout": [
                         {
@@ -6024,7 +5997,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-31T13:13:05.413Z",
+                      "startTime": "2024-11-01T01:42:37.448Z",
                       "attachments": []
                     }
                   ],
@@ -6049,9 +6022,9 @@
                   "projectName": "Google Chrome",
                   "results": [
                     {
-                      "workerIndex": 14,
+                      "workerIndex": 19,
                       "status": "passed",
-                      "duration": 391,
+                      "duration": 472,
                       "errors": [],
                       "stdout": [
                         {
@@ -6069,7 +6042,7 @@
                       ],
                       "stderr": [],
                       "retry": 0,
-                      "startTime": "2024-10-31T13:13:05.843Z",
+                      "startTime": "2024-11-01T01:42:37.937Z",
                       "attachments": []
                     }
                   ],
@@ -6106,12 +6079,12 @@
                 {
                   "workerIndex": 7,
                   "status": "passed",
-                  "duration": 2123,
+                  "duration": 1566,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:17.262Z",
+                  "startTime": "2024-11-01T01:39:05.080Z",
                   "attachments": []
                 }
               ],
@@ -6138,12 +6111,12 @@
                 {
                   "workerIndex": 7,
                   "status": "passed",
-                  "duration": 2570,
+                  "duration": 833,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:19.399Z",
+                  "startTime": "2024-11-01T01:39:06.654Z",
                   "attachments": []
                 }
               ],
@@ -6170,12 +6143,12 @@
                 {
                   "workerIndex": 7,
                   "status": "passed",
-                  "duration": 1834,
+                  "duration": 5810,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:21.983Z",
+                  "startTime": "2024-11-01T01:39:07.494Z",
                   "attachments": []
                 }
               ],
@@ -6200,14 +6173,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 11,
+                  "workerIndex": 10,
                   "status": "passed",
-                  "duration": 1980,
+                  "duration": 1789,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:14.016Z",
+                  "startTime": "2024-11-01T01:40:46.332Z",
                   "attachments": []
                 }
               ],
@@ -6232,14 +6205,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 11,
+                  "workerIndex": 10,
                   "status": "passed",
-                  "duration": 1864,
+                  "duration": 1253,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:16.011Z",
+                  "startTime": "2024-11-01T01:40:48.134Z",
                   "attachments": []
                 }
               ],
@@ -6264,14 +6237,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 11,
+                  "workerIndex": 10,
                   "status": "passed",
-                  "duration": 6547,
+                  "duration": 5722,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:17.886Z",
+                  "startTime": "2024-11-01T01:40:49.395Z",
                   "attachments": []
                 }
               ],
@@ -6296,14 +6269,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 12,
+                  "workerIndex": 19,
                   "status": "passed",
-                  "duration": 2308,
+                  "duration": 2170,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:05.738Z",
+                  "startTime": "2024-11-01T01:42:38.456Z",
                   "attachments": []
                 }
               ],
@@ -6328,14 +6301,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 12,
+                  "workerIndex": 19,
                   "status": "passed",
-                  "duration": 1692,
+                  "duration": 2065,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:08.066Z",
+                  "startTime": "2024-11-01T01:42:40.645Z",
                   "attachments": []
                 }
               ],
@@ -6360,14 +6333,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 12,
+                  "workerIndex": 19,
                   "status": "passed",
-                  "duration": 1796,
+                  "duration": 1769,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:09.773Z",
+                  "startTime": "2024-11-01T01:42:42.724Z",
                   "attachments": []
                 }
               ],
@@ -6400,14 +6373,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 2,
                   "status": "passed",
-                  "duration": 7384,
+                  "duration": 6781,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:17.274Z",
+                  "startTime": "2024-11-01T01:39:07.056Z",
                   "attachments": []
                 }
               ],
@@ -6432,14 +6405,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 8,
                   "status": "passed",
-                  "duration": 7339,
+                  "duration": 6595,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:14.742Z",
+                  "startTime": "2024-11-01T01:40:47.089Z",
                   "attachments": []
                 }
               ],
@@ -6464,14 +6437,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 14,
+                  "workerIndex": 12,
                   "status": "passed",
-                  "duration": 6990,
+                  "duration": 7337,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:06.270Z",
+                  "startTime": "2024-11-01T01:42:38.902Z",
                   "attachments": []
                 }
               ],
@@ -6504,14 +6477,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 2,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 8777,
+                  "duration": 7623,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:18.594Z",
+                  "startTime": "2024-11-01T01:39:09.781Z",
                   "attachments": []
                 }
               ],
@@ -6536,14 +6509,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 10,
+                  "workerIndex": 9,
                   "status": "passed",
-                  "duration": 8565,
+                  "duration": 7732,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:18.517Z",
+                  "startTime": "2024-11-01T01:40:47.930Z",
                   "attachments": []
                 }
               ],
@@ -6570,12 +6543,12 @@
                 {
                   "workerIndex": 13,
                   "status": "passed",
-                  "duration": 8091,
+                  "duration": 8265,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:08.373Z",
+                  "startTime": "2024-11-01T01:42:42.360Z",
                   "attachments": []
                 }
               ],
@@ -6612,7 +6585,7 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 455,
+                  "duration": 480,
                   "errors": [],
                   "stdout": [
                     {
@@ -6621,7 +6594,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:22.208Z",
+                  "startTime": "2024-11-01T01:39:11.045Z",
                   "attachments": []
                 }
               ],
@@ -6650,7 +6623,7 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 468,
+                  "duration": 284,
                   "errors": [],
                   "stdout": [
                     {
@@ -6659,7 +6632,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:23.121Z",
+                  "startTime": "2024-11-01T01:39:11.757Z",
                   "attachments": []
                 }
               ],
@@ -6688,7 +6661,7 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 556,
+                  "duration": 259,
                   "errors": [],
                   "stdout": [
                     {
@@ -6697,7 +6670,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:24.112Z",
+                  "startTime": "2024-11-01T01:39:12.190Z",
                   "attachments": []
                 }
               ],
@@ -6726,7 +6699,7 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 741,
+                  "duration": 343,
                   "errors": [],
                   "stdout": [
                     {
@@ -6735,7 +6708,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:25.120Z",
+                  "startTime": "2024-11-01T01:39:12.632Z",
                   "attachments": []
                 }
               ],
@@ -6765,7 +6738,7 @@
                 {
                   "workerIndex": 1,
                   "status": "passed",
-                  "duration": 588,
+                  "duration": 284,
                   "errors": [],
                   "stdout": [
                     {
@@ -6774,7 +6747,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:26.908Z",
+                  "startTime": "2024-11-01T01:39:13.186Z",
                   "attachments": []
                 }
               ],
@@ -6801,9 +6774,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 474,
+                  "duration": 315,
                   "errors": [],
                   "stdout": [
                     {
@@ -6812,7 +6785,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:18.926Z",
+                  "startTime": "2024-11-01T01:40:50.186Z",
                   "attachments": []
                 }
               ],
@@ -6839,9 +6812,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 587,
+                  "duration": 443,
                   "errors": [],
                   "stdout": [
                     {
@@ -6850,7 +6823,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:20.213Z",
+                  "startTime": "2024-11-01T01:40:50.799Z",
                   "attachments": []
                 }
               ],
@@ -6877,9 +6850,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 835,
+                  "duration": 253,
                   "errors": [],
                   "stdout": [
                     {
@@ -6888,7 +6861,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:21.840Z",
+                  "startTime": "2024-11-01T01:40:51.553Z",
                   "attachments": []
                 }
               ],
@@ -6915,9 +6888,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 404,
+                  "duration": 242,
                   "errors": [],
                   "stdout": [
                     {
@@ -6926,7 +6899,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:24.195Z",
+                  "startTime": "2024-11-01T01:40:52.047Z",
                   "attachments": []
                 }
               ],
@@ -6954,9 +6927,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 434,
+                  "duration": 226,
                   "errors": [],
                   "stdout": [
                     {
@@ -6965,7 +6938,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:25.320Z",
+                  "startTime": "2024-11-01T01:40:52.513Z",
                   "attachments": []
                 }
               ],
@@ -6994,7 +6967,7 @@
                 {
                   "workerIndex": 19,
                   "status": "passed",
-                  "duration": 591,
+                  "duration": 397,
                   "errors": [],
                   "stdout": [
                     {
@@ -7003,7 +6976,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:09.450Z",
+                  "startTime": "2024-11-01T01:42:44.517Z",
                   "attachments": []
                 }
               ],
@@ -7032,7 +7005,7 @@
                 {
                   "workerIndex": 19,
                   "status": "passed",
-                  "duration": 409,
+                  "duration": 356,
                   "errors": [],
                   "stdout": [
                     {
@@ -7041,7 +7014,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:10.678Z",
+                  "startTime": "2024-11-01T01:42:44.924Z",
                   "attachments": []
                 }
               ],
@@ -7070,7 +7043,7 @@
                 {
                   "workerIndex": 19,
                   "status": "passed",
-                  "duration": 434,
+                  "duration": 484,
                   "errors": [],
                   "stdout": [
                     {
@@ -7079,7 +7052,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:11.738Z",
+                  "startTime": "2024-11-01T01:42:45.295Z",
                   "attachments": []
                 }
               ],
@@ -7108,7 +7081,7 @@
                 {
                   "workerIndex": 19,
                   "status": "passed",
-                  "duration": 651,
+                  "duration": 446,
                   "errors": [],
                   "stdout": [
                     {
@@ -7117,7 +7090,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:12.891Z",
+                  "startTime": "2024-11-01T01:42:45.794Z",
                   "attachments": []
                 }
               ],
@@ -7147,7 +7120,7 @@
                 {
                   "workerIndex": 19,
                   "status": "passed",
-                  "duration": 375,
+                  "duration": 428,
                   "errors": [],
                   "stdout": [
                     {
@@ -7156,7 +7129,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:14.347Z",
+                  "startTime": "2024-11-01T01:42:46.256Z",
                   "attachments": []
                 }
               ],
@@ -7191,7 +7164,7 @@
                 {
                   "workerIndex": 7,
                   "status": "passed",
-                  "duration": 419,
+                  "duration": 287,
                   "errors": [],
                   "stdout": [
                     {
@@ -7200,7 +7173,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:23.850Z",
+                  "startTime": "2024-11-01T01:39:13.319Z",
                   "attachments": []
                 }
               ],
@@ -7227,7 +7200,7 @@
                 {
                   "workerIndex": 7,
                   "status": "passed",
-                  "duration": 502,
+                  "duration": 323,
                   "errors": [],
                   "stdout": [
                     {
@@ -7236,7 +7209,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:24.290Z",
+                  "startTime": "2024-11-01T01:39:13.614Z",
                   "attachments": []
                 }
               ],
@@ -7267,12 +7240,12 @@
                 {
                   "workerIndex": 7,
                   "status": "skipped",
-                  "duration": 440,
+                  "duration": 251,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:24.804Z",
+                  "startTime": "2024-11-01T01:39:13.943Z",
                   "attachments": []
                 }
               ],
@@ -7303,7 +7276,7 @@
                 {
                   "workerIndex": 7,
                   "status": "skipped",
-                  "duration": 645,
+                  "duration": 264,
                   "errors": [],
                   "stdout": [
                     {
@@ -7312,7 +7285,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:25.258Z",
+                  "startTime": "2024-11-01T01:39:14.201Z",
                   "attachments": []
                 }
               ],
@@ -7343,7 +7316,7 @@
                 {
                   "workerIndex": 7,
                   "status": "failed",
-                  "duration": 515,
+                  "duration": 207,
                   "error": {
                     "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m",
                     "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js:43:21",
@@ -7371,7 +7344,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:25.918Z",
+                  "startTime": "2024-11-01T01:39:14.471Z",
                   "attachments": [],
                   "errorLocation": {
                     "file": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js",
@@ -7403,7 +7376,7 @@
                 {
                   "workerIndex": 7,
                   "status": "passed",
-                  "duration": 671,
+                  "duration": 249,
                   "errors": [],
                   "stdout": [
                     {
@@ -7412,7 +7385,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:26.449Z",
+                  "startTime": "2024-11-01T01:39:14.683Z",
                   "attachments": []
                 }
               ],
@@ -7443,7 +7416,7 @@
                 {
                   "workerIndex": 7,
                   "status": "passed",
-                  "duration": 2009,
+                  "duration": 932,
                   "errors": [],
                   "stdout": [
                     {
@@ -7452,7 +7425,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:27.135Z",
+                  "startTime": "2024-11-01T01:39:14.940Z",
                   "attachments": []
                 }
               ],
@@ -7477,9 +7450,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 596,
+                  "duration": 208,
                   "errors": [],
                   "stdout": [
                     {
@@ -7488,7 +7461,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:22.120Z",
+                  "startTime": "2024-11-01T01:40:53.023Z",
                   "attachments": []
                 }
               ],
@@ -7513,9 +7486,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 482,
+                  "duration": 237,
                   "errors": [],
                   "stdout": [
                     {
@@ -7524,7 +7497,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:22.736Z",
+                  "startTime": "2024-11-01T01:40:53.526Z",
                   "attachments": []
                 }
               ],
@@ -7553,14 +7526,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 11,
                   "status": "skipped",
-                  "duration": 529,
+                  "duration": 250,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:23.238Z",
+                  "startTime": "2024-11-01T01:40:53.978Z",
                   "attachments": []
                 }
               ],
@@ -7589,9 +7562,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 11,
                   "status": "skipped",
-                  "duration": 556,
+                  "duration": 277,
                   "errors": [],
                   "stdout": [
                     {
@@ -7600,7 +7573,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:23.779Z",
+                  "startTime": "2024-11-01T01:40:54.515Z",
                   "attachments": []
                 }
               ],
@@ -7629,9 +7602,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 11,
                   "status": "failed",
-                  "duration": 441,
+                  "duration": 449,
                   "error": {
                     "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m",
                     "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js:43:21",
@@ -7659,7 +7632,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:24.347Z",
+                  "startTime": "2024-11-01T01:40:55.237Z",
                   "attachments": [],
                   "errorLocation": {
                     "file": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js",
@@ -7689,9 +7662,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 435,
+                  "duration": 295,
                   "errors": [],
                   "stdout": [
                     {
@@ -7700,7 +7673,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:24.801Z",
+                  "startTime": "2024-11-01T01:40:56.058Z",
                   "attachments": []
                 }
               ],
@@ -7729,9 +7702,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 1474,
+                  "duration": 799,
                   "errors": [],
                   "stdout": [
                     {
@@ -7740,7 +7713,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:25.256Z",
+                  "startTime": "2024-11-01T01:40:56.592Z",
                   "attachments": []
                 }
               ],
@@ -7767,7 +7740,7 @@
                 {
                   "workerIndex": 12,
                   "status": "passed",
-                  "duration": 397,
+                  "duration": 461,
                   "errors": [],
                   "stdout": [
                     {
@@ -7776,7 +7749,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:11.594Z",
+                  "startTime": "2024-11-01T01:42:46.282Z",
                   "attachments": []
                 }
               ],
@@ -7803,7 +7776,7 @@
                 {
                   "workerIndex": 12,
                   "status": "passed",
-                  "duration": 486,
+                  "duration": 442,
                   "errors": [],
                   "stdout": [
                     {
@@ -7812,7 +7785,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:12.004Z",
+                  "startTime": "2024-11-01T01:42:46.760Z",
                   "attachments": []
                 }
               ],
@@ -7843,12 +7816,12 @@
                 {
                   "workerIndex": 12,
                   "status": "skipped",
-                  "duration": 405,
+                  "duration": 395,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:12.504Z",
+                  "startTime": "2024-11-01T01:42:47.213Z",
                   "attachments": []
                 }
               ],
@@ -7879,7 +7852,7 @@
                 {
                   "workerIndex": 12,
                   "status": "skipped",
-                  "duration": 522,
+                  "duration": 435,
                   "errors": [],
                   "stdout": [
                     {
@@ -7888,7 +7861,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:12.923Z",
+                  "startTime": "2024-11-01T01:42:47.620Z",
                   "attachments": []
                 }
               ],
@@ -7919,7 +7892,7 @@
                 {
                   "workerIndex": 12,
                   "status": "failed",
-                  "duration": 493,
+                  "duration": 454,
                   "error": {
                     "message": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m",
                     "stack": "Error: \u001b[2mexpect(\u001b[22m\u001b[31mreceived\u001b[39m\u001b[2m).\u001b[22mtoBe\u001b[2m(\u001b[22m\u001b[32mexpected\u001b[39m\u001b[2m) // Object.is equality\u001b[22m\n\nExpected: \u001b[32m2\u001b[39m\nReceived: \u001b[31m1\u001b[39m\n    at C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js:43:21",
@@ -7947,7 +7920,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:13.459Z",
+                  "startTime": "2024-11-01T01:42:48.069Z",
                   "attachments": [],
                   "errorLocation": {
                     "file": "C:\\Users\\harib\\Desktop\\Playwright_Pavan_Master\\tests\\Part_33_Annotations.spec.js",
@@ -7979,7 +7952,7 @@
                 {
                   "workerIndex": 12,
                   "status": "passed",
-                  "duration": 457,
+                  "duration": 660,
                   "errors": [],
                   "stdout": [
                     {
@@ -7988,7 +7961,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:13.963Z",
+                  "startTime": "2024-11-01T01:42:48.535Z",
                   "attachments": []
                 }
               ],
@@ -8019,7 +7992,7 @@
                 {
                   "workerIndex": 12,
                   "status": "passed",
-                  "duration": 2273,
+                  "duration": 2157,
                   "errors": [],
                   "stdout": [
                     {
@@ -8028,7 +8001,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:14.437Z",
+                  "startTime": "2024-11-01T01:42:49.211Z",
                   "attachments": []
                 }
               ],
@@ -8061,9 +8034,9 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 3,
+                  "workerIndex": 1,
                   "status": "passed",
-                  "duration": 17422,
+                  "duration": 15756,
                   "errors": [],
                   "stdout": [
                     {
@@ -8072,7 +8045,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:24.689Z",
+                  "startTime": "2024-11-01T01:39:13.775Z",
                   "attachments": []
                 }
               ],
@@ -8097,9 +8070,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 11,
+                  "workerIndex": 8,
                   "status": "passed",
-                  "duration": 16982,
+                  "duration": 15906,
                   "errors": [],
                   "stdout": [
                     {
@@ -8108,7 +8081,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:24.470Z",
+                  "startTime": "2024-11-01T01:40:53.705Z",
                   "attachments": []
                 }
               ],
@@ -8133,9 +8106,9 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 14,
+                  "workerIndex": 19,
                   "status": "passed",
-                  "duration": 17109,
+                  "duration": 18024,
                   "errors": [],
                   "stdout": [
                     {
@@ -8144,7 +8117,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:13.295Z",
+                  "startTime": "2024-11-01T01:42:46.714Z",
                   "attachments": []
                 }
               ],
@@ -8179,7 +8152,7 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 12335,
+                  "duration": 11815,
                   "errors": [],
                   "stdout": [
                     {
@@ -8188,7 +8161,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:27.948Z",
+                  "startTime": "2024-11-01T01:39:13.851Z",
                   "attachments": []
                 }
               ],
@@ -8215,12 +8188,12 @@
                 {
                   "workerIndex": 2,
                   "status": "passed",
-                  "duration": 13283,
+                  "duration": 12696,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:41.621Z",
+                  "startTime": "2024-11-01T01:39:25.919Z",
                   "attachments": []
                 }
               ],
@@ -8245,9 +8218,9 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 10,
                   "status": "passed",
-                  "duration": 12282,
+                  "duration": 11183,
                   "errors": [],
                   "stdout": [
                     {
@@ -8256,7 +8229,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:26.750Z",
+                  "startTime": "2024-11-01T01:40:55.134Z",
                   "attachments": []
                 }
               ],
@@ -8281,14 +8254,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 9,
+                  "workerIndex": 10,
                   "status": "passed",
-                  "duration": 14902,
+                  "duration": 13406,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:39.719Z",
+                  "startTime": "2024-11-01T01:41:06.574Z",
                   "attachments": []
                 }
               ],
@@ -8313,9 +8286,9 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 19,
+                  "workerIndex": 14,
                   "status": "passed",
-                  "duration": 12686,
+                  "duration": 12879,
                   "errors": [],
                   "stdout": [
                     {
@@ -8324,7 +8297,7 @@
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:15.415Z",
+                  "startTime": "2024-11-01T01:42:48.272Z",
                   "attachments": []
                 }
               ],
@@ -8349,14 +8322,14 @@
               "projectName": "Google Chrome",
               "results": [
                 {
-                  "workerIndex": 19,
+                  "workerIndex": 14,
                   "status": "passed",
-                  "duration": 15059,
+                  "duration": 15948,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:29.004Z",
+                  "startTime": "2024-11-01T01:43:02.244Z",
                   "attachments": []
                 }
               ],
@@ -8389,14 +8362,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 7,
                   "status": "passed",
-                  "duration": 2369,
+                  "duration": 1585,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:28.212Z",
+                  "startTime": "2024-11-01T01:39:15.885Z",
                   "attachments": []
                 }
               ],
@@ -8421,14 +8394,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 7,
                   "status": "passed",
-                  "duration": 6467,
+                  "duration": 3482,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:31.165Z",
+                  "startTime": "2024-11-01T01:39:17.467Z",
                   "attachments": []
                 }
               ],
@@ -8453,14 +8426,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 1,
+                  "workerIndex": 7,
                   "status": "passed",
-                  "duration": 4313,
+                  "duration": 4810,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:38.183Z",
+                  "startTime": "2024-11-01T01:39:20.954Z",
                   "attachments": []
                 }
               ],
@@ -8485,14 +8458,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 9,
                   "status": "passed",
-                  "duration": 2096,
+                  "duration": 1609,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:27.187Z",
+                  "startTime": "2024-11-01T01:40:56.121Z",
                   "attachments": []
                 }
               ],
@@ -8517,14 +8490,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 9,
                   "status": "passed",
-                  "duration": 3607,
+                  "duration": 4896,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:30.136Z",
+                  "startTime": "2024-11-01T01:40:57.958Z",
                   "attachments": []
                 }
               ],
@@ -8549,14 +8522,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 8,
+                  "workerIndex": 9,
                   "status": "passed",
-                  "duration": 4167,
+                  "duration": 3150,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:34.563Z",
+                  "startTime": "2024-11-01T01:41:03.182Z",
                   "attachments": []
                 }
               ],
@@ -8583,12 +8556,12 @@
                 {
                   "workerIndex": 12,
                   "status": "passed",
-                  "duration": 2194,
+                  "duration": 2336,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:16.734Z",
+                  "startTime": "2024-11-01T01:42:51.392Z",
                   "attachments": []
                 }
               ],
@@ -8615,12 +8588,12 @@
                 {
                   "workerIndex": 12,
                   "status": "passed",
-                  "duration": 3683,
+                  "duration": 4130,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:18.941Z",
+                  "startTime": "2024-11-01T01:42:53.745Z",
                   "attachments": []
                 }
               ],
@@ -8647,12 +8620,12 @@
                 {
                   "workerIndex": 12,
                   "status": "passed",
-                  "duration": 3958,
+                  "duration": 4235,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:22.634Z",
+                  "startTime": "2024-11-01T01:42:57.889Z",
                   "attachments": []
                 }
               ],
@@ -8685,14 +8658,14 @@
               "projectName": "chromium",
               "results": [
                 {
-                  "workerIndex": 7,
+                  "workerIndex": 0,
                   "status": "passed",
-                  "duration": 5863,
+                  "duration": 5460,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:09:29.167Z",
+                  "startTime": "2024-11-01T01:39:17.686Z",
                   "attachments": []
                 }
               ],
@@ -8717,14 +8690,14 @@
               "projectName": "Microsoft Edge",
               "results": [
                 {
-                  "workerIndex": 10,
+                  "workerIndex": 11,
                   "status": "passed",
-                  "duration": 6194,
+                  "duration": 5401,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:11:28.033Z",
+                  "startTime": "2024-11-01T01:40:57.641Z",
                   "attachments": []
                 }
               ],
@@ -8751,12 +8724,12 @@
                 {
                   "workerIndex": 13,
                   "status": "passed",
-                  "duration": 5780,
+                  "duration": 6382,
                   "errors": [],
                   "stdout": [],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-10-31T13:13:17.376Z",
+                  "startTime": "2024-11-01T01:42:51.551Z",
                   "attachments": []
                 }
               ],
@@ -8773,8 +8746,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-10-31T13:07:53.174Z",
-    "duration": 352732.371,
+    "startTime": "2024-11-01T01:37:46.249Z",
+    "duration": 333982.168,
     "expected": 181,
     "skipped": 6,
     "unexpected": 2,
