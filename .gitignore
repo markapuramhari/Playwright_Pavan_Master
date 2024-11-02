@@ -6,5 +6,5 @@ node_modules/
 /allure-results/
 /allure-report/
 tests/screenshorts/
-/results.json/
-/results.xml/
+results.json
+results.xml
