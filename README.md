@@ -1,3 +1,10 @@
+CMD:
+----
+
+npx playwright test --grep=03To10 --grep-invert=11To20 --headed --project='Google Chrome' --project='Microsoft Edge' --workers=4 --reporter=html --retries=1 --last-failed --fail-on-flaky-tests --timeout=40000 --trace=retain-on-failure
+
+
+
 Playwright with Javascript tutorial (Pavan SDET-QA):
 ----------------------------------------------------
 
@@ -88,6 +95,8 @@ CLI Terminal commands:
 npm init playwright@latest
 npm playwright -v
 
+npx playwright test --grep=03To10 --headed --project='Google Chrome' --workers=4 --reporter=html --last-failed --retries=1
+npx playwright test --grep=03To10 --headed --project='Google Chrome' --workers=1
 npx playwright test
 npx playwright test --headed --project='Google Chrome' --grep=sanity --grep-invert=reg
 npx playwright test Test.spec.js --headed --project=chromium --ui
