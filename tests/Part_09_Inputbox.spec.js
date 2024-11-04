@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test'
-test("Input Box",{tag:'@03To10'},async ({page})=>{
+test("Input Box",{tag:['@03To10','@07To10']},async ({page})=>{
 
     await page.goto('https://demo.nopcommerce.com/register')
 

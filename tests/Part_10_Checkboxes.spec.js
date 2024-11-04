@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test'
-test('Check Boxes',{tag:'@03To10'}, async({page})=>{
+test('Check Boxes',{tag:['@03To10','@07To10']}, async({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')
 

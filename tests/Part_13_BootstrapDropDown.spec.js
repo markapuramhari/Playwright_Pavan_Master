@@ -1,6 +1,6 @@
 import {test,expect} from "@playwright/test"
 
-test('Bootstrap DropDown',{tag:'@11To20'},async ({page})=>{
+test('Bootstrap DropDown',{tag:['@11To20','@11To15']},async ({page})=>{
 
 
     await page.goto('https://www.jquery-az.com/boots/demo.php?ex=63.0_2')

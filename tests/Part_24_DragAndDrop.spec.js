@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test'
-test('Drag and Drop',{tag:'@21To30'},async({page})=>{
+test('Drag and Drop',{tag:['@21To30','@21To25']},async({page})=>{
 
 
     await page.goto('http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html')

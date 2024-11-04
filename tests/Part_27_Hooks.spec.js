@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test'
-test('Homepage Test',{tag:'@21To30'},async({page})=>{
+test('Homepage Test',{tag:['@21To30','@26To30']},async({page})=>{
 
 //Login
     await page.goto('https://www.demoblaze.com/index.html')
@@ -28,7 +28,7 @@ test('Homepage Test',{tag:'@21To30'},async({page})=>{
 })
 
 
-test('AddToCart Test',{tag:'@21To30'},async({page})=>{
+test('AddToCart Test',{tag:['@21To30','@26To30']},async({page})=>{
 
     //Login
         await page.goto('https://www.demoblaze.com/index.html')

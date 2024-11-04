@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test'
-test('Mouse hover',{tag:'@21To30'}, async({page})=>{
+test('Mouse hover',{tag:['@21To30','@21To25']}, async({page})=>{
 
     await page.goto('https://demo.opencart.com/')
 

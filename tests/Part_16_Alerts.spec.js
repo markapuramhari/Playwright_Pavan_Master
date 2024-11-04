@@ -4,7 +4,7 @@ import {test,expect} from '@playwright/test'
 // prompt
 
 
-test('Alert with OK',{tag:'@11To20'},async ({page})=>{
+test('Alert with OK',{tag:['@11To20','@16To20']},async ({page})=>{
 
 await page.goto('https://testautomationpractice.blogspot.com/')
 
@@ -23,7 +23,7 @@ await page.close()
 
 })
 
-test('Confirmation Dialog with OK & Cancel',{tag:'@11To20'},async ({page})=>{
+test('Confirmation Dialog with OK & Cancel',{tag:['@11To20','@16To20']},async ({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')
     
@@ -44,7 +44,7 @@ test('Confirmation Dialog with OK & Cancel',{tag:'@11To20'},async ({page})=>{
     
     })
 
-test('Prompt Dialog with Text',{tag:'@11To20'},async ({page})=>{
+test('Prompt Dialog with Text',{tag:['@11To20','@16To20']},async ({page})=>{
 
         await page.goto('https://testautomationpractice.blogspot.com/')
         

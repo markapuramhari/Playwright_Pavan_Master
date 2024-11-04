@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test'
-test('Google Search Test',{tag:'@11To20'},async({page})=>{
+test('Google Search Test',{tag:['@11To20','@11To15']},async({page})=>{
 
 
 	await page.goto('https://www.google.com/')

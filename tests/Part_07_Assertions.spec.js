@@ -16,7 +16,7 @@
 
 
 import {test,expect} from '@playwright/test'
-test('All Assertions Test',{tag:'@03To10'},async ({page})=>{
+test('All Assertions Test',{tag:['@03To10','@07To10']},async ({page})=>{
 
     await page.goto('https://demo.nopcommerce.com/register')
 

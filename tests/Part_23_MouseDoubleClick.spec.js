@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test'
-test('Double Click',{tag:'@21To30'},async({page})=>{
+test('Double Click',{tag:['@21To30','@21To25']},async({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/#')
 

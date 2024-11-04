@@ -22,7 +22,7 @@ test.afterEach(async ({})=>{
 
 
 
-test('Homepage Test',{tag:'@21To30'},async ()=>{
+test('Homepage Test',{tag:['@21To30','@26To30']},async ()=>{
 //Homepage
 
     const welcometext= await page.getByText('Welcome')
@@ -34,7 +34,7 @@ test('Homepage Test',{tag:'@21To30'},async ()=>{
 })
 
 
-test('AddToCart Test',{tag:'@21To30'},async ()=>{ 
+test('AddToCart Test',{tag:['@21To30','@26To30']},async ()=>{ 
     //Homepage
     
         const welcometext= await page.getByText('Welcome')

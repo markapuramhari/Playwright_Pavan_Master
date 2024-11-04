@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test'
 
-test('Multi Select DropDown',{tag:'@11To20'},async ({page})=>{
+test('Multi Select DropDown',{tag:['@11To20','@11To15']},async ({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')
 

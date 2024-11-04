@@ -1,6 +1,6 @@
 //const {test,expect} =require('@playwright/test')
 import {test,expect} from '@playwright/test'
-test('Loginpage Test',{tag:'@03To10'},async ({page})=>{
+test('Loginpage Test',{tag:['@03To10','@03To05']},async ({page})=>{
 
     await page.goto('https://www.demoblaze.com/index.html')
 
