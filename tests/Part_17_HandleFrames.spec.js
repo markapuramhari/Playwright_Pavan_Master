@@ -11,7 +11,7 @@ test('Frames',{tag:['@11To20','@16To20']},async ({page})=>{
     const allframes= await page.frames()
     console.log('allframes:',allframes.length)
 
-
+    
 //Approach 1: using name or URL
 
 

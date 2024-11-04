@@ -28,8 +28,8 @@ test('Handling Multiple pages/Windows 1 page',{tag:'@31To38'},async ({})=>{
     await page1.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
     await expect(page1).toHaveTitle('OrangeHRM')
 
-    const pagePromise= context.waitForEvent('page')
     await page1.click("//a[normalize-space()='OrangeHRM, Inc']")
+    const pagePromise= context.waitForEvent('page')
     const page2=await pagePromise
     await expect(page2).toHaveTitle('Human Resources Management Software | OrangeHRM')
 

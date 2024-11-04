@@ -155,5 +155,519 @@ reporter: [['allure-playwright',{outputFolder: 'my-allure-results'}]],   //confi
 
 
 
+==============================================================================================
 
+
+03To05 ==ALL TC's COMPLETED
+----------------------------
+
+import {test,expect} from '@playwright/test'
+test('Homepage Test',async({page})=>{ //5
+
+	await page.goto('https://www.demoblaze.com/index.html')
+	
+	const pageURL= await page.url()
+	console.log('pageURL: ',pageURL)
+	await expect(await page).toHaveURL('https://www.demoblaze.com/index.html')
+	
+	const pageTitle= await page.title()
+	console.log('pageTitle: ',pageTitle)
+	await expect(await page).toHaveTitle('STORE')
+	
+	await expect(await page.getByRole('link',{name:'Log in'})).toBeVisible()
+	await expect(await page.getByRole('link',{name:'Sign up'})).toBeVisible()
+	
+	await page.waitForTimeout(3000)
+	await page.close()
+})
+
+----------------------------------------------------------------------------------------
+
+import {test,expect} from '@playwright/test'
+test('Loginpage Test',async({page})=>{ //5
+
+	await page.goto('https://www.demoblaze.com/index.html')
+	
+	await page.getByRole('link',{name:'Log in'}).click()
+	await page.fill('#loginusername','markapuram')
+	await page.fill('#loginpassword','markapuram')
+	await page.getByRole('button',{name:'Log in'}).click()
+	await page.getByRole('link',{name:'Log out'}).click()
+	await expect(await page.getByRole('link',{name:'Log in'})).toBeVisible()
+	
+	await page.waitForTimeout(3000)
+	await page.close()
+
+})
+
+
+--------------------------------------------------------------------------------------------
+
+import {test,expect} from '@playwright/test'
+test('Links and Products Test',async({page})=>{  //5
+
+	await page.goto('https://www.demoblaze.com/index.html')
+
+//Links	
+
+	await page.waitForSelector('a')
+	const links=await page.$$('a')
+	
+	let status=false
+	for(const link of links){
+		const textLink= await link.textContent()
+		console.log('textLink: ',textLink)
+		if(textLink.includes('Log in')){
+			status=true
+			break
+		}
+	}
+	await expect(await status).toBeTruthy()
+	
+//Products
+
+	await page.waitForSelector("//div[@id='tbodyid']//div/h4/a")
+	const products= await page.$$("//div[@id='tbodyid']//div/h4/a")
+
+	
+	for(const product of products){
+	
+		const textProduct=await product.textContent()
+		console.log('textProduct: ',textProduct)
+		if(textProduct.includes('Samsung galaxy s7')){
+
+			await product.click()
+			break
+		}
+	}
+	
+	await expect(await page.getByRole('heading',{name:'Samsung galaxy s7'})).toBeVisible()
+	
+	await page.waitForTimeout(3000)
+	await page.close()
+	
+})
+
+---------------------------------------------------------------------------------------------------
+import {test,expect} from '@playwright/test'
+test('Built-in Locators',async({page})=>{ //5
+
+	await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+	
+	await expect(await page.getByAltText('company-branding')).toBeVisible()
+	
+	await page.getByPlaceholder('Username').fill('Admin')
+	await page.getByPlaceholder('Password').fill('admin123')
+	await page.getByRole('button',{name:'Login'}).click()
+	
+	await expect(await page.getByRole('heading',{name:'Dashboard'})).toBeVisible()
+	await expect(await page.getByText('Time at Work')).toBeVisible()
+	
+	await page.click("//p[@class='oxd-userdropdown-name']")
+	await page.getByText('Logout').click()
+	
+	await expect(await page.getByAltText('company-branding')).toBeVisible()
+	
+	await page.waitForTimeout(3000)
+	await page.close()
+
+})
+
+================================================================================================
+
+07To10 ==> ALL TC's COMPLETED
+------------------------------
+/*
+
+1. URL ==> 
+2. Title ==>
+3. Visible ==> 
+4. Enabled ==> 
+5. Checked ==> 
+6. Attribute ==> 
+7. Text ==> 
+8. ContainText ==> 
+9. Value ==> 
+10. Count ==>
+
+*/
+
+import {test,expect} from '@playwright/test'
+test('Hard Assertions Test',async({page})=>{ //5
+
+
+	await page.goto('https://demo.nopcommerce.com/register')
+	
+//URL
+
+	await expect(await page).toHaveURL('https://demo.nopcommerce.com/register')
+	
+//Title
+	
+	await expect(await page).toHaveTitle('nopCommerce demo store. Register')
+	
+//Visible
+
+	await expect(await page.getByAltText('nopCommerce demo store')).toBeVisible()
+	
+//Enabled
+
+	const search=await page.getByRole('button',{name:'SEARCH'})
+	await expect(search).toBeEnabled()
+	
+//Checked
+
+	await expect(await page.locator('#Newsletter')).toBeChecked()
+	
+//Attribute
+
+	await expect(search).toHaveAttribute('type','submit')
+	
+//Text
+
+	await expect(await page.getByText('Company Details')).toHaveText('Company Details')
+	
+//ContainText
+
+	await expect(await page.getByText('Company Details')).toContainText('Details')
+	
+//Value
+
+	const text= await page.getByPlaceholder('Search store')
+	text.fill('HARI')
+	await expect(await text).toHaveValue('HARI')
+	
+//Count
+
+	await page.waitForSelector('a')
+	const count=await page.$$('a')
+	await expect(await count.length).toBe(61)
+	
+	
+	await page.waitForTimeout(3000)
+	await page.close()
+})
+
+------------------------------------------------------------------------------------------
+
+import {test,expect} from '@playwright/test'
+test('Check boxes Test',async({page})=>{ //5
+
+	await page.goto('https://testautomationpractice.blogspot.com/')
+	
+	const checkboxes=["//input[@id='monday']","//input[@id='wednesday']","//input[@id='friday']"]
+	
+	
+	for(const box of checkboxes){
+	
+		await page.locator(box).check()
+	
+	}
+	
+	await page.waitForTimeout(3000)
+	for(const box of checkboxes){
+	
+		await page.locator(box).uncheck()
+	
+	}
+	
+	await page.waitForTimeout(3000)
+	await page.close()
+
+})
+
+===============================================================================================
+
+11To15 ==> ALL TC's COMPLETED
+------------------------------
+
+import {test,expect} from '@playwright/test'
+test('DropDown Test',async({page})=>{  //5
+
+	await page.goto('https://testautomationpractice.blogspot.com/')
+	
+	await page.selectOption('#country',{label:'Japan'})
+	await page.selectOption('#country',{value:'usa'})
+	await page.selectOption('#country','India')
+	await page.selectOption('#country',{index:8})
+	
+//Count
+
+	const options=await page.$$("//select[@id='country']/option")
+	await expect(await options.length).toBe(10)
+
+    
+//present or not
+
+	let status=false
+	for(const option of options){
+	
+		const textOptions=await option.textContent()
+		console.log('textOptions: ',textOptions)
+		if(textOptions.includes('Japan')){
+		
+			status=true
+			break
+		}
+	
+	}
+	await expect(await status).toBeTruthy()
+
+	
+	
+	await page.waitForTimeout(3000)
+	await page.close()
+
+})
+
+------------------------------------------------------------------------------------------------
+import {test,expect} from '@playwright/test'
+test('Multi Select Dropdown Test',async({page})=>{
+
+	await page.goto('https://testautomationpractice.blogspot.com/')
+	
+	
+	await page.selectOption('#animals',['Cat','Deer','Dog','Zebra'])
+	
+	
+//Count
+
+	const options= await page.$$("//select[@id='animals']/option")
+	await expect(await options.length).toBe(10)
+	
+//present or not
+
+	let status=false
+	for(const option of options){
+	
+		const textOptions=await option.textContent()
+		console.log('textOptions: ',textOptions)
+		if(textOptions.includes('Dog')){
+		
+			status=true
+			//break
+		}
+	}
+	await expect(await status).toBeTruthy()
+	
+	await page.waitForTimeout(3000)
+	await page.close()
+	
+
+
+})
+
+-------------------------------------------------------------------------------------------
+
+import {test,expect} from '@playwright/test'
+test('Bootstarp DropDown Test',async({page})=>{
+
+	await page.goto('https://www.jquery-az.com/boots/demo.php?ex=63.0_2')
+	
+	await page.click('.multiselect')
+	
+//Count
+
+	const count= await page.$$("//ul[@class='multiselect-container dropdown-menu']/li//input")
+	await expect(count.length).toBe(11)
+	
+//Present or not    
+	const options= await page.$$("//ul[@class='multiselect-container dropdown-menu']/li//label")
+	
+	
+	for(const option of options){
+	
+		const textOption= await option.textContent()
+		console.log('textOption: ',textOption)
+		if(textOption.includes('Java')|| (textOption.includes('Angular'))) {
+			await option.click()
+		}
+	}
+	
+	await page.waitForTimeout(3000)
+	
+	for(const option of options){
+	
+		const textOption= await option.textContent()
+		console.log('textOption: ',textOption)
+		if(textOption.includes('HTML')|| (textOption.includes('CSS'))) {
+			await option.click()
+		}
+	}
+	
+	await page.waitForTimeout(3000)
+	await page.close()
+	
+
+})
+
+----------------------------------------------------------------------------------------------------
+import {test,expect} from '@playwright/test'
+test('Google Search Test',async({page})=>{
+
+	await page.goto('https://www.google.com/')
+	
+	await page.fill('#APjFqb','Playwright')
+	
+	await page.waitForSelector("//div[@class='wM6W7d']/span")
+	const options= await page.$$("//div[@class='wM6W7d']/span")
+	
+	
+	for(const option of options){
+	
+		const textOption=await option.textContent()
+		console.log('textOption: ',textOption)
+		if(textOption.includes('playwright vs selenium')){
+		
+			await option.click()
+            break
+		
+		}
+	}
+	
+	await page.waitForTimeout(3000)
+    await page.close()
+	
+
+})
+
+------------------------------------------------------------------------------------------------
+import {test,expect} from '@playwright/test'
+test('Hidden DropDown Test',async({page})=>{
+
+	await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+	
+	await page.getByPlaceholder('Username').fill('Admin')
+	await page.getByPlaceholder('Password').fill('admin123')
+	await page.getByRole('button',{name:'Login'}).click()
+	await page.locator("//span[normalize-space()='PIM']").click()
+	await page.click("(//div[@class='oxd-select-text-input'])[3]")
+	
+	await page.waitForSelector("//div[@role='listbox']//span")
+	const options=await page.$$("//div[@role='listbox']//span")
+	
+	for(const option of options){
+		
+		const textOption=await option.textContent()
+		console.log('textOption: ',textOption)
+		if(textOption.includes('HR Manager')){
+		
+			await option.click()
+			break
+		}
+	}
+	
+	await page.waitForTimeout(3000)
+	await page.close()
+
+})
+
+==================================================================================================
+
+16To20
+------
+
+import {test,expect} from '@playwright/test'
+test('alert ,confirm ,prompt Test',async({page})=>{
+
+	await page.goto('https://testautomationpractice.blogspot.com/')
+	
+	
+	// page.on('dialog',async dialog=>{
+	// 	expect(dialog.type()).toContain('alert')
+	// 	expect(dialog.message()).toContain('I am an alert box!')
+	// 	await dialog.accept()
+	// })
+	// await page.click('#alertBtn')
+	
+	
+
+	page.on('dialog',async dialog=>{
+		expect(dialog.type()).toContain('confirm')
+		expect(dialog.message()).toContain('Press a button!')
+		//await dialog.accept()
+		await dialog.dismiss()
+	})
+	await page.click('#confirmBtn')
+    await expect(await page.locator('#demo')).toHaveText('You pressed Cancel!')
+	
+	
+
+
+
+
+	// page.on('dialog',async dialog=>{
+	// 	expect(dialog.type()).toContain('prompt')
+	// 	expect(dialog.message()).toContain('Please enter your name:')
+	// 	expect(dialog.defaultValue()).toContain('Harry Potter')
+	// 	await dialog.accept('HARI')
+	// })
+	// await page.click('#promptBtn')
+    // await expect(await page.locator('#demo')).toContainText('HARI')
+	
+	
+
+
+	await page.waitForTimeout(5000)
+	await page.close()
+
+})
+
+--------------------------------------------------------------------------------------------
+
+import {test,expect} from '@playwright/test'
+test('Frames Test',async({page})=>{
+
+	await page.goto('https://ui.vision/demo/webtest/frames/')
+	
+	const allFrames= await page.frames()
+	console.log('allFrames Count: ',allFrames.length)
+	
+	const frame1=await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_1.html'})
+	frame1.fill("//input[@name='mytext1']",'1')
+    await page.waitForTimeout(2000)
+	
+	const frame2=await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_2.html'})
+	frame2.fill("//input[@name='mytext2']",'2')
+    await page.waitForTimeout(2000)
+	
+	const frame3= await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_3.html'})
+	frame3.fill("//input[@name='mytext3']",'3')
+    await page.waitForTimeout(2000)
+	
+	const frame4=await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_4.html'})
+	frame4.fill("//input[@name='mytext4']","4")
+    await page.waitForTimeout(2000)
+	
+	const frame5=await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_5.html'})
+	frame5.fill("//input[@name='mytext5']",'5')
+	
+	
+	
+	await page.waitForTimeout(2000)
+	await page.close()
+})
+
+-------------------------------------------------------------------------------------------------
+
+import {test,expect} from '@playwright/test'
+test('Inner Frames Test',async({page})=>{
+
+	await page.goto('https://ui.vision/demo/webtest/frames/')
+	
+	const frame3= await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_3.html'})
+	frame3.fill("//input[@name='mytext3']","HARI")
+	
+	const childFrames= await frame3.childFrames()
+    await childFrames[0].locator("//div[@id='i5']/div[3]/div").check()
+
+	await page.waitForTimeout(3000)
+	await page.close()
+	
+
+
+})
+
+
+----------------------------------------------------------------------------------------
 
