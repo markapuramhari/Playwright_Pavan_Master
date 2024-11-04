@@ -11,7 +11,8 @@ test('Hidden DropDown',{tag:'@11To20'},async ({page})=>{
     //await page.locator("//a[@class='oxd-main-menu-item active']/span").click() not working
     await page.locator("//span[normalize-space()='PIM']").click()
 
-    await page.click('//div[6]//div[1]//div[2]//div[1]//div[1]//div[1]')
+    //await page.click('//div[6]//div[1]//div[2]//div[1]//div[1]//div[1]')
+    await page.click("(//div[@class='oxd-select-text-input'])[3]")
 
     await page.waitForSelector("//div[@role='listbox']//span")
     const options= await page.$$("//div[@role='listbox']//span")
@@ -28,6 +29,6 @@ test('Hidden DropDown',{tag:'@11To20'},async ({page})=>{
     }
 
     await page.waitForTimeout(2000)
-    await page.close
+    await page.close()
 
 })

@@ -8,18 +8,20 @@ test('Bootstrap DropDown',{tag:'@11To20'},async ({page})=>{
     await page.click('.multiselect')
 
 // Count:
-    const options= await page.locator('ul>li label input')
+    //const options= await page.locator('ul>li label input') 
+    const options= await page.locator("//ul[@class='multiselect-container dropdown-menu']/li//input")
     await expect(options).toHaveCount(11)
 
 // Length: (OR)
-    const optionslength= await page.$$('ul>li label input')
+   // const optionslength= await page.$$('ul>li label input')
+    const optionslength= await page.$$("//ul[@class='multiselect-container dropdown-menu']/li//input")
     await expect(optionslength.length).toBe(11)
 
 
 //select Multiple Options 
 
-    await page.waitForSelector('ul>li label')
-    const optionsFor= await page.$$('ul>li label')
+    await page.waitForSelector("//ul[@class='multiselect-container dropdown-menu']/li//label")
+    const optionsFor= await page.$$("//ul[@class='multiselect-container dropdown-menu']/li//label")
 
     for(let option of optionsFor){
 
@@ -34,8 +36,8 @@ test('Bootstrap DropDown',{tag:'@11To20'},async ({page})=>{
 
  //DeSelect Mutiple Options
  
- await page.waitForSelector('ul>li label')
- const optionsForD= await page.$$('ul>li label')
+ await page.waitForSelector("//ul[@class='multiselect-container dropdown-menu']/li//label")
+ const optionsForD= await page.$$("//ul[@class='multiselect-container dropdown-menu']/li//label")
 
  for(let option of optionsForD){
 
@@ -47,6 +49,6 @@ test('Bootstrap DropDown',{tag:'@11To20'},async ({page})=>{
  }
 
 
-    await page.waitForTimeout(2000)
+    await page.waitForTimeout(3000)
     await page.close()
 })

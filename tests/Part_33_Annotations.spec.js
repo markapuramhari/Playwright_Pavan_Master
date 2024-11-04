@@ -1,6 +1,6 @@
 import {test,expect} from '@playwright/test'
 
-// only 
+// only:  test.only()
 test('Annotations Test1',{tag:'@31To38'},async({page})=>{
 
     console.log('Test1....')
@@ -12,9 +12,7 @@ test('Annotations Test2',{tag:'@31To38'},async({page})=>{
 
 })
 
-//skip
-
-
+//skip: test.skip()
 test('Annotations Test3',{tag:'@31To38'},async({page,browserName})=>{
 
     if(browserName=='chromium'){
@@ -25,7 +23,7 @@ test('Annotations Test3',{tag:'@31To38'},async({page,browserName})=>{
 })
 
 
-//Fixme   //Knows bugs 
+//Fixme: test.fixme()   //Knows bugs 
 
 test('Annotations Test4',{tag:'@31To38'},async({page})=>{
 
@@ -53,7 +51,7 @@ test('Annotations Test6',{tag:'@31To38'},async({page,browserName})=>{
     }
  })
 
- //slow
+ //slow: test.slow() 
 
  test('Annotations Test7',{tag:'@31To38'},async({page,browserName})=>{
 

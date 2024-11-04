@@ -49,6 +49,7 @@ test("built-in Locators",{tag:'@03To10'},async ({page})=>{
 
 //Validates 
 
+    await expect(await page.getByRole('heading',{name:'Dashboard'})).toBeVisible()  
     const username= await page.locator("//p[@class='oxd-userdropdown-name']").textContent()
     await expect(await page.getByText(username)).toBeVisible()
 
@@ -58,6 +59,10 @@ test("built-in Locators",{tag:'@03To10'},async ({page})=>{
     await expect(await page.getByText('Quick Launch')).toBeVisible()
     await expect(await page.getByText('This Week')).toBeVisible()
     await expect(await page.getByText('OrangeHRM OS 5.7')).toBeVisible()
+
+    await page.click("//p[@class='oxd-userdropdown-name']")
+	await page.getByText('Logout').click()
+	await expect(await page.getByRole('heading',{name:'Login'})).toBeVisible()
 
     await page.waitForTimeout(2000)
     await page.close()

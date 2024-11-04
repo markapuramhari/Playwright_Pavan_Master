@@ -1,27 +1,30 @@
 import {test,expect} from '@playwright/test'
-
-test('Auto Suggest DropDowns',{tag:'@11To20'}, async({page})=>{
-
-
-   
-    await page.goto('https://www.redbus.in/')
-
-    await page.locator('#src').fill('Hyderabad')
-
-    await page.waitForSelector("//li[contains(@class,'sc-iwsKbI')]/div/text[1]")
-    const cityOptions=await page.$$("//li[contains(@class,'sc-iwsKbI')]/div/text[1]")
-
-    for(let options of cityOptions) {
-        const values= await options.textContent()
-        console.log("values are: ",values)
-
-        if(values.includes('Kukatpally')){
-            await options.click()
-            break
-        }
-    }
+test('Google Search Test',{tag:'@11To20'},async({page})=>{
 
 
-    await page.waitForTimeout(3000)
-    await page.close()
+	await page.goto('https://www.google.com/')
+	
+	await page.fill('#APjFqb','selenium')
+	
+	await page.waitForSelector('.wM6W7d span')
+	const options= await page.$$(".wM6W7d span")
+	
+	for(let option of options){
+	
+		const textOptions=await option.textContent()
+		console.log('textOptions: ',textOptions)
+		if(textOptions.includes('selenium download')){
+		
+			await option.click()
+			break
+		
+		}
+	
+	}
+	
+	
+	await page.waitForTimeout(3000)
+	await page.close()
+
+
 })

@@ -13,6 +13,7 @@ test('Check Boxes',{tag:'@03To10'}, async({page})=>{
 
 //Click Mutipul check boxes
     const checkboxesLocators=['#sunday','#monday','#thursday','#saturday'];
+   // const checkboxesLocators=["//input[@id='sunday']","//input[@id='monday']","//input[@id='friday']"]
 
     for(const checkbox of checkboxesLocators){
         await page.locator(checkbox).check()

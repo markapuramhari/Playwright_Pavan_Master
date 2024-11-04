@@ -9,7 +9,7 @@ test('DropDowns',{tag:'@11To20'}, async({page})=>{
 
    await page.locator('#country').selectOption({label:'India'})  //label
    await page.locator('#country').selectOption('France')    //visible text
-    await page.locator('#country').selectOption({value:'uk'}) //value
+   await page.locator('#country').selectOption({value:'uk'}) //value
    await page.locator('#country').selectOption({index:1})       // index
    await page.selectOption('#country','Germany') //by visible Text
  
@@ -32,8 +32,8 @@ test('DropDowns',{tag:'@11To20'}, async({page})=>{
 //Assertions
 
 //2. Count number of options in DropDown (Approach 01)
-    // const options= await page.locator("//select[@id='country']/option")
-    // await expect(options).toHaveCount(10)
+    const options= await page.locator("//select[@id='country']/option")
+    await expect(options).toHaveCount(10)
 
 //2. Count number of options in DropDown (Approach 02)
 
@@ -62,7 +62,7 @@ test('DropDowns',{tag:'@11To20'}, async({page})=>{
         }
     }
    await expect(status).toBeTruthy()   //true
+   
    await page.waitForTimeout(3000);
-
    await page.close()
 })

@@ -23,6 +23,21 @@ test('Multi Select DropDown',{tag:'@11To20'},async ({page})=>{
     await expect(content.includes('Blue')).toBeTruthy() 
     await expect(content.includes('Black')).toBeFalsy() 
 
+
+    let status=false
+	for(const option of optionsArray){
+	
+		const textOption=await option.textContent()
+		console.log('textOption: ',textOption)
+		if(textOption.includes('Green')){
+		
+			status=true
+
+		}
+	
+	}
+	await expect(status).toBeTruthy()
+
     await page.waitForTimeout(2000)
     await page.close()
 })

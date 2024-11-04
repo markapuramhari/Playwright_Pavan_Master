@@ -23,9 +23,6 @@ await page.close()
 
 })
 
-
-
-
 test('Confirmation Dialog with OK & Cancel',{tag:'@11To20'},async ({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')
@@ -46,11 +43,6 @@ test('Confirmation Dialog with OK & Cancel',{tag:'@11To20'},async ({page})=>{
     await page.close()
     
     })
-
-
-
-
-
 
 test('Prompt Dialog with Text',{tag:'@11To20'},async ({page})=>{
 
