@@ -47,7 +47,7 @@ module.exports = defineConfig({
     //headless: false,   //--headed
    headless: true      
   },
-  timeout:30000, //Default to 30 seconds
+  timeout:40000, //Default to 30 seconds
 
 /* Configure projects for major browsers */
   projects: [

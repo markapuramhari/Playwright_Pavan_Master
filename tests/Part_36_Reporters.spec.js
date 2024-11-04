@@ -9,7 +9,7 @@ test('Test2',{tag:'@31To38'},async({page})=>{
 
     await page.goto('https://demo.opencart.com/')
     await page.waitForTimeout(2000)
-    await expect(await page).toHaveTitle('Your Store')
+    await expect(page).toHaveTitle('Your Store')
 
 })
 test('Test3',{tag:'@31To38'},async({page})=>{
