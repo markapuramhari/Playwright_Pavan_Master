@@ -158,11 +158,11 @@ reporter: [['allure-playwright',{outputFolder: 'my-allure-results'}]],   //confi
 ==============================================================================================
 
 
-03To05 ==ALL TC's COMPLETED
-----------------------------
+03To05 
+-------
 
 import {test,expect} from '@playwright/test'
-test('Homepage Test',async({page})=>{ //5
+test('Part 03 Homepage Test',async({page})=>{
 
 	await page.goto('https://www.demoblaze.com/index.html')
 	
@@ -184,7 +184,7 @@ test('Homepage Test',async({page})=>{ //5
 ----------------------------------------------------------------------------------------
 
 import {test,expect} from '@playwright/test'
-test('Loginpage Test',async({page})=>{ //5
+test('Part 04 Loginpage Test',async({page})=>{
 
 	await page.goto('https://www.demoblaze.com/index.html')
 	
@@ -204,7 +204,7 @@ test('Loginpage Test',async({page})=>{ //5
 --------------------------------------------------------------------------------------------
 
 import {test,expect} from '@playwright/test'
-test('Links and Products Test',async({page})=>{  //5
+test('Part 04 Links and Products Test',async({page})=>{
 
 	await page.goto('https://www.demoblaze.com/index.html')
 
@@ -250,7 +250,7 @@ test('Links and Products Test',async({page})=>{  //5
 
 ---------------------------------------------------------------------------------------------------
 import {test,expect} from '@playwright/test'
-test('Built-in Locators',async({page})=>{ //5
+test('Part 05 Built-in Locators',async({page})=>{
 
 	await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 	
@@ -293,7 +293,7 @@ test('Built-in Locators',async({page})=>{ //5
 */
 
 import {test,expect} from '@playwright/test'
-test('Hard Assertions Test',async({page})=>{ //5
+test('Part 07 Hard Assertions Test',async({page})=>{
 
 
 	await page.goto('https://demo.nopcommerce.com/register')
@@ -351,7 +351,7 @@ test('Hard Assertions Test',async({page})=>{ //5
 ------------------------------------------------------------------------------------------
 
 import {test,expect} from '@playwright/test'
-test('Check boxes Test',async({page})=>{ //5
+test('Part 10 Check boxes Test',async({page})=>{
 
 	await page.goto('https://testautomationpractice.blogspot.com/')
 	
@@ -382,7 +382,7 @@ test('Check boxes Test',async({page})=>{ //5
 ------------------------------
 
 import {test,expect} from '@playwright/test'
-test('DropDown Test',async({page})=>{  //5
+test('Part 11 DropDown Test',async({page})=>{ 
 
 	await page.goto('https://testautomationpractice.blogspot.com/')
 	
@@ -422,7 +422,7 @@ test('DropDown Test',async({page})=>{  //5
 
 ------------------------------------------------------------------------------------------------
 import {test,expect} from '@playwright/test'
-test('Multi Select Dropdown Test',async({page})=>{
+test('Part 12 Multi Select Dropdown Test',async({page})=>{
 
 	await page.goto('https://testautomationpractice.blogspot.com/')
 	
@@ -460,7 +460,7 @@ test('Multi Select Dropdown Test',async({page})=>{
 -------------------------------------------------------------------------------------------
 
 import {test,expect} from '@playwright/test'
-test('Bootstarp DropDown Test',async({page})=>{
+test('Part 13 Bootstarp DropDown Test',async({page})=>{
 
 	await page.goto('https://www.jquery-az.com/boots/demo.php?ex=63.0_2')
 	
@@ -503,7 +503,7 @@ test('Bootstarp DropDown Test',async({page})=>{
 
 ----------------------------------------------------------------------------------------------------
 import {test,expect} from '@playwright/test'
-test('Google Search Test',async({page})=>{
+test('Part 14 Google Search Test',async({page})=>{
 
 	await page.goto('https://www.google.com/')
 	
@@ -533,7 +533,7 @@ test('Google Search Test',async({page})=>{
 
 ------------------------------------------------------------------------------------------------
 import {test,expect} from '@playwright/test'
-test('Hidden DropDown Test',async({page})=>{
+test('Part 15 Hidden DropDown Test',async({page})=>{
 
 	await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 	
@@ -568,7 +568,7 @@ test('Hidden DropDown Test',async({page})=>{
 ------
 
 import {test,expect} from '@playwright/test'
-test('alert ,confirm ,prompt Test',async({page})=>{
+test('Part 16 alert ,confirm ,prompt Test',async({page})=>{
 
 	await page.goto('https://testautomationpractice.blogspot.com/')
 	
@@ -616,7 +616,7 @@ test('alert ,confirm ,prompt Test',async({page})=>{
 --------------------------------------------------------------------------------------------
 
 import {test,expect} from '@playwright/test'
-test('Frames Test',async({page})=>{
+test('Part 17 Frames Test',async({page})=>{
 
 	await page.goto('https://ui.vision/demo/webtest/frames/')
 	
@@ -651,7 +651,7 @@ test('Frames Test',async({page})=>{
 -------------------------------------------------------------------------------------------------
 
 import {test,expect} from '@playwright/test'
-test('Inner Frames Test',async({page})=>{
+test('Part 18 Inner Frames Test',async({page})=>{
 
 	await page.goto('https://ui.vision/demo/webtest/frames/')
 	
