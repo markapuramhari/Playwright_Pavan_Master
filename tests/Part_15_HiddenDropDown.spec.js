@@ -17,8 +17,6 @@ test('Hidden DropDown',{tag:['@11To20','@11To15']},async ({page})=>{
     await page.waitForSelector("//div[@role='listbox']//span")
     const options= await page.$$("//div[@role='listbox']//span")
 
-
-
     for(let option of options){
         const jobTitle= await option.textContent()
         console.log('jobTitles: ',jobTitle)
