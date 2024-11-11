@@ -1,7 +1,7 @@
 CMD:
 ----
 
-npx playwright test --grep=03To10 --grep-invert=11To20 --headed --project='Google Chrome' --project='Microsoft Edge' --workers=4 --reporter=html --retries=1 --last-failed --fail-on-flaky-tests --timeout=40000 --trace=retain-on-failure
+npx playwright test --grep=@03To10 --grep='@03To10 | @11To20' --grep-invert=@11To20 --headed --project='Google Chrome' --project='Microsoft Edge' --workers=4 --reporter=html --retries=1 --last-failed --fail-on-flaky-tests --timeout=40000 --trace=retain-on-failure
 
 
 

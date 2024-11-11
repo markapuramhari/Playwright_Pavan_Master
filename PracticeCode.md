@@ -1,3 +1,6 @@
+npx playwright test --grep=@03To10 --grep='@03To10 | @11To20' --grep-invert=@11To20 --headed --project='Google Chrome' --project='Microsoft Edge' --workers=4 --reporter=html --retries=1 --last-failed --fail-on-flaky-tests --timeout=40000 --trace=retain-on-failure
+
+------------------------------------------------------------------------------------------
 import {test,expect} from '@playwright/test'
 test('Part 03 Homepage Test',{tag:['@03To05','@03To10']},async({page})=>{
 
