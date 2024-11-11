@@ -1,5 +1,7 @@
 import {test,expect, chromium} from '@playwright/test'
 test('Handling pages/Windows 2 pages',{tag:'@31To38'},async ({})=>{
+    // const page1= browser.newPage()
+    // const page2= browser.newPage()
 
     const browser= await chromium.launch()
     const context= await browser.newContext()
@@ -16,6 +18,8 @@ test('Handling pages/Windows 2 pages',{tag:'@31To38'},async ({})=>{
     await page2.goto('https://www.demoblaze.com/')
     await expect(page2).toHaveTitle('STORE')
     await page2.waitForTimeout(3000)
+    await page1.close()
+    await page2.close()
 
 })
 
@@ -36,6 +40,8 @@ test('Handling Multiple pages/Windows 1 page',{tag:'@31To38'},async ({})=>{
 
     await page1.waitForTimeout(3000)
     await page2.waitForTimeout(3000)
+    await page1.close()
+    await page2.close()
 
 
 

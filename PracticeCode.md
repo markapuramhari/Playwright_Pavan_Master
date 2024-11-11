@@ -444,14 +444,167 @@ Part 19 Table
 
 ---------------------------------------------------------------------------------------------
 
-Part 20 DatePicker
+Part 20 DatePicker 
 
 
 
 =================================================================================================
 
+import {test,expect} from '@playwright/test'
+test('Part 21 Mouse hover Test',{tag:['@21To30','@21To25']},async({page})=>{
+	
+	await page.goto('https://demo.opencart.com/')
+	
+	const desktop=await page.getByRole('link',{name:'Desktops'})
+	const mac=await page.getByRole('link',{name:'Mac (1)'})
+	
+	await desktop.hover()
+	await mac.hover()
+	await mac.click()
+	
+	//await expect(await page.getByRole('link',{name:'iMac'})).toBeVisible()
+	
+	await page.waitForTimeout(3000)
+	await page.close()
+})
+
+----------------------------------------------------------------------------------------
+import {test,expect} from '@playwright/test'
+test('Part 22 Right Click Test',{tag:['@21To30','@21To25']},async({page})=>{
+
+	await page.goto('https://swisnl.github.io/jQuery-contextMenu/demo.html')
+	
+	const rightClick= await page.locator('.context-menu-one')
+	await rightClick.click({button:'right'})
+	
+	await page.waitForTimeout(3000)
+	await page.close()
+})
+
+--------------------------------------------------------------------------------------------
+import {test,expect} from '@playwright/test'
+test('Part 23 DBL click Test',{tag:['@21To25','@21To30']},async({page})=>{
+
+	await page.goto('https://testautomationpractice.blogspot.com/#')
+	const button=await page.getByRole('button',{name:'Copy Text'})
+	await button.dblclick()
+	
+	await expect(await page.locator('#field2')).toHaveValue('Hello World!')
+	await page.waitForTimeout(3000)
+	await page.close()
+})
+ 
+-----------------------------------------------------------------------------------------------
+
+import {test,expect} from '@playwright/test'
+test('Part 24 DragAndDrop Test',{tag:['@21To25','@21To30']},async({page})=>{
+
+	await page.goto('http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html')
+	
+	const Oslo= await page.locator('#box1')
+	const Italy= await page.locator('#box106')
+	
+	await Oslo.dragTo(Italy)
+	
+	await page.waitForTimeout(3000)
+	await page.close()
+})
+
+--------------------------------------------------------------------------------------------
+import {test,expect} from '@playwright/test'
+test('Part 25 Keyboard Actions Test',{tag:['@21To25','@21To30']},async({page})=>{
+
+	await page.goto('https://gotranscript.com/text-compare')
+	
+	await page.getByPlaceholder('Paste one version of the text here.').fill('HARI')
+	
+	await page.keyboard.press('Control+A')
+	await page.keyboard.press('Control+C')
+	await page.keyboard.down('Tab')
+	await page.keyboard.up('Tab')
+	await page.keyboard.press('Control+V')
+	
+	const exp= await page.getByPlaceholder('Paste another version of the text here.')
+
+	await expect(await exp).toHaveValue('HARI')
+
+	//await page.click('#recaptcha')
+
+	await expect(await page.getByText('Free online text compare tool')).toHaveText('Free online text compare tool')
+	await expect(await page.getByText('Free online text compare tool')).toContainText('compare tool')
+	await page.waitForTimeout(3000)
+	await page.close()
+})
+
+----------------------------------------------------------------------------------------------
+
+import {test,expect} from '@playwright/test'
+test('Part 26 Upload Files Test',{tag:['@26To30','@21To30']},async({page})=>{
+
+	await page.goto('https://testautomationpractice.blogspot.com/')
+	
+	await page.locator('#singleFileInput').setInputFiles('tests/uploadFiles/index.html')
+	await page.getByRole('button',{name:'Upload Single File'}).click()
+	
+	await expect(await page.locator('#singleFileStatus')).toContainText('index.html')
+
+	await page.locator('#multipleFilesInput').setInputFiles(['tests/uploadFiles/index.html','tests/uploadFiles/index1.html'])
+	await page.getByRole('button',{name:'Upload Multiple Files'}).click()
+	await expect(await page.locator('#multipleFilesStatus')).toContainText('Multiple files selected:')
+	await expect(await page.locator('#multipleFilesStatus')).toContainText('index.html')
+	await expect(await page.locator('#multipleFilesStatus')).toContainText('index1.html')
+	
+	await page.waitForTimeout(3000)
+	await page.close()
+})
+
+------------------------------------------------------------------------------------------
+ import {test,expect,chromium} from '@playwright/test'
+test('Part 35 WindowHandling 2 Tabs Test',async()=>{
 
 
+	const browser= await chromium.launch()
+	const context=await browser.newContext()
+	const page1=await context.newPage()
+	const page2=await context.newPage()
+	
+	page1.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+	await expect(page1).toHaveTitle('OrangeHRM')
+	
+	page2.goto('https://www.demoblaze.com/')
+	await expect(page2).toHaveTitle('STORE')
+	
+	await page1.waitForTimeout(2000)
+	await page2.waitForTimeout(2000)
+	await page1.close()
+	await page2.close()
+})
+
+----------------------------------------------------------------------------------------------
+import {test,expect,chromium} from '@playwright/test'
+test('Part 35 Window Handling 1 Tab Test',async()=>{
+
+	const browser=await chromium.launch()
+	const context=await browser.newContext()
+	const page1=await context.newPage()
+	
+	page1.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+	await expect(page1).toHaveTitle('OrangeHRM')
+	
+	await page1.getByRole('link',{name:'OrangeHRM, Inc'}).click()
+	const pagePromise=context.waitForEvent('page')
+	const page2=await pagePromise
+	await expect(page2).toHaveTitle('Human Resources Management Software | OrangeHRM')
+	
+	await page1.waitForTimeout(2000)
+	await page2.waitForTimeout(2000)
+	
+	await page1.close()
+	await page2.close()
+
+})
+
+-----------------------------------------------------------------------------------------------
 
 
 

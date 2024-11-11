@@ -14,9 +14,9 @@ test.beforeEach(async ({browser})=>{
 })
 
 test.afterEach(async ({})=>{
-    await page.waitForTimeout(1000)
     await page.click('#logout2')
-    await page.waitForTimeout(5000)
+    await page.waitForTimeout(2000)
+    await page.close()
     
 })
 
@@ -31,6 +31,8 @@ test('Homepage Test',{tag:['@21To30','@26To30']},async ()=>{
     await page.waitForSelector('.hrefch')
     const products= await page.$$('.hrefch')
     await expect(products).toHaveLength(9)
+
+   
 })
 
 

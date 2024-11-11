@@ -27,4 +27,5 @@ test('Re-Try Test',{tag:'@31To38'},async({page})=>{
     const LogOutlink= await page.locator("//a[normalize-space()='Log out']")
     await page.waitForTimeout(3000)
     await expect(LogOutlink).toBeVisible()
+    await page.close()
 })

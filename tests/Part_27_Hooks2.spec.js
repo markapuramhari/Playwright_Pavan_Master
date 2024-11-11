@@ -15,7 +15,8 @@ test.beforeAll(async ({browser})=>{
 
 test.afterAll(async ({})=>{
     await page.click('#logout2')
-    await page.waitForTimeout(5000)
+    await page.waitForTimeout(2000)
+    await page.close()
     
 })
 
