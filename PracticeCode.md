@@ -1,6 +1,6 @@
-npx playwright test --grep=@03To10 --grep='@03To10 | @11To20' --grep-invert=@11To20 --headed --project='Google Chrome' --project='Microsoft Edge' --workers=4 --reporter=html --retries=1 --last-failed --fail-on-flaky-tests --timeout=40000 --trace=retain-on-failure
+npx playwright test --grep=@03To10 --grep='@03To10 | @11To20' --grep-invert=@11To20 --headed --project='Google Chrome' --project='Microsoft Edge' --workers=4 --reporter=html --retries=1 --last-failed --fail-on-flaky-tests --timeout=40000 --trace=retain-on-failure --debug --ui
 
-------------------------------------------------------------------------------------------
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 03 Homepage Test',{tag:['@03To05','@03To10']},async({page})=>{
 
@@ -13,14 +13,14 @@ test('Part 03 Homepage Test',{tag:['@03To05','@03To10']},async({page})=>{
 	const pageTitle= await page.title()
 	console.log('pageTitle: ',pageTitle)
 	await expect(await page).toHaveTitle('STORE')
-	
+
 	await expect(await page.getByRole('link',{name:'Log in'})).toBeVisible()
 	
 	await page.waitForTimeout(2000)
 	await page.close()
 })
  
-------------------------------------------------------------------------------------
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 04 Loginpage Test',{tag:['@03To05','@03To10']},async({page})=>{
 
@@ -33,11 +33,12 @@ test('Part 04 Loginpage Test',{tag:['@03To05','@03To10']},async({page})=>{
 	await page.getByRole('link',{name:'Log out'}).click()
 	
 	await expect(await page.getByRole('link',{name:'Log in'})).toBeVisible()
+
 	await page.waitForTimeout(2000)
 	await page.close()
 })
 
----------------------------------------------------------------------------------------
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 04 Links and Products Test',{tag:['@03To10','@03To05']},async({page})=>{
 
@@ -52,8 +53,8 @@ test('Part 04 Links and Products Test',{tag:['@03To10','@03To05']},async({page})
 		for(const link of links){
 			const textLinks=await link.textContent()
 			console.log('textLinks: ',textLinks)
+
 			if(textLinks.includes('Log in')){
-			
 				flag=true
 				break
 			}
@@ -66,23 +67,23 @@ test('Part 04 Links and Products Test',{tag:['@03To10','@03To05']},async({page})
 	const products=await page.$$("//div[@id='tbodyid']//div/h4/a")
 	
 		for(const product of products){
-		
 			const textProduct=await product.textContent()
 			console.log('textProduct: ',textProduct)
+
 			if(textProduct.includes('Sony vaio i5')){
-			
 				await product.click()
 				break
 
 			}		
 		}
+
 	await expect(await page.getByRole('heading',{name:'Sony vaio i5'})).toBeVisible()
+
 	await page.waitForTimeout(2000)
 	await page.close()
 })
 
------------------------------------------------------------------------------------------
-
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 05 Built-in Locators Test',{tag:['@03To05','@03To10']},async({page})=>{
 
@@ -92,21 +93,22 @@ test('Part 05 Built-in Locators Test',{tag:['@03To05','@03To10']},async({page})=
 	await page.getByPlaceholder('Username').fill('Admin')
 	await page.getByPlaceholder('Password').fill('admin123')
 	await page.getByRole('button',{name:'Login'}).click()
+
 	await expect(await page.getByRole('heading',{name:'Dashboard'})).toBeVisible()
 	
 	await page.click('.oxd-userdropdown-name')
 	await expect(await page.getByText('Logout')).toBeVisible()
 	await expect(await page.getByText('Logout')).toHaveText('Logout')
 	await page.getByText('Logout').click()
+
 	await expect(await page.getByAltText('company-branding')).toBeVisible()
 	
 	await page.waitForTimeout(2000)
 	await page.close()
 })
 
---------------------------------------------------------------------------------------
+=============================================================================================
 /*
-
 1. URL ==> 
 2. Title ==>
 3. Visible ==> 
@@ -117,7 +119,6 @@ test('Part 05 Built-in Locators Test',{tag:['@03To05','@03To10']},async({page})=
 8. ContainText ==> 
 9. Value ==> 
 10. Count ==>
-
 */
 
 import {test,expect} from '@playwright/test'
@@ -160,14 +161,11 @@ test('Part 07 Assertions Test',{tag:['@03To10']},async({page})=>{
 	
 	await page.waitForTimeout(2000)
 	await page.close()
-
 })
 
----------------------------------------------------------------------------------------
-
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 10 Checkboxes Test',{tag:['@03To10']},async({page})=>{
-
 
 	await page.goto('https://testautomationpractice.blogspot.com/')
 	
@@ -185,12 +183,9 @@ test('Part 10 Checkboxes Test',{tag:['@03To10']},async({page})=>{
 	
 	await page.waitForTimeout(2000)
 	await page.close()
-
 })
 
 ========================================================================================
-
-
 import {test,expect} from '@playwright/test'
 test('Part 11 Dropdown Test',{tag:['@11To15','@11To20']},async({page})=>{
 
@@ -210,6 +205,7 @@ test('Part 11 Dropdown Test',{tag:['@11To15','@11To20']},async({page})=>{
 	for(const option of  options){
 		const textOptions=await option.textContent()
 		console.log('textOptions: ',textOptions)
+
 		if(textOptions.includes('India')){
 			flag=true
 			break
@@ -221,8 +217,7 @@ test('Part 11 Dropdown Test',{tag:['@11To15','@11To20']},async({page})=>{
 	await page.close()
 })
 
----------------------------------------------------------------------------------------
-
+=============================================================================================
 import{test,expect} from '@playwright/test'
 test('Part 12 Multi Select Dropdown Test',{tag:['@11To15','@11To20']},async({page})=>{
 
@@ -231,13 +226,13 @@ test('Part 12 Multi Select Dropdown Test',{tag:['@11To15','@11To20']},async({pag
 	await page.selectOption('#colors',['Red','Blue','Green'])
 	
 	const options= await page.$$("//select[@id='colors']/option")
-	
 	await expect(await options.length).toBe(7)
 	
 		let flag=false
 		for(const option of options){
 			const text=await option.textContent()
 			console.log('text: ',text)
+
 			if(text.includes('Green')){
 				flag=true
 				break
@@ -248,7 +243,7 @@ test('Part 12 Multi Select Dropdown Test',{tag:['@11To15','@11To20']},async({pag
 		await page.waitForTimeout(2000)
 		await page.close()
 })
---------------------------------------------------------------------------------------
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 13 Bootstrap DropDown Test',{tag:['@10To20','@10To15']},async({page})=>{
 
@@ -265,6 +260,7 @@ test('Part 13 Bootstrap DropDown Test',{tag:['@10To20','@10To15']},async({page})
 	for(const option of options){
 		const text=await option.textContent()
 		console.log('text: ',text)
+
 		if(text.includes('Java') || text.includes('C#') || text.includes('MySQL')){
 			await option.check()
 		}
@@ -275,6 +271,7 @@ test('Part 13 Bootstrap DropDown Test',{tag:['@10To20','@10To15']},async({page})
 	for(const option of options){
 		const text=await option.textContent()
 		console.log('text: ',text)
+
 		if(text.includes('HTML') || text.includes('CSS') || text.includes('C#')){
 			await option.uncheck()
 		}
@@ -282,7 +279,8 @@ test('Part 13 Bootstrap DropDown Test',{tag:['@10To20','@10To15']},async({page})
 	await page.waitForTimeout(3000)
 	await page.close()
 })
-------------------------------------------------------------------------------------
+
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 14 Google Search',{tag:['@11To20','@11To15']},async({page})=>{
 	await page.goto('https://www.google.com/')
@@ -295,16 +293,18 @@ test('Part 14 Google Search',{tag:['@11To20','@11To15']},async({page})=>{
 	for(const option of options) {
 		 const text=await option.textContent()
 		 console.log('text: ',text)
+
 		 if(text.includes('playwright vs selenium')){
 			await option.click()
 			break
 		 }
 	}
+
 	await page.waitForTimeout(2000)
 	await page.close()
 })
  
------------------------------------------------------------------------------------
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 15 Hidden Dropdown Test',{tag:['@10To15','@10To20']},async({page})=>{
 
@@ -322,6 +322,7 @@ test('Part 15 Hidden Dropdown Test',{tag:['@10To15','@10To20']},async({page})=>{
 	for(const option of options){
 		const text=await option.textContent()
 		console.log('text: ',text)
+
 		if(text.includes('Social Media Marketer')){
 			await option.click()
 			break
@@ -331,7 +332,7 @@ test('Part 15 Hidden Dropdown Test',{tag:['@10To15','@10To20']},async({page})=>{
 	await page.close()
 })
 
-==================================================================================================
+============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 16 alert Test',{tag:['@10To20','@16To20']},async({page})=>{
 
@@ -342,20 +343,23 @@ test('Part 16 alert Test',{tag:['@10To20','@16To20']},async({page})=>{
 		expect(dialog.message()).toContain('I am an alert box!')
 		await dialog.accept()
 	})
+
 	await page.click('#alertBtn')
+
 	await page.waitForTimeout(2000)
 	await page.close()	
 })
 
-------------------------------------------------------------------------------------------------
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 16 confirm Test',{tag:['@10To20','@16To20']},async({page})=>{
 
 	await page.goto('https://testautomationpractice.blogspot.com/')
 	
 	page.on('dialog',async dialog=>{
-	expect(dialog.type()).toContain('confirm')
-	expect(dialog.message()).toContain('Press a button!')
+		expect(dialog.type()).toContain('confirm')
+		expect(dialog.message()).toContain('Press a button!')
+
 	//await dialog.accept()
 	await dialog.dismiss()
 	})
@@ -367,17 +371,17 @@ test('Part 16 confirm Test',{tag:['@10To20','@16To20']},async({page})=>{
 	await page.close()
 })
 
-------------------------------------------------------------------------------------------------
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 16 prompt Test',{tag:['@10To20','@16To20']},async({page})=>{
 
 	await page.goto('https://testautomationpractice.blogspot.com/')
 	page.on('dialog',async dialog=>{
 	
-	expect(dialog.type()).toContain('prompt')
-	expect(dialog.message()).toContain('Please enter your name:')
-	expect(dialog.defaultValue()).toContain('Harry Potter')
-	await dialog.accept('HARI')
+		expect(dialog.type()).toContain('prompt')
+		expect(dialog.message()).toContain('Please enter your name:')
+		expect(dialog.defaultValue()).toContain('Harry Potter')
+		await dialog.accept('HARI')
 	})
 	
 	await page.click('#promptBtn')
@@ -386,7 +390,8 @@ test('Part 16 prompt Test',{tag:['@10To20','@16To20']},async({page})=>{
 	await page.waitForTimeout(3000)
 	await page.close()
 })
-------------------------------------------------------------------------------------------------
+
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 17 Frames Test',{tag:['@11To20','@16To20']},async({page})=>{
 
@@ -418,15 +423,13 @@ test('Part 17 Frames Test',{tag:['@11To20','@16To20']},async({page})=>{
 	await page.waitForTimeout(3000)
 	await page.close()
 	
-
 })
 
-----------------------------------------------------------------------------------------------------
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 18 Inner Frames Test',{tag:['@16To20','@10To20']},async({page})=>{
 
 	await page.goto('https://ui.vision/demo/webtest/frames/')
-	
 	
 	const frame3=await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_3.html'})
 	frame3.fill("input[name='mytext3']",'3')
@@ -441,18 +444,14 @@ test('Part 18 Inner Frames Test',{tag:['@16To20','@10To20']},async({page})=>{
 
 })
 
-----------------------------------------------------------------------------------------------
+=============================================================================================
 Part 19 Table
 
-
----------------------------------------------------------------------------------------------
+=============================================================================================
 
 Part 20 DatePicker 
 
-
-
-=================================================================================================
-
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 21 Mouse hover Test',{tag:['@21To30','@21To25']},async({page})=>{
 	
@@ -471,7 +470,7 @@ test('Part 21 Mouse hover Test',{tag:['@21To30','@21To25']},async({page})=>{
 	await page.close()
 })
 
-----------------------------------------------------------------------------------------
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 22 Right Click Test',{tag:['@21To30','@21To25']},async({page})=>{
 
@@ -484,7 +483,7 @@ test('Part 22 Right Click Test',{tag:['@21To30','@21To25']},async({page})=>{
 	await page.close()
 })
 
---------------------------------------------------------------------------------------------
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 23 DBL click Test',{tag:['@21To25','@21To30']},async({page})=>{
 
@@ -493,12 +492,12 @@ test('Part 23 DBL click Test',{tag:['@21To25','@21To30']},async({page})=>{
 	await button.dblclick()
 	
 	await expect(await page.locator('#field2')).toHaveValue('Hello World!')
+
 	await page.waitForTimeout(3000)
 	await page.close()
 })
  
------------------------------------------------------------------------------------------------
-
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 24 DragAndDrop Test',{tag:['@21To25','@21To30']},async({page})=>{
 
@@ -513,7 +512,7 @@ test('Part 24 DragAndDrop Test',{tag:['@21To25','@21To30']},async({page})=>{
 	await page.close()
 })
 
---------------------------------------------------------------------------------------------
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 25 Keyboard Actions Test',{tag:['@21To25','@21To30']},async({page})=>{
 
@@ -535,12 +534,12 @@ test('Part 25 Keyboard Actions Test',{tag:['@21To25','@21To30']},async({page})=>
 
 	await expect(await page.getByText('Free online text compare tool')).toHaveText('Free online text compare tool')
 	await expect(await page.getByText('Free online text compare tool')).toContainText('compare tool')
+
 	await page.waitForTimeout(3000)
 	await page.close()
 })
 
-----------------------------------------------------------------------------------------------
-
+=============================================================================================
 import {test,expect} from '@playwright/test'
 test('Part 26 Upload Files Test',{tag:['@26To30','@21To30']},async({page})=>{
 
@@ -553,6 +552,7 @@ test('Part 26 Upload Files Test',{tag:['@26To30','@21To30']},async({page})=>{
 
 	await page.locator('#multipleFilesInput').setInputFiles(['tests/uploadFiles/index.html','tests/uploadFiles/index1.html'])
 	await page.getByRole('button',{name:'Upload Multiple Files'}).click()
+
 	await expect(await page.locator('#multipleFilesStatus')).toContainText('Multiple files selected:')
 	await expect(await page.locator('#multipleFilesStatus')).toContainText('index.html')
 	await expect(await page.locator('#multipleFilesStatus')).toContainText('index1.html')
@@ -561,10 +561,9 @@ test('Part 26 Upload Files Test',{tag:['@26To30','@21To30']},async({page})=>{
 	await page.close()
 })
 
-------------------------------------------------------------------------------------------
+=============================================================================================
  import {test,expect,chromium} from '@playwright/test'
 test('Part 35 WindowHandling 2 Tabs Test',async()=>{
-
 
 	const browser= await chromium.launch()
 	const context=await browser.newContext()
@@ -583,7 +582,7 @@ test('Part 35 WindowHandling 2 Tabs Test',async()=>{
 	await page2.close()
 })
 
-----------------------------------------------------------------------------------------------
+=============================================================================================
 import {test,expect,chromium} from '@playwright/test'
 test('Part 35 Window Handling 1 Tab Test',async()=>{
 
@@ -607,7 +606,4 @@ test('Part 35 Window Handling 1 Tab Test',async()=>{
 
 })
 
------------------------------------------------------------------------------------------------
-
-
-
+=============================================================================================

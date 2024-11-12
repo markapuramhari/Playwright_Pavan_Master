@@ -10,7 +10,7 @@ IMP:
 
     await page.getByPlaceholder('Username').fill('Admin')
 
-3) page.getByRole() --> use for button,link,action  DOM==> 'role',{name:'value'}  i.e role: link, button, img, heading
+3) page.getByRole() --> use for button,link,action  DOM==> 'role',{name:'value'}  i.e role: link, button, img, heading, textbox
 
     await page.getByRole('button',{type:'submit'}).click() 
 
