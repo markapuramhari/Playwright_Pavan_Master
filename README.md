@@ -115,7 +115,7 @@ npx playwright codegen -o tests/newtest.spec.js --target javascript -b chromium
 npx playwright codegen  --device "iPhone 13"
 npx playwright codegen --viewport-size "1280,720"
 
-
+test.describe.configure({mode:'serial'})
 
 Reporters:
 ----------

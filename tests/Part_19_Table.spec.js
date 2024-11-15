@@ -3,6 +3,8 @@ test('Handling Table',{tag:['@11To20','@16To20']},async ({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')
 
+    console.log('---total number of columns & rows----------------')
+
 //1. total number of columns & rows 
     const table= await page.locator("//table[@id='productTable']")
     const columns= await page.locator("//table[@id='productTable']//th")
@@ -13,6 +15,7 @@ test('Handling Table',{tag:['@11To20','@16To20']},async ({page})=>{
     console.log('no of rows: ',await rows.count())
     await expect(await rows.count()).toBe(5)
 
+    console.log('-----select check box for Smartwatch--------------')
 
 //2. select check box for Smartwatch
 
@@ -21,6 +24,8 @@ test('Handling Table',{tag:['@11To20','@16To20']},async ({page})=>{
         hasText: 'Smartwatch',
     })
     await matchedRow.locator('input').check()
+
+    console.log('------select multiple products by re-use function-------------')
     
 //3. select multiple products by re-use function
 
@@ -29,7 +34,7 @@ test('Handling Table',{tag:['@11To20','@16To20']},async ({page})=>{
     await selectProduct(rows,page,'Smartphone')
     await selectProduct(rows,page,'Laptop')
     
-   
+    console.log('----print all product details using loop same page---------------')
 
 
 //4. print all product details using loop same page
@@ -43,7 +48,7 @@ test('Handling Table',{tag:['@11To20','@16To20']},async ({page})=>{
         }
     }
 
-
+    console.log('------read data from all pages-------------')
  //5. read data from all pages
  
     const pages= await page.locator('.pagination li a')

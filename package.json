@@ -3,7 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test": "npx playwright test",
+    "a":"npx playwright test --grep='03To10'",
+    "11To20":"npx playwright test --grep='@11To20' --headed --project='Google Chrome' --retries=2",
+    "21To30":"npx playwright test --grep='@11To20' --headed --project='Google Chrome' --retries=2 --workers=3",
+    "31To38":"npx playwright test --grep='@11To20' --headed --project='Google Chrome' --retries=2 --workers=3"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -15,6 +21,7 @@
     "ts-node": "^10.9.2"
   },
   "dependencies": {
-    "csv-parse": "^5.5.6"
+    "csv-parse": "^5.5.6",
+    "exceljs": "^4.4.0"
   }
 }

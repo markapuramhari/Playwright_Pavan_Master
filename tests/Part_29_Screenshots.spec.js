@@ -1,8 +1,11 @@
 import {test,expect} from '@playwright/test'
+test.describe.configure({mode:'serial'})
 test('page screenshot',{tag:['@21To30','@26To30']},async({page})=>{
+
 
     await page.goto('https://demo.opencart.com/')
     await page.screenshot({path:'tests/screenshorts/'+Date.now()+'Homepage.png'})
+    
 
 })
 

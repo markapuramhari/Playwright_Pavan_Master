@@ -20,6 +20,7 @@ test('Homepage Test',{tag:['@03To10','@03To05']},async ({page})=>{
 
     await expect(await page.getByRole('link',{name:'LOG in'})).toBeVisible()
     await expect(await page.getByRole('link',{name:'Sign up '})).toBeVisible()
+    
 
     await page.waitForTimeout(2000)
     await page.close()

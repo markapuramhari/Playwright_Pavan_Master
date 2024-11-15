@@ -1,4 +1,36 @@
+Terminal:
+---------
+
 npx playwright test --grep=@03To10 --grep='@03To10 | @11To20' --grep-invert=@11To20 --headed --project='Google Chrome' --project='Microsoft Edge' --workers=4 --reporter=html --retries=1 --last-failed --fail-on-flaky-tests --timeout=40000 --trace=retain-on-failure --debug --ui
+
+=========================================================================================
+
+Features of Playwright:
+-----------------------
+
+00. Websocket protocol : two-way communication between a web browser and a web server
+01. Free & open source
+02. Multi-Browser, Multi-Language
+03. Easy setup and configaration
+04. Functional, API, Accessibility testing
+05. Built-in reports,custom reports
+06. CI,CD, Azure pipline,Docker integration
+07. Parallel testing
+08. Auto wait ,No Flaky tests,Tracing
+09. Built-in Assertions
+10. Multi tab & multi window support
+11. Frames ,Shadow DOM
+12. Test Parameter
+13. Emulate mobile devies
+14. Codegen
+15. Playwright inspector, trace viewer
+16. Community support
+17. Fast execution
+18. Headless Mode support
+19. API testing
+20. Mocha,Jest Frameworks support
+21. Debugging
+22. High performance
 
 =============================================================================================
 import {test,expect} from '@playwright/test'
@@ -562,7 +594,7 @@ test('Part 26 Upload Files Test',{tag:['@26To30','@21To30']},async({page})=>{
 })
 
 =============================================================================================
- import {test,expect,chromium} from '@playwright/test'
+import {test,expect,chromium} from '@playwright/test'
 test('Part 35 WindowHandling 2 Tabs Test',async()=>{
 
 	const browser= await chromium.launch()
@@ -586,23 +618,33 @@ test('Part 35 WindowHandling 2 Tabs Test',async()=>{
 import {test,expect,chromium} from '@playwright/test'
 test('Part 35 Window Handling 1 Tab Test',async()=>{
 
-	const browser=await chromium.launch()
-	const context=await browser.newContext()
-	const page1=await context.newPage()
-	
-	page1.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-	await expect(page1).toHaveTitle('OrangeHRM')
-	
-	await page1.getByRole('link',{name:'OrangeHRM, Inc'}).click()
-	const pagePromise=context.waitForEvent('page')
-	const page2=await pagePromise
-	await expect(page2).toHaveTitle('Human Resources Management Software | OrangeHRM')
-	
-	await page1.waitForTimeout(2000)
-	await page2.waitForTimeout(2000)
-	
-	await page1.close()
-	await page2.close()
+	const browser= await chromium.launch()
+    const context= await browser.newContext()
+    const page1= await context.newPage()
+
+    await page1.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+    await expect(page1).toHaveTitle('OrangeHRM')
+
+    await page1.click("//a[normalize-space()='OrangeHRM, Inc']")
+    const pagePromise= context.waitForEvent('page')
+    const page2=await pagePromise
+    await expect(page2).toHaveTitle('Human Resources Management Software | OrangeHRM')
+    const text= await page2.locator("//div[@class='homepage-slider-content']/h1")
+    await expect(await text).toContainText('clicks away!')
+
+   
+    await page2.click("//img[@alt='linkedin logo']")
+    const pagePromisee= context.waitForEvent('page')
+    const page3=await pagePromisee
+    const LinkedIntext=page3.locator('.authwall-join-form__title')
+    await expect(await LinkedIntext).toContainText('LinkedIn')
+    console.log('LinkedIntext:',await LinkedIntext.textContent())
+    await page3.close()
+
+    await page1.waitForTimeout(3000)
+    await page2.waitForTimeout(3000)
+    await page1.close()
+    await page2.close()
 
 })
 
