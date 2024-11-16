@@ -1,5 +1,7 @@
 import {test,expect} from '@playwright/test'
 
+test.describe.configure({mode:'serial'})
+
 test('Single Upload File',{tag:['@21To30','@26To30']},async({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')

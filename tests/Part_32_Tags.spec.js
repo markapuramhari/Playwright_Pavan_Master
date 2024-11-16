@@ -1,4 +1,5 @@
 import {test,expect} from '@playwright/test'
+test.describe.configure({mode:'parallel'})
 test('Tags Test1',{tag:'@31To38'},async()=>{
 
     console.log('this is Test1...')

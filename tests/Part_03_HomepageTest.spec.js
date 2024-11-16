@@ -19,7 +19,7 @@ test('Homepage Test',{tag:['@03To10','@03To05']},async ({page})=>{
 //Text Validation
 
     await expect(await page.getByRole('link',{name:'LOG in'})).toBeVisible()
-    await expect(await page.getByRole('link',{name:'Sign up '})).toBeVisible()
+    await expect(await page.getByRole('link',{name:'Sign up'})).toBeVisible()
     
 
     await page.waitForTimeout(2000)

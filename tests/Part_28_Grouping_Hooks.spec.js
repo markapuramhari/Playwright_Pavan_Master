@@ -1,4 +1,5 @@
 import {test,expect} from '@playwright/test'
+test.describe.configure({mode:'serial'})
 
 test.beforeAll(async()=>{
     console.log('this is before all Hook...')

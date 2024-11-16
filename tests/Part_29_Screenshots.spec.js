@@ -1,5 +1,5 @@
 import {test,expect} from '@playwright/test'
-test.describe.configure({mode:'serial'})
+//test.describe.configure({mode:'serial'})
 test('page screenshot',{tag:['@21To30','@26To30']},async({page})=>{
 
 
