@@ -298,7 +298,7 @@ test('Part 13 Bootstrap DropDown Test',{tag:['@10To20','@10To15']},async({page})
 		}
 	}
 	
-	await page.waitForTimeout(3000)
+	await page.waitForTimeout(2000)
 	
 	for(const option of options){
 		const text=await option.textContent()
@@ -308,7 +308,7 @@ test('Part 13 Bootstrap DropDown Test',{tag:['@10To20','@10To15']},async({page})
 			await option.uncheck()
 		}
 	}
-	await page.waitForTimeout(3000)
+	await page.waitForTimeout(2000)
 	await page.close()
 })
 
@@ -317,7 +317,8 @@ import {test,expect} from '@playwright/test'
 test('Part 14 Google Search',{tag:['@11To20','@11To15']},async({page})=>{
 	await page.goto('https://www.google.com/')
 	
-	await page.fill("#APjFqb","playwright")
+	//await page.fill("#APjFqb","playwright")
+	await page.locator('#APjFqb').pressSequentially('selenium',{delay:500})
 	
 	await page.waitForSelector("//div[@class='wM6W7d']/span")
 	const options= await page.$$("//div[@class='wM6W7d']/span")
@@ -399,7 +400,7 @@ test('Part 16 confirm Test',{tag:['@10To20','@16To20']},async({page})=>{
 	await page.click('#confirmBtn')
 	await expect(await page.locator('#demo')).toHaveText('You pressed Cancel!')
 	
-	await page.waitForTimeout(3000)
+	await page.waitForTimeout(2000)
 	await page.close()
 })
 
@@ -419,7 +420,7 @@ test('Part 16 prompt Test',{tag:['@10To20','@16To20']},async({page})=>{
 	await page.click('#promptBtn')
 	await expect(await page.locator('#demo')).toContainText('HARI')
 	
-	await page.waitForTimeout(3000)
+	await page.waitForTimeout(2000)
 	await page.close()
 })
 
@@ -452,7 +453,7 @@ test('Part 17 Frames Test',{tag:['@11To20','@16To20']},async({page})=>{
 	const frame5=await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_5.html'})
 	frame5.fill("//input[@name='mytext5']",'5')
 	
-	await page.waitForTimeout(3000)
+	await page.waitForTimeout(2000)
 	await page.close()
 	
 })
@@ -471,7 +472,7 @@ test('Part 18 Inner Frames Test',{tag:['@16To20','@10To20']},async({page})=>{
 
 	await childFrames[0].click('.vd3tt')
 	
-	await page.waitForTimeout(3000)
+	await page.waitForTimeout(2000)
 	await page.close()
 
 })
@@ -498,7 +499,7 @@ test('Part 21 Mouse hover Test',{tag:['@21To30','@21To25']},async({page})=>{
 	
 	//await expect(await page.getByRole('link',{name:'iMac'})).toBeVisible()
 	
-	await page.waitForTimeout(3000)
+	await page.waitForTimeout(2000)
 	await page.close()
 })
 
@@ -511,7 +512,7 @@ test('Part 22 Right Click Test',{tag:['@21To30','@21To25']},async({page})=>{
 	const rightClick= await page.locator('.context-menu-one')
 	await rightClick.click({button:'right'})
 	
-	await page.waitForTimeout(3000)
+	await page.waitForTimeout(2000)
 	await page.close()
 })
 
@@ -525,7 +526,7 @@ test('Part 23 DBL click Test',{tag:['@21To25','@21To30']},async({page})=>{
 	
 	await expect(await page.locator('#field2')).toHaveValue('Hello World!')
 
-	await page.waitForTimeout(3000)
+	await page.waitForTimeout(2000)
 	await page.close()
 })
  
@@ -540,7 +541,7 @@ test('Part 24 DragAndDrop Test',{tag:['@21To25','@21To30']},async({page})=>{
 	
 	await Oslo.dragTo(Italy)
 	
-	await page.waitForTimeout(3000)
+	await page.waitForTimeout(2000)
 	await page.close()
 })
 
@@ -567,7 +568,7 @@ test('Part 25 Keyboard Actions Test',{tag:['@21To25','@21To30']},async({page})=>
 	await expect(await page.getByText('Free online text compare tool')).toHaveText('Free online text compare tool')
 	await expect(await page.getByText('Free online text compare tool')).toContainText('compare tool')
 
-	await page.waitForTimeout(3000)
+	await page.waitForTimeout(2000)
 	await page.close()
 })
 
@@ -589,15 +590,15 @@ test('Part 26 Upload Files Test',{tag:['@26To30','@21To30']},async({page})=>{
 	await expect(await page.locator('#multipleFilesStatus')).toContainText('index.html')
 	await expect(await page.locator('#multipleFilesStatus')).toContainText('index1.html')
 	
-	await page.waitForTimeout(3000)
+	await page.waitForTimeout(2000)
 	await page.close()
 })
 
 =============================================================================================
 import {test,expect,chromium} from '@playwright/test'
-test('Part 35 WindowHandling 2 Tabs Test',async()=>{
+test('Part 35 WindowHandling 2 Tabs Test',async({playwright})=>{
 
-	const browser= await chromium.launch()
+	const browser= await playwright.chromium.launch()
 	const context=await browser.newContext()
 	const page1=await context.newPage()
 	const page2=await context.newPage()
@@ -616,9 +617,9 @@ test('Part 35 WindowHandling 2 Tabs Test',async()=>{
 
 =============================================================================================
 import {test,expect,chromium} from '@playwright/test'
-test('Part 35 Window Handling 1 Tab Test',async()=>{
+test('Part 35 Window Handling 1 Tab Test',async({playwright})=>{
 
-	const browser= await chromium.launch()
+	const browser= await playwright.chromium.launch()
     const context= await browser.newContext()
     const page1= await context.newPage()
 
@@ -641,8 +642,8 @@ test('Part 35 Window Handling 1 Tab Test',async()=>{
     console.log('LinkedIntext:',await LinkedIntext.textContent())
     await page3.close()
 
-    await page1.waitForTimeout(3000)
-    await page2.waitForTimeout(3000)
+    await page1.waitForTimeout(2000)
+    await page2.waitForTimeout(2000)
     await page1.close()
     await page2.close()
 

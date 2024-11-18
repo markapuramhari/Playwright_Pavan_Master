@@ -1,9 +1,9 @@
-import {test,expect, chromium} from '@playwright/test'
-test('Handling pages/Windows 2 pages',{tag:'@31To38'},async ({})=>{
+import {test,expect} from '@playwright/test'
+test('Handling pages/Windows 2 pages',{tag:'@31To38'},async ({playwright})=>{
     // const page1= browser.newPage()
     // const page2= browser.newPage()
 
-    const browser= await chromium.launch()
+    const browser= await playwright.chromium.launch()
     const context= await browser.newContext()
     const page1= await context.newPage()
     const page2= await context.newPage()
@@ -23,9 +23,9 @@ test('Handling pages/Windows 2 pages',{tag:'@31To38'},async ({})=>{
 
 })
 
-test('Handling Multiple pages/Windows 1 page',{tag:'@31To38'},async ({})=>{
+test('Handling Multiple pages/Windows 1 page',{tag:'@31To38'},async ({playwright})=>{
 
-    const browser= await chromium.launch()
+    const browser= await playwright.chromium.launch()
     const context= await browser.newContext()
     const page1= await context.newPage()
 
