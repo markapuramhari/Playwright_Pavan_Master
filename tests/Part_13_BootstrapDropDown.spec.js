@@ -1,54 +1,35 @@
-import {test,expect} from "@playwright/test"
+import {test,expect} from '@playwright/test'
+test('Part 13 Bootstrap DropDown Test',{tag:['@10To20','@10To15']},async({page})=>{
 
-test('Bootstrap DropDown',{tag:['@11To20','@11To15']},async ({page})=>{
+	await page.goto('https://www.jquery-az.com/boots/demo.php?ex=63.0_2')
+	
+	await page.click('.multiselect-selected-text')
+	
+	const count= await page.$$("//ul[@class='multiselect-container dropdown-menu']/li//input")
+	await expect(await count.length).toBe(11)
+	
+	await page.waitForSelector("//ul[@class='multiselect-container dropdown-menu']/li//label")
+	const options= await page.$$("//ul[@class='multiselect-container dropdown-menu']/li//label")
+	
+	for(const option of options){
+		const text=await option.textContent()
+		console.log('text: ',text)
 
+		if(text.includes('Java') || text.includes('C#') || text.includes('MySQL')){
+			await option.check()
+		}
+	}
+	
+	await page.waitForTimeout(2000)
+	
+	for(const option of options){
+		const text=await option.textContent()
+		console.log('text: ',text)
 
-    await page.goto('https://www.jquery-az.com/boots/demo.php?ex=63.0_2')
-    
-    await page.click('.multiselect')
-
-// Count:
-    //const options= await page.locator('ul>li label input') 
-    const options= await page.locator("//ul[@class='multiselect-container dropdown-menu']/li//input")
-    await expect(options).toHaveCount(11)
-
-// Length: (OR)
-   // const optionslength= await page.$$('ul>li label input')
-    const optionslength= await page.$$("//ul[@class='multiselect-container dropdown-menu']/li//input")
-    await expect(optionslength.length).toBe(11)
-
-
-//select Multiple Options 
-
-    await page.waitForSelector("//ul[@class='multiselect-container dropdown-menu']/li//label")
-    const optionsFor= await page.$$("//ul[@class='multiselect-container dropdown-menu']/li//label")
-
-    for(let option of optionsFor){
-
-        const val= await option.textContent();
-        console.log('Values are: ',val)
-        if(val.includes('Angular') || val.includes('Java')){
-            await option.click()
-        }
-    }
-
-
-
- //DeSelect Mutiple Options
- 
- await page.waitForSelector("//ul[@class='multiselect-container dropdown-menu']/li//label")
- const optionsForD= await page.$$("//ul[@class='multiselect-container dropdown-menu']/li//label")
-
- for(let option of optionsForD){
-
-     const val= await option.textContent();
-     console.log('Values are: ',val)
-     if(val.includes('HTML') || val.includes('CSS')){
-         await option.click()
-     }
- }
-
-
-    await page.waitForTimeout(3000)
-    await page.close()
+		if(text.includes('HTML') || text.includes('CSS') || text.includes('C#')){
+			await option.uncheck()
+		}
+	}
+	await page.waitForTimeout(2000)
+	await page.close()
 })

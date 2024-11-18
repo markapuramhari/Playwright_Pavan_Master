@@ -11,13 +11,9 @@ const records=parse (
         skip_empty_lines:true
     })
 
-test.describe("DDT Login using CSV",function(){
-
     for(const data of records){
 
-        test.describe(`DDT Loginpage Test ${ data.id}`,{tag:['@03To05','@03To10']},async()=>{
-
-            test('Login Application',async ({page})=>{
+        test(`DDT Loginpage Test ${ data.id}`,{tag:['@39To40']},async({page})=>{
 
                 await page.goto('https://www.demoblaze.com/index.html')
             
@@ -31,10 +27,9 @@ test.describe("DDT Login using CSV",function(){
             
                 await page.waitForTimeout(2000)
                 await page.close()
-            })
         })
     }
-})
+
 
 
 

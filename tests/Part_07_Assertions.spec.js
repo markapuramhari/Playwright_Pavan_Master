@@ -1,5 +1,4 @@
 /*
-
 1. URL ==> 
 2. Title ==>
 3. Visible ==> 
@@ -10,71 +9,50 @@
 8. ContainText ==> 
 9. Value ==> 
 10. Count ==>
-
 */
 
-
-
 import {test,expect} from '@playwright/test'
-test('All Assertions Test',{tag:['@03To10','@07To10']},async ({page})=>{
+test('Part 07 Assertions Test',{tag:['@03To10']},async({page})=>{
 
-    await page.goto('https://demo.nopcommerce.com/register')
-
- //1. expect(page).toHaveURL()
-    await expect(page).toHaveURL('https://demo.nopcommerce.com/register')
-
- //2. expect(page).toHaveTitle()
-    await expect(page).toHaveTitle('nopCommerce demo store. Register')
-
-//3. expect(locator).toBeVisible()
-    const logo= await page.locator('.header-logo')    
-    await expect(logo).toBeVisible()
-    await expect(await page.getByRole('button',{name:'Register'})).toBeVisible()
-
-//4. expect(locator).toBeEnabled()
-    const searchEle= await page.locator('#small-searchterms')
-    await expect(searchEle).toBeEnabled()
-
-//5. expect(locator).toBeChecked() //Radio button or check box
-    const maleRadioBtn= await page.locator('#gender-male')
-    maleRadioBtn.click()
-    await expect(maleRadioBtn).toBeChecked();
-
-    const newsletter= await page.locator('#Newsletter')
-    await expect(newsletter).toBeChecked()
-
- //6. expect(locator).toHaveAttribute('attribute','value')
-    const RegBtn= await page.locator('#register-button')
-    await expect(RegBtn).toHaveAttribute('type','submit')
-
-//7. expect(locator).toHaveText() 
-    const Reg= await page.locator('.page-title h1')
-    await expect(Reg).toHaveText("Register")
-
-    const text= await page.getByText('Company Details')
-	await expect(text).toHaveText('Company Details')
+	await page.goto('https://demo.nopcommerce.com/register')
 	
+//URL
+	await expect(await page).toHaveURL('https://demo.nopcommerce.com/register')
 	
+//Title
+	await expect(await page).toHaveTitle('nopCommerce demo store. Register')
+	
+//Visible
+	await expect(await page.getByAltText('nopCommerce demo store')).toBeVisible()
+	
+//Enabled
+	await expect(await page.getByRole('button',{name:'SEARCH'})).toBeEnabled()
+	
+//Checked
+	await expect(await page.locator('#Newsletter')).toBeChecked()
+	
+//Attribute
+	await expect(await page.locator('#register-button')).toHaveAttribute('name','register-button')
+	
+//Text
+	await expect(await page.getByText('Your Password')).toHaveText('Your Password')
+	
+//ContainText
+	await expect(await page.getByText('Your Password')).toContainText('Password')
+	
+//Value
+	const val= await page.locator('#Company')
+	val.fill('Hari')
+	await expect(await val).toHaveValue('Hari')
+	
+//Count
 
-//8.  expect(locator).toContainText()  
-    const Reg1= await page.locator('.page-title h1')
-    await expect(Reg1).toContainText("egi")
-    await expect(text).toContainText('Details')
+	const count1=await page.locator('a')
+	await expect(count1).toHaveCount(61)
 
-//9. expect(locator).toHaveValue()
-    const emailInput= await page.locator('#Email')
-    await emailInput.fill('abc@gmail.com')
-    await expect(emailInput).toHaveValue('abc@gmail.com')
-
-//10. expect(locator).toHaveCount()
-    const options= await page.locator("//select[@name='DateOfBirthMonth']/option")
-    await expect(options).toHaveCount(13)
-
-    await page.waitForSelector("a")
-    const links=await page.$$("a")
-    await expect(await links.length).toBe(61)
-
-
-    await page.waitForTimeout(3000)
-    await page.close()
+	const count=await page.$$('a')
+	await expect(count.length).toBe(61)
+	
+	await page.waitForTimeout(2000)
+	await page.close()
 })

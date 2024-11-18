@@ -1,14 +1,11 @@
-import{test,expect} from '@playwright/test'
-test('Mouse Right Click',{tag:['@21To30','@21To25']},async({page})=>{
+import {test,expect} from '@playwright/test'
+test('Part 22 Right Click Test',{tag:['@21To30','@21To25']},async({page})=>{
 
-await page.goto('https://swisnl.github.io/jQuery-contextMenu/demo.html')
-
-const button= await page.locator("//span[normalize-space()='right click me']")
-
-//right click action
-
-    await button.click({button:'right'})
-    
-    await page.waitForTimeout(3000)
-    await page.close()
+	await page.goto('https://swisnl.github.io/jQuery-contextMenu/demo.html')
+	
+	const rightClick= await page.locator('.context-menu-one')
+	await rightClick.click({button:'right'})
+	
+	await page.waitForTimeout(2000)
+	await page.close()
 })

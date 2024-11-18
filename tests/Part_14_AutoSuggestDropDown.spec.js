@@ -1,31 +1,23 @@
 import {test,expect} from '@playwright/test'
-test('Google Search Test',{tag:['@11To20','@11To15']},async({page})=>{
-
-
+test('Part 14 Google Search',{tag:['@11To20','@11To15']},async({page})=>{
 	await page.goto('https://www.google.com/')
 	
-	//await page.fill('#APjFqb','selenium')
-	await page.locator('#APjFqb').pressSequentially('selenium',{delay:500})
+	await page.fill("#APjFqb","playwright")
+	//await page.locator('#APjFqb').pressSequentially('selenium',{delay:500})
 	
-	await page.waitForSelector('.wM6W7d span')
-	const options= await page.$$(".wM6W7d span")
-	
-	for(let option of options){
-	
-		const textOptions=await option.textContent()
-		console.log('textOptions: ',textOptions)
-		if(textOptions.includes('selenium download')){
-		
+	await page.waitForSelector("//div[@class='wM6W7d']/span")
+	const options= await page.$$("//div[@class='wM6W7d']/span")
+
+	for(const option of options) {
+		 const text=await option.textContent()
+		 console.log('text: ',text)
+
+		 if(text.includes('playwright vs selenium')){
 			await option.click()
 			break
-		
-		}
-	
+		 }
 	}
-	
-	
-	await page.waitForTimeout(3000)
+
+	await page.waitForTimeout(2000)
 	await page.close()
-
-
 })

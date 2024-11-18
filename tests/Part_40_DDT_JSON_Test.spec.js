@@ -5,7 +5,7 @@ const testdata= JSON.parse(JSON.stringify(require('../testdata/LoginTestData.jso
 
     for(const data of testdata){
 
-        test(`DDT Loginpage Test ${ data.id}`,{tag:['@03To05','@03To10']},async({page})=>{
+        test(`DDT Loginpage Test ${ data.id}`,{tag:['@39To40']},async({page})=>{
 
                 await page.goto('https://www.demoblaze.com/index.html')
             
@@ -23,7 +23,7 @@ const testdata= JSON.parse(JSON.stringify(require('../testdata/LoginTestData.jso
         
     }
 
-
+ 
 /*
 test.describe("DDT Login using JSON",function(){
     for(const data of testdata){

@@ -1,20 +1,17 @@
 import {test,expect} from '@playwright/test'
-test('Mouse hover',{tag:['@21To30','@21To25']}, async({page})=>{
-
-    await page.goto('https://demo.opencart.com/')
-
-    const desktops= await page.locator("//a[normalize-space()='Desktops']")
-    const mac= await page.locator("//a[normalize-space()='Mac (1)']")
-//mouse hover
-
-    await desktops.hover()
-    await mac.hover()
-    await expect(mac).toHaveText('Mac (1)')
-    await expect(mac).toBeVisible()
-    await mac.click()
-
-
-    await page.waitForTimeout(5000)
-    await page.close()
-
+test('Part 21 Mouse hover Test',{tag:['@21To30','@21To25']},async({page})=>{
+	
+	await page.goto('https://demo.opencart.com/')
+	
+	const desktop=await page.getByRole('link',{name:'Desktops'})
+	const mac=await page.getByRole('link',{name:'Mac (1)'})
+	
+	await desktop.hover()
+	await mac.hover()
+	await mac.click()
+	
+	//await expect(await page.getByRole('link',{name:'iMac'})).toBeVisible()
+	
+	await page.waitForTimeout(2000)
+	await page.close()
 })

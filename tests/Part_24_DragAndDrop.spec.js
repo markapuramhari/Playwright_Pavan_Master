@@ -1,29 +1,13 @@
 import {test,expect} from '@playwright/test'
-test('Drag and Drop',{tag:['@21To30','@21To25']},async({page})=>{
+test('Part 24 DragAndDrop Test',{tag:['@21To25','@21To30']},async({page})=>{
 
-
-    await page.goto('http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html')
-
-    const rome= await page.locator('#box6')
-    const italy= await page.locator('#box106')
-
-    const washington= await page.locator('#box3')
-    const usa= await page.locator('#box103')
-
-
-//Approach 1
-    await rome.dragTo(italy)
-
-//Appraoch 2
-
-    await washington.hover()
-    await page.mouse.down()
-
-    await usa.hover()
-    await page.mouse.up()
-
-    await page.waitForTimeout(5000)   
-
-
-
+	await page.goto('http://dhtmlgoodies.com/scripts/drag-drop-custom/demo-drag-drop-3.html')
+	
+	const Oslo= await page.locator('#box1')
+	const Italy= await page.locator('#box106')
+	
+	await Oslo.dragTo(Italy)
+	
+	await page.waitForTimeout(2000)
+	await page.close()
 })

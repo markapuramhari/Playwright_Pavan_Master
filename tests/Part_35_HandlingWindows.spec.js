@@ -1,31 +1,28 @@
 import {test,expect} from '@playwright/test'
-test('Handling pages/Windows 2 pages',{tag:'@31To38'},async ({playwright})=>{
-    // const page1= browser.newPage()
-    // const page2= browser.newPage()
+import { channel } from 'diagnostics_channel'
+test('Part 35 WindowHandling 2 Tabs Test',async({playwright})=>{
 
-    const browser= await playwright.chromium.launch()
-    const context= await browser.newContext()
-    const page1= await context.newPage()
-    const page2= await context.newPage()
-
-    const allpages=context.pages()
-    console.log('no of pages:',allpages.length)
-
-    await page1.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-    await expect(page1).toHaveTitle('OrangeHRM')
-    await page1.waitForTimeout(3000)
-
-    await page2.goto('https://www.demoblaze.com/')
-    await expect(page2).toHaveTitle('STORE')
-    await page2.waitForTimeout(3000)
-    await page1.close()
-    await page2.close()
-
+	const browser= await playwright.chromium.launch({channel:'chrome'})
+	const context=await browser.newContext()
+	const page1=await context.newPage()
+	const page2=await context.newPage()
+	
+	page1.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+	await expect(page1).toHaveTitle('OrangeHRM')
+	
+	page2.goto('https://www.demoblaze.com/')
+	await expect(page2).toHaveTitle('STORE')
+	
+	await page1.waitForTimeout(2000)
+	await page2.waitForTimeout(2000)
+	await page1.close()
+	await page2.close()
 })
 
-test('Handling Multiple pages/Windows 1 page',{tag:'@31To38'},async ({playwright})=>{
 
-    const browser= await playwright.chromium.launch()
+test('Part 35 Window Handling 1 Tab Test',async({playwright})=>{
+
+	const browser= await playwright.chromium.launch({channel:'chrome'})
     const context= await browser.newContext()
     const page1= await context.newPage()
 
@@ -48,8 +45,9 @@ test('Handling Multiple pages/Windows 1 page',{tag:'@31To38'},async ({playwright
     console.log('LinkedIntext:',await LinkedIntext.textContent())
     await page3.close()
 
-    await page1.waitForTimeout(3000)
-    await page2.waitForTimeout(3000)
+    await page1.waitForTimeout(2000)
+    await page2.waitForTimeout(2000)
     await page1.close()
     await page2.close()
+
 })

@@ -1,32 +1,26 @@
 import {test,expect} from '@playwright/test'
-test('Hidden DropDown',{tag:['@11To20','@11To15']},async ({page})=>{
+test('Part 15 Hidden Dropdown Test',{tag:['@10To15','@10To20']},async({page})=>{
 
-    await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-    //https://demoqa.com/select-menu
-
-    await page.getByPlaceholder('Username').fill('Admin')
-    await page.getByPlaceholder('Password').fill('admin123')
-    await page.click("//button[normalize-space()='Login']")
-
-    //await page.locator("//a[@class='oxd-main-menu-item active']/span").click() not working
-    await page.locator("//span[normalize-space()='PIM']").click()
-
-    //await page.click('//div[6]//div[1]//div[2]//div[1]//div[1]//div[1]')
-    await page.click("(//div[@class='oxd-select-text-input'])[3]")
-
+	await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+	
+	await page.getByPlaceholder('Username').fill('Admin')
+	await page.getByPlaceholder('Password').fill('admin123')
+	await page.getByRole('button',{name:'Login'}).click()
+	await page.getByText('PIM').click()
+	await page.click("(//div[@class='oxd-select-text-input'])[3]")
+	
     await page.waitForSelector("//div[@role='listbox']//span")
-    const options= await page.$$("//div[@role='listbox']//span")
+	const options= await page.$$("//div[@role='listbox']//span")
+	
+	for(const option of options){
+		const text=await option.textContent()
+		console.log('text: ',text)
 
-    for(let option of options){
-        const jobTitle= await option.textContent()
-        console.log('jobTitles: ',jobTitle)
-        if(jobTitle.includes('Software Engineer')){
-            await option.click()
-            break
-        }
-    }
-
-    await page.waitForTimeout(2000)
-    await page.close()
-
+		if(text.includes('Social Media Marketer')){
+			await option.click()
+			break
+		}
+	}
+	await page.waitForTimeout(2000)
+	await page.close()
 })
