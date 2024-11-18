@@ -1,5 +1,4 @@
 import {test,expect} from '@playwright/test'
-import { channel } from 'diagnostics_channel'
 test('Part 35 WindowHandling 2 Tabs Test',async({playwright})=>{
 
 	const browser= await playwright.chromium.launch({channel:'chrome'})
