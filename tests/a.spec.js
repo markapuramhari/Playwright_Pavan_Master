@@ -16,6 +16,8 @@ test('Part 03 Homepage Test',{tag:['@03To05','@03To10']},async({page})=>{
 	await page.waitForTimeout(2000)
 	await page.close()
 })
+
+
  
 //=============================================================================================
 //import {test,expect} from '@playwright/test'
@@ -34,6 +36,9 @@ test('Part 04 Loginpage Test',{tag:['@03To05','@03To10']},async({page})=>{
 	await page.waitForTimeout(2000)
 	await page.close()
 })
+
+
+
 
 //=============================================================================================
 //import {test,expect} from '@playwright/test'
@@ -282,8 +287,8 @@ test('Part 13 Bootstrap DropDown Test',{tag:['@10To20','@10To15']},async({page})
 test('Part 14 Google Search',{tag:['@11To20','@11To15']},async({page})=>{
 	await page.goto('https://www.google.com/')
 	
-	//await page.fill("#APjFqb","playwright")
-	await page.locator('#APjFqb').pressSequentially('selenium',{delay:500})
+	await page.fill("#APjFqb","playwright")
+	//await page.locator('#APjFqb').pressSequentially('selenium',{delay:500})
 	
 	await page.waitForSelector("//div[@class='wM6W7d']/span")
 	const options= await page.$$("//div[@class='wM6W7d']/span")
@@ -543,12 +548,12 @@ test('Part 26 Upload Files Test',{tag:['@26To30','@21To30']},async({page})=>{
 
 	await page.goto('https://testautomationpractice.blogspot.com/')
 	
-	await page.locator('#singleFileInput').setInputFiles('tests/uploadFiles/index.html')
+	await page.locator('#singleFileInput').setInputFiles('uploadFiles/index.html')
 	await page.getByRole('button',{name:'Upload Single File'}).click()
 	
 	await expect(await page.locator('#singleFileStatus')).toContainText('index.html')
 
-	await page.locator('#multipleFilesInput').setInputFiles(['tests/uploadFiles/index.html','tests/uploadFiles/index1.html'])
+	await page.locator('#multipleFilesInput').setInputFiles(['uploadFiles/index.html','uploadFiles/index1.html'])
 	await page.getByRole('button',{name:'Upload Multiple Files'}).click()
 
 	await expect(await page.locator('#multipleFilesStatus')).toContainText('Multiple files selected:')

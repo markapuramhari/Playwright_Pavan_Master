@@ -5,7 +5,7 @@ test.describe.configure({mode:'serial'})
 test('Single Upload File',{tag:['@21To30','@26To30']},async({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')
-    await page.locator('#singleFileInput').setInputFiles('tests/uploadFiles/index.html')
+    await page.locator('#singleFileInput').setInputFiles('uploadFiles/index.html')
     await page.click("//button[normalize-space()='Upload Single File']")
     await expect(await page.locator('#singleFileStatus')).toContainText('index.html')
     await page.waitForTimeout(3000)
@@ -26,7 +26,7 @@ test('Single Upload File',{tag:['@21To30','@26To30']},async({page})=>{
 test('Multiple Upload Files',{tag:['@21To30','@26To30']},async({page})=>{
 
     await page.goto('https://testautomationpractice.blogspot.com/')
-    await page.locator('#multipleFilesInput').setInputFiles(['tests/uploadFiles/index.html','tests/uploadFiles/index.html'])
+    await page.locator('#multipleFilesInput').setInputFiles(['uploadFiles/index.html','uploadFiles/index.html'])
     await page.click("//button[normalize-space()='Upload Multiple Files']")
     await expect(await page.locator('#multipleFilesStatus')).toContainText('index.html')
     await expect(await page.locator('#multipleFilesStatus')).toContainText('Multiple files selected')
