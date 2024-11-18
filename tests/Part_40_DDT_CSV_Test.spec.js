@@ -1,17 +1,16 @@
 import {test,expect} from '@playwright/test'
-
 import fs from 'fs'
 import path from 'path'
 import { parse } from 'csv-parse/sync'
 
 
-const records=parse (
+const testdata=parse (
     fs.readFileSync(path.join(__dirname,"../testdata/LoginTestData.csv")),{
         columns:true,
         skip_empty_lines:true
     })
 
-    for(const data of records){
+    for(const data of testdata){
 
         test(`DDT Loginpage Test ${ data.id}`,{tag:['@39To40']},async({page})=>{
 
