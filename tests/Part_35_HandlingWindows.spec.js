@@ -6,10 +6,10 @@ test('Part 35 WindowHandling 2 Tabs Test',async({playwright})=>{
 	const page1=await context.newPage()
 	const page2=await context.newPage()
 	
-	page1.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
+	await page1.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
 	await expect(page1).toHaveTitle('OrangeHRM')
 	
-	page2.goto('https://www.demoblaze.com/')
+	await page2.goto('https://www.demoblaze.com/')
 	await expect(page2).toHaveTitle('STORE')
 	
 	await page1.waitForTimeout(2000)
