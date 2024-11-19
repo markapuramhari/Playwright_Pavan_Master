@@ -2,7 +2,7 @@
 import {test,expect} from '@playwright/test' 
 test('Part 03 Homepage Test',{tag:['@03To05','@03To10']},async({playwright})=>{
 
-	const browser=await playwright.chromium.launch({channel:'chrome'})
+	const browser=await playwright.chromium.launch({channel:'chrome'}) //msedge
 	const context=await browser.newContext()
 	const page=await context.newPage()
 	await page.goto('https://www.demoblaze.com/index.html')
