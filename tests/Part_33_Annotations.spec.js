@@ -15,7 +15,7 @@ test('Annotations Test2',{tag:'@31To38'},async({page})=>{
 //skip: test.skip()
 test('Annotations Test3',{tag:'@31To38'},async({page,browserName})=>{
 
-    if(browserName=='chromium'){
+    if(browserName=='firefox'){
         test.skip()
     }
     console.log('Test3....')

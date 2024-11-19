@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "npx playwright test",
-    "a": "npx playwright test --grep='03To10' --project=chromium-*",
-    "11To20": "npx playwright test --grep='@11To20' --headed --project='Google Chrome' --retries=2",
-    "21To30": "npx playwright test --grep='@11To20' --headed --project='Google Chrome' --retries=2 --workers=3",
-    "31To38": "npx playwright test --grep='@11To20' --headed --project='Google Chrome' --retries=2 --workers=3"
+    "allrun": "npx playwright test",  
+    "test": "npx playwright test --project=Chrome --headed",
+    "11To20": "npx playwright test --grep=@11To20 --headed --project=Chrome --retries=2",
+    "21To30": "npx playwright test --grep=@11To20 --headed --project=Edge --retries=2 --workers=3",
+    "31To38": "npx playwright test --grep=@11To20 --headed --project=Chrome --retries=2 --workers=3"
   },
   "keywords": [],
   "author": "",

@@ -59,11 +59,11 @@ module.exports = defineConfig({
 
 /* Test against branded browsers. */     
     {
-      name: 'Microsoft Edge',   //--project='Microsoft Edge'
+      name: 'Edge',   //--project='Edge'
       use: { ...devices['Desktop Edge'], channel: 'msedge' },
     },
     {
-      name: 'Google Chrome',    //--project='Google Chrome'
+      name: 'Chrome',    //--project='Chrome'
       use: { ...devices['Desktop Chrome'], channel: 'chrome' },
     },
 
