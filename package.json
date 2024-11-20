@@ -4,7 +4,7 @@
   "description": "playwright with javascript",
   "main": "index.js",
   "scripts": {
-    "alltest": "npx playwright test",  
+    "alltest": "npx playwright test",
     "test": "npx playwright test --project=Chrome --headed --workers=4",
     "03To10": "npx playwright test --grep=@03To10 --headed --project=Chrome --retries=2",
     "11To20": "npx playwright test --grep=@11To20 --headed --project=Chrome --retries=2",
@@ -27,6 +27,7 @@
   },
   "dependencies": {
     "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
     "exceljs": "^4.4.0"
   }
 }

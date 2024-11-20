@@ -1,6 +1,13 @@
 // @ts-check
 import { defineConfig, devices } from '@playwright/test';
+import dotenv from "dotenv"
 //const { defineConfig, devices } = require('@playwright/test');
+
+dotenv.config({
+
+  path: ['env/.env.local','env/.env.QA'],
+})
+
 
 /**
  * Read environment variables from file.
@@ -41,7 +48,7 @@ export default defineConfig({
   /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
-    // baseURL: 'http://127.0.0.1:3000',
+     baseURL: 'https://www.demoblaze.com',
 
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'retain-on-failure',
@@ -63,7 +70,7 @@ export default defineConfig({
     /* Test against branded browsers. */
     {
       name: 'Edge',   //--project='Edge'
-      use: { ...devices['Desktop Edge'], channel: 'msedge' },
+      use: { ...devices['Desktop Edge'], channel: 'msedge', },
     },
     {
       name: 'Chrome',    //--project='Chrome'

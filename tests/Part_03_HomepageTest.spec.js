@@ -5,7 +5,10 @@ test('Part 03 Homepage Test', { tag: ['@03To05', '@03To10'] }, async ({ playwrig
 	const browser = await playwright.chromium.launch({ channel: 'chrome' }) //msedge
 	const context = await browser.newContext()
 	const page = await context.newPage()
-	await page.goto('https://www.demoblaze.com/index.html')
+
+	//await page.goto('https://www.demoblaze.com/index.html')
+	//await page.goto('/index.html') //base URL
+	await page.goto(process.env.QA_URL) //ENV URL
 
 	const pageURL = page.url()
 	console.log('pageURL: ', pageURL)
