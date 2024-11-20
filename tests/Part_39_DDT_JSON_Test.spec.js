@@ -5,7 +5,7 @@ const testdata = JSON.parse(JSON.stringify(require('../testdata/LoginTestData.js
 
 for (const data of testdata) {
 
-    test(`DDT Loginpage Test ${data.id}`, { tag: ['@39To40'] }, async ({ page }) => {
+    test(`Part 39 DDT JSON Loginpage Test ${data.id}`, { tag: ['@39To40'] }, async ({ page }) => {
 
         await page.goto('https://www.demoblaze.com/index.html')
 

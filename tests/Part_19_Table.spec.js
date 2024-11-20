@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'
-test('Handling Table', { tag: ['@11To20', '@16To20'] }, async ({ page }) => {
+test('Handling Table', { tag: ['@16To20', '@11To20'] }, async ({ page }) => {
 
     await page.goto('https://testautomationpractice.blogspot.com/')
 

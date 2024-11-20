@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test'
 test.describe.configure({ mode: 'serial' })
-test('Homepage Test', { tag: ['@21To30', '@26To30'] }, async ({ page }) => {
+test('Part 27 Homepage Test', { tag: ['@26To30', '@21To30'] }, async ({ page }) => {
 
     //Login
     await page.goto('https://www.demoblaze.com/index.html')
@@ -31,7 +31,7 @@ test('Homepage Test', { tag: ['@21To30', '@26To30'] }, async ({ page }) => {
 })
 
 
-test('AddToCart Test', { tag: ['@21To30', '@26To30'] }, async ({ page }) => {
+test('Part 27 AddToCart Test', { tag: ['@26To30', '@21To30'] }, async ({ page }) => {
 
     //Login
     await page.goto('https://www.demoblaze.com/index.html')

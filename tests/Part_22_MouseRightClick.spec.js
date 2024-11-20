@@ -1,5 +1,5 @@
 import { test } from '@playwright/test'
-test('Part 22 Right Click Test', { tag: ['@21To30', '@21To25'] }, async ({ page }) => {
+test('Part 22 Right Click Test', { tag: ['@21To25', '@21To30'] }, async ({ page }) => {
 
 	await page.goto('https://swisnl.github.io/jQuery-contextMenu/demo.html')
 

@@ -1,19 +1,19 @@
 import { test, expect } from '@playwright/test'
 
 // only:  test.only()
-test('Annotations Test1', { tag: '@31To38' }, async () => {
+test('Part 33 Annotations Test1', { tag: ['@31To38'] }, async () => {
 
     console.log('Test1....')
 
 })
-test('Annotations Test2', { tag: '@31To38' }, async () => {
+test('Part 33 Annotations Test2', { tag: ['@31To38'] }, async () => {
 
     console.log('Test2....')
 
 })
 
 //skip: test.skip()
-test('Annotations Test3', { tag: '@31To38' }, async ({ browserName }) => {
+test('Part 33 Annotations Test3', { tag: ['@31To38'] }, async ({ browserName }) => {
 
     if (browserName == 'firefox') {
         test.skip()
@@ -25,7 +25,7 @@ test('Annotations Test3', { tag: '@31To38' }, async ({ browserName }) => {
 
 //Fixme: test.fixme()   //Knows bugs 
 
-test('Annotations Test4', { tag: '@31To38' }, async () => {
+test('Part 33 Annotations Test4', { tag: ['@31To38'] }, async () => {
 
 
     console.log('Test4....')
@@ -34,7 +34,7 @@ test('Annotations Test4', { tag: '@31To38' }, async () => {
 })
 
 //Fail ==> Expected to fail, but passed so FAIL. if both fail that time test case PASS
-test('Annotations Test5', { tag: '@31To38' }, async () => {
+test('Part 33 Annotations Test5', { tag: ['@31To38'] }, async () => {
 
     test.fail() //expect :fail
     console.log('Test5....')
@@ -43,7 +43,7 @@ test('Annotations Test5', { tag: '@31To38' }, async () => {
 })
 
 //if both fail that time test case PASS
-test('Annotations Test6', { tag: '@31To38' }, async ({ browserName }) => {
+test('Part 33 Annotations Test6', { tag: ['@31To38'] }, async ({ browserName }) => {
 
     console.log('Test6....')
     if (browserName == 'firefox') {
@@ -53,7 +53,7 @@ test('Annotations Test6', { tag: '@31To38' }, async ({ browserName }) => {
 
 //slow: test.slow() 
 
-test('Annotations Test7', { tag: '@31To38' }, async ({ page }) => {
+test('Part 33 Annotations Test7', { tag: ['@31To38'] }, async ({ page }) => {
 
     test.slow() //increase 3 times 
     //(OR)

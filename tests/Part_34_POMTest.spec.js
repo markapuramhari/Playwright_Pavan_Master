@@ -3,7 +3,7 @@ import { LoginPage } from '../pages/LoginPage'
 import { HomePage } from '../pages/HomePage'
 import { CartPage } from '../pages/CartPage'
 
-test('test', { tag: '@31To38' }, async ({ page }) => {
+test('Part 34 POM test', { tag: ['@31To38'] }, async ({ page }) => {
     //test.slow()
 
     //without POM

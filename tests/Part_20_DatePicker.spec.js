@@ -1,5 +1,5 @@
 import { test } from '@playwright/test'
-test('Date Picker', { tag: ['@11To20', '@16To20'] }, async ({ page }) => {
+test('Date Picker', { tag: ['@16To20', '@11To20'] }, async ({ page }) => {
 
     await page.goto('https://testautomationpractice.blogspot.com/')
 

@@ -12,7 +12,7 @@ const testdata = parse(
 
 for (const data of testdata) {
 
-    test(`DDT Loginpage Test ${data.id}`, { tag: ['@39To40'] }, async ({ page }) => {
+    test(`Part 40 DDT CSV Loginpage Test ${data.id}`, { tag: ['@39To40'] }, async ({ page }) => {
 
         await page.goto('https://www.demoblaze.com/index.html')
 

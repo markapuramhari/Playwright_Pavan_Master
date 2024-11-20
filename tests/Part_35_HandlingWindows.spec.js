@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'
-test('Part 35 WindowHandling 2 Tabs Test', async ({ playwright }) => {
+test('Part 35 WindowHandling 2 Tabs Test',{tag:['@31To38']}, async ({ playwright }) => {
 
     const browser = await playwright.chromium.launch({ channel: 'chrome' })
     const context = await browser.newContext()
@@ -19,7 +19,7 @@ test('Part 35 WindowHandling 2 Tabs Test', async ({ playwright }) => {
 })
 
 
-test('Part 35 Window Handling 1 Tab Test', async ({ playwright }) => {
+test('Part 35 Window Handling 1 Tab Test', {tag:['@31To38']},async ({ playwright }) => {
 
     test.slow()
     const browser = await playwright.chromium.launch({ channel: 'chrome' })

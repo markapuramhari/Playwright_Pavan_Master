@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'
-test('Re-Try Test', { tag: '@31To38' }, async ({ page }) => {
+test('Part 38 Re-Try Test', { tag: ['@31To38'] }, async ({ page }) => {
 
 
     await page.goto('https://www.demoblaze.com/index.html')

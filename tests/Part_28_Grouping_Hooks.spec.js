@@ -18,12 +18,12 @@ test.afterEach(async () => {
 
 test.describe('Group1', () => {
 
-    test('Test 1', { tag: ['@21To30', '@26To30'] }, async () => {
+    test('Part 28 Test 1', { tag: ['@26To30', '@21To30'] }, async () => {
 
         console.log('This is Test1')
     })
 
-    test('Test 2', { tag: ['@21To30', '@26To30'] }, async () => {
+    test('Part 28 Test 2', { tag: ['@26To30', '@21To30'] }, async () => {
 
         console.log('This is Test2')
     })
@@ -32,12 +32,12 @@ test.describe('Group1', () => {
 
 test.describe('Group 2', () => {
 
-    test('Test 3', { tag: ['@21To30', '@26To30'] }, async () => {
+    test('Part 28 Test 3', { tag: ['@26To30', '@21To30'] }, async () => {
 
         console.log('This is Test3')
     })
 
-    test('Test 4', { tag: ['@21To30', '@26To30'] }, async () => {
+    test('Part 28 Test 4', { tag: ['@26To30', '@21To30'] }, async () => {
 
         console.log('This is Test4')
     })

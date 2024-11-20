@@ -4,7 +4,7 @@ import { test, expect } from '@playwright/test'
 // prompt
 
 
-test('Part 16 alert Test', { tag: ['@10To20', '@16To20'] }, async ({ page }) => {
+test('Part 16 alert Test', { tag: ['@16To20', '@11To20'] }, async ({ page }) => {
 
 	await page.goto('https://testautomationpractice.blogspot.com/')
 
@@ -20,7 +20,7 @@ test('Part 16 alert Test', { tag: ['@10To20', '@16To20'] }, async ({ page }) => 
 	await page.close()
 })
 
-test('Part 16 confirm Test', { tag: ['@10To20', '@16To20'] }, async ({ page }) => {
+test('Part 16 confirm Test', { tag: ['@11To20', '@16To20'] }, async ({ page }) => {
 
 	await page.goto('https://testautomationpractice.blogspot.com/')
 
@@ -39,7 +39,7 @@ test('Part 16 confirm Test', { tag: ['@10To20', '@16To20'] }, async ({ page }) =
 	await page.close()
 })
 
-test('Part 16 prompt Test', { tag: ['@10To20', '@16To20'] }, async ({ page }) => {
+test('Part 16 prompt Test', { tag: ['@11To20', '@16To20'] }, async ({ page }) => {
 
 	await page.goto('https://testautomationpractice.blogspot.com/')
 	page.on('dialog', async dialog => {

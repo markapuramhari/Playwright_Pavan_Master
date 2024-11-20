@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'
-test('Part 17 Frames Test', { tag: ['@11To20', '@16To20'] }, async ({ page }) => {
+test('Part 17 Frames Test', { tag: ['@16To20', '@11To20'] }, async ({ page }) => {
 
 	await page.goto('https://ui.vision/demo/webtest/frames/')
 
