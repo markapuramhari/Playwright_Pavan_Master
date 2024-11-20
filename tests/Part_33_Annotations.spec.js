@@ -57,9 +57,9 @@ test('Annotations Test7', { tag: '@31To38' }, async ({ page }) => {
 
     test.slow() //increase 3 times 
     //(OR)
-    test.setTimeout(5000)
+    //test.setTimeout(5000)
     console.log('Test7....')
-    await page.goto('https://demo.opencart.com/')
+    await page.goto('https://www.demoblaze.com/index.html')
 })
 
 

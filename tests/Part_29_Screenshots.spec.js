@@ -3,7 +3,7 @@ import { test } from '@playwright/test'
 test('page screenshot', { tag: ['@21To30', '@26To30'] }, async ({ page }) => {
 
 
-    await page.goto('https://demo.opencart.com/')
+    await page.goto('https://www.demoblaze.com/index.html')
     await page.screenshot({ path: 'screenshorts/' + Date.now() + 'Homepage.png' })
 
 
@@ -11,7 +11,7 @@ test('page screenshot', { tag: ['@21To30', '@26To30'] }, async ({ page }) => {
 
 test('Full page screenshot', { tag: ['@21To30', '@26To30'] }, async ({ page }) => {
 
-    await page.goto('https://demo.opencart.com/')
+    await page.goto('https://www.demoblaze.com/index.html')
     await page.screenshot({ path: 'screenshorts/' + Date.now() + 'Fullpage.png', fullPage: true })
 
 })
@@ -19,7 +19,7 @@ test('Full page screenshot', { tag: ['@21To30', '@26To30'] }, async ({ page }) =
 
 test('Element screenshot', { tag: ['@21To30', '@26To30'] }, async ({ page }) => {
 
-    await page.goto('https://demo.opencart.com/')
-    await page.locator("img[alt='iPhone 6']").screenshot({ path: 'screenshorts/' + Date.now() + 'iPhone6img.png' })
+    await page.goto('https://www.demoblaze.com/index.html')
+    await page.locator("//a[normalize-space()='Samsung galaxy s6']").screenshot({ path: 'screenshorts/' + Date.now() + 'Samsung.png' })
 
 })

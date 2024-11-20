@@ -9,9 +9,9 @@ test('Part 11 Dropdown Test', { tag: ['@11To15', '@11To20'] }, async ({ page }) 
 	await page.selectOption('#country', { index: 6 })
 
 	const options = await page.$$("//select[@id='country']/option")
-	await expect(await options.length).toBe(10)
+	expect(options.length).toBe(10)
 
-	const options1 = await page.locator("//select[@id='country']/option")
+	const options1 = page.locator("//select[@id='country']/option")
 	await expect(options1).toHaveCount(10)
 
 	let flag = false
@@ -24,7 +24,7 @@ test('Part 11 Dropdown Test', { tag: ['@11To15', '@11To20'] }, async ({ page }) 
 			break
 		}
 	}
-	await expect(flag).toBeTruthy()
+	expect(flag).toBeTruthy()
 
 	await page.waitForTimeout(3000)
 	await page.close()

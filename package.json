@@ -1,7 +1,7 @@
 {
   "name": "playwright_pavan_master",
   "version": "1.0.0",
-  "description": "",
+  "description": "playwright with javascript",
   "main": "index.js",
   "scripts": {
     "alltest": "npx playwright test",  
@@ -14,7 +14,7 @@
     "rerun": "npx playwright test --grep=@39To40 --headed --project=Chrome --retries=2 --workers=1 --last-failed"
   },
   "keywords": [],
-  "author": "",
+  "author": "Hari Babu M",
   "license": "ISC",
   "devDependencies": {
     "@cucumber/cucumber": "^11.0.1",

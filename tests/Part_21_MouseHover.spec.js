@@ -1,16 +1,16 @@
 import { test, expect } from '@playwright/test'
 test('Part 21 Mouse hover Test', { tag: ['@21To30', '@21To25'] }, async ({ page }) => {
 
-	await page.goto('https://demo.opencart.com/')
+	await page.goto('https://testautomationpractice.blogspot.com/#')
 
-	const desktop = page.getByRole('link', { name: 'Desktops' })
-	const mac = page.getByRole('link', { name: 'Mac (1)' })
+	const button = page.getByRole('button', { name: 'Point Me' })
+	const mobile = page.getByRole('link', { name: 'Mobiles' })
+	const laptop = page.getByRole('link', { name: 'Laptops' })
 
-	await desktop.hover()
-	await mac.hover()
-	await mac.click()
-
-	//await expect(await page.getByRole('link',{name:'iMac'})).toBeVisible()
+	await button.hover()
+	await mobile.hover()
+	await laptop.hover()
+	await laptop.click()
 
 	await page.waitForTimeout(2000)
 	await page.close()

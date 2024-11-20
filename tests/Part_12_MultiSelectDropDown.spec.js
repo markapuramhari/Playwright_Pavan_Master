@@ -6,7 +6,7 @@ test('Part 12 Multi Select Dropdown Test', { tag: ['@11To15', '@11To20'] }, asyn
 	await page.selectOption('#colors', ['Red', 'Blue', 'Green'])
 
 	const options = await page.$$("//select[@id='colors']/option")
-	await expect(await options.length).toBe(7)
+	expect(options.length).toBe(7)
 
 	let flag = false
 	for (const option of options) {
@@ -18,7 +18,7 @@ test('Part 12 Multi Select Dropdown Test', { tag: ['@11To15', '@11To20'] }, asyn
 			break
 		}
 	}
-	await expect(flag).toBeTruthy()
+	expect(flag).toBeTruthy()
 
 	await page.waitForTimeout(2000)
 	await page.close()

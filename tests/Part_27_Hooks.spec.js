@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test'
+test.describe.configure({ mode: 'serial' })
 test('Homepage Test', { tag: ['@21To30', '@26To30'] }, async ({ page }) => {
 
     //Login
@@ -19,11 +20,13 @@ test('Homepage Test', { tag: ['@21To30', '@26To30'] }, async ({ page }) => {
     await page.waitForSelector('.hrefch')
     const products = await page.$$('.hrefch')
     expect(products).toHaveLength(9)
+    expect(products.length).toBe(9)
 
     //Logout
 
     await page.click('#logout2')
-    await page.waitForTimeout(5000)
+    await page.waitForTimeout(2000)
+    await page.close()
 
 })
 
@@ -48,20 +51,24 @@ test('AddToCart Test', { tag: ['@21To30', '@26To30'] }, async ({ page }) => {
     await page.waitForSelector('.hrefch')
     const products = await page.$$('.hrefch')
     expect(products).toHaveLength(9)
+    expect(products.length).toBe(9)
 
     //Add to Cart
 
     await page.click("//a[normalize-space()='Samsung galaxy s6']")
-    await page.click("//a[normalize-space()='Add to cart']")
 
     page.on('dialog', async dialog => {
         expect(dialog.message()).toContain('Product added.')
         await dialog.accept()
     })
 
+    await page.click("//a[normalize-space()='Add to cart']")
+
     //Logout
 
+    await page.waitForTimeout(2000)
     await page.click('#logout2')
-    await page.waitForTimeout(5000)
+    await page.waitForTimeout(2000)
+    await page.close()
 
 })

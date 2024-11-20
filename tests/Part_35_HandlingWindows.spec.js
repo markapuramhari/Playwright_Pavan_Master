@@ -6,15 +6,15 @@ test('Part 35 WindowHandling 2 Tabs Test', async ({ playwright }) => {
     const page1 = await context.newPage()
     const page2 = await context.newPage()
 
-    await page1.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-    await expect(page1).toHaveTitle('OrangeHRM')
+    await page1.goto('https://www.demoblaze.com/index.html')
+    await expect(page1).toHaveTitle('STORE')
 
-    await page2.goto('https://www.demoblaze.com/')
-    await expect(page2).toHaveTitle('STORE')
+    await page2.goto('https://testautomationpractice.blogspot.com/')
+    await expect(page2).toHaveTitle('Automation Testing Practice')
 
     await page1.waitForTimeout(2000)
-    await page2.waitForTimeout(2000)
     await page1.close()
+    await page2.waitForTimeout(2000)
     await page2.close()
 })
 
@@ -40,13 +40,14 @@ test('Part 35 Window Handling 1 Tab Test', async ({ playwright }) => {
     const pagePromisee = context.waitForEvent('page')
     const page3 = await pagePromisee
     const LinkedIntext = page3.locator('.authwall-join-form__title')
+    await page3.waitForSelector('.authwall-join-form__title')
     await expect(LinkedIntext).toContainText('LinkedIn')
     console.log('LinkedIntext:', await LinkedIntext.textContent())
     await page3.close()
 
     await page1.waitForTimeout(2000)
-    await page2.waitForTimeout(2000)
     await page1.close()
+    await page2.waitForTimeout(2000)
     await page2.close()
 
 })

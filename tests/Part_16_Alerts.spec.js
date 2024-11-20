@@ -28,12 +28,12 @@ test('Part 16 confirm Test', { tag: ['@10To20', '@16To20'] }, async ({ page }) =
 		expect(dialog.type()).toContain('confirm')
 		expect(dialog.message()).toContain('Press a button!')
 
-		//await dialog.accept()
-		await dialog.dismiss()
+		await dialog.accept()
+		//await dialog.dismiss()
 	})
 
 	await page.click('#confirmBtn')
-	await expect(page.locator('#demo')).toHaveText('You pressed Cancel!')
+	await expect(page.locator('#demo')).toHaveText('You pressed OK!')
 
 	await page.waitForTimeout(2000)
 	await page.close()

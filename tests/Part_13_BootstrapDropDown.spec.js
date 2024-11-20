@@ -6,7 +6,7 @@ test('Part 13 Bootstrap DropDown Test', { tag: ['@10To20', '@10To15'] }, async (
 	await page.click('.multiselect-selected-text')
 
 	const count = await page.$$("//ul[@class='multiselect-container dropdown-menu']/li//input")
-	await expect(await count.length).toBe(11)
+	expect(count.length).toBe(11)
 
 	await page.waitForSelector("//ul[@class='multiselect-container dropdown-menu']/li//label")
 	const options = await page.$$("//ul[@class='multiselect-container dropdown-menu']/li//label")
