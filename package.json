@@ -4,11 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "allrun": "npx playwright test",  
-    "test": "npx playwright test --project=Chrome --headed",
+    "alltest": "npx playwright test",  
+    "test": "npx playwright test --project=Chrome --headed --workers=4",
+    "03To10": "npx playwright test --grep=@03To10 --headed --project=Chrome --retries=2",
     "11To20": "npx playwright test --grep=@11To20 --headed --project=Chrome --retries=2",
-    "21To30": "npx playwright test --grep=@11To20 --headed --project=Edge --retries=2 --workers=3",
-    "31To38": "npx playwright test --grep=@11To20 --headed --project=Chrome --retries=2 --workers=3"
+    "21To30": "npx playwright test --grep=@21To30 --headed --project=Edge --retries=2 --workers=3",
+    "31To38": "npx playwright test --grep=@31To38 --headed --project=Chrome --retries=2 --workers=3",
+    "DDT": "npx playwright test --grep=@39To40 --headed --project=Chrome --retries=2 --workers=1",
+    "rerun": "npx playwright test --grep=@39To40 --headed --project=Chrome --retries=2 --workers=1 --last-failed"
   },
   "keywords": [],
   "author": "",
