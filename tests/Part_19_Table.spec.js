@@ -1,76 +1,76 @@
-import {test,expect} from '@playwright/test'
-test('Handling Table',{tag:['@11To20','@16To20']},async ({page})=>{
+import { test, expect } from '@playwright/test'
+test('Handling Table', { tag: ['@11To20', '@16To20'] }, async ({ page }) => {
 
     await page.goto('https://testautomationpractice.blogspot.com/')
 
     console.log('---total number of columns & rows----------------')
 
-//1. total number of columns & rows 
-    const table= await page.locator("//table[@id='productTable']")
-    const columns= await page.locator("//table[@id='productTable']//th")
+    //1. total number of columns & rows 
+    const table = page.locator("//table[@id='productTable']")
+    const columns = page.locator("//table[@id='productTable']//th")
     console.log('no of colums: ', await columns.count())
-    await expect(await columns.count()).toBe(4)
+    expect(await columns.count()).toBe(4)
 
-    const rows= await page.locator("//table[@id='productTable']/tbody/tr")
-    console.log('no of rows: ',await rows.count())
-    await expect(await rows.count()).toBe(5)
+    const rows = page.locator("//table[@id='productTable']/tbody/tr")
+    console.log('no of rows: ', await rows.count())
+    expect(await rows.count()).toBe(5)
 
     console.log('-----select check box for Smartwatch--------------')
 
-//2. select check box for Smartwatch
+    //2. select check box for Smartwatch
 
-  const matchedRow=  rows.filter({
+    const matchedRow = rows.filter({
         has: page.locator('td'),
         hasText: 'Smartwatch',
     })
     await matchedRow.locator('input').check()
 
     console.log('------select multiple products by re-use function-------------')
-    
-//3. select multiple products by re-use function
+
+    //3. select multiple products by re-use function
 
 
-    await selectProduct(rows,page,'Tablet')
-    await selectProduct(rows,page,'Smartphone')
-    await selectProduct(rows,page,'Laptop')
-    
+    await selectProduct(rows, page, 'Tablet')
+    await selectProduct(rows, page, 'Smartphone')
+    await selectProduct(rows, page, 'Laptop')
+
     console.log('----print all product details using loop same page---------------')
 
 
-//4. print all product details using loop same page
+    //4. print all product details using loop same page
 
-    for(let i=0;i<await rows.count();i++){
-        const row= rows.nth(i)
-        const tds= row.locator('td')
+    for (let i = 0; i < await rows.count(); i++) {
+        const row = rows.nth(i)
+        const tds = row.locator('td')
 
-        for(let j=0;j<await tds.count()-1;j++){
+        for (let j = 0; j < await tds.count() - 1; j++) {
             console.log(await tds.nth(j).textContent())
         }
     }
 
     console.log('------read data from all pages-------------')
- //5. read data from all pages
- 
-    const pages= await page.locator('.pagination li a')
-    const totalpages=await pages.count()
-    console.log('totalpages: ',totalpages)
+    //5. read data from all pages
+
+    const pages = page.locator('.pagination li a')
+    const totalpages = await pages.count()
+    console.log('totalpages: ', totalpages)
 
 
-    for(let p=0;p<await pages.count();p++){
-        if(p>0){
+    for (let p = 0; p < await pages.count(); p++) {
+        if (p > 0) {
             await pages.nth(p).click()
         }
 
-        for(let i=0;i<await rows.count();i++){
-            const row= rows.nth(i)
-            const tds= row.locator('td')
-    
-            for(let j=0;j<await tds.count()-1;j++){
+        for (let i = 0; i < await rows.count(); i++) {
+            const row = rows.nth(i)
+            const tds = row.locator('td')
+
+            for (let j = 0; j < await tds.count() - 1; j++) {
                 console.log(await tds.nth(j).textContent())
             }
         }
 
-        await page.waitForTimeout(2000) 
+        await page.waitForTimeout(2000)
     }
 
     await page.waitForTimeout(2000)
@@ -78,8 +78,8 @@ test('Handling Table',{tag:['@11To20','@16To20']},async ({page})=>{
 
 })
 
- async function selectProduct(rows,page,name){
-    const matchedRow=  rows.filter({
+async function selectProduct(rows, page, name) {
+    const matchedRow = rows.filter({
         has: page.locator('td'),
         hasText: name,
     })

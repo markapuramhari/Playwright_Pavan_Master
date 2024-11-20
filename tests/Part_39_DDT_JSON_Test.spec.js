@@ -1,29 +1,29 @@
-import {test,expect} from '@playwright/test'
+import { test, expect } from '@playwright/test'
 //JSON --> String -->JS Object
-const testdata= JSON.parse(JSON.stringify(require('../testdata/LoginTestData.json')))
+const testdata = JSON.parse(JSON.stringify(require('../testdata/LoginTestData.json')))
 
 
-    for(const data of testdata){
+for (const data of testdata) {
 
-        test(`DDT Loginpage Test ${ data.id}`,{tag:['@39To40']},async({page})=>{
+    test(`DDT Loginpage Test ${data.id}`, { tag: ['@39To40'] }, async ({ page }) => {
 
-                await page.goto('https://www.demoblaze.com/index.html')
-            
-                await page.getByRole('link',{name:'Log in'}).click()
-                await page.fill('#loginusername',data.username)
-                await page.fill('#loginpassword',data.password)
-                await page.getByRole('button',{name:'Log in'}).click()
-                await page.getByRole('link',{name:'Log out'}).click()
-                
-                await expect(await page.getByRole('link',{name:'Log in'})).toBeVisible()
-            
-                await page.waitForTimeout(2000)
-                await page.close()
-            })
-        
-    }
+        await page.goto('https://www.demoblaze.com/index.html')
 
- 
+        await page.getByRole('link', { name: 'Log in' }).click()
+        await page.fill('#loginusername', data.username)
+        await page.fill('#loginpassword', data.password)
+        await page.getByRole('button', { name: 'Log in' }).click()
+        await page.getByRole('link', { name: 'Log out' }).click()
+
+        await expect(page.getByRole('link', { name: 'Log in' })).toBeVisible()
+
+        await page.waitForTimeout(2000)
+        await page.close()
+    })
+
+}
+
+
 /*
 test.describe("DDT Login using JSON",function(){
     for(const data of testdata){

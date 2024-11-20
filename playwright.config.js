@@ -1,5 +1,6 @@
 // @ts-check
-const { defineConfig, devices } = require('@playwright/test');
+import { defineConfig, devices } from '@playwright/test';
+//const { defineConfig, devices } = require('@playwright/test');
 
 /**
  * Read environment variables from file.
@@ -10,7 +11,7 @@ const { defineConfig, devices } = require('@playwright/test');
 /**
  * @see https://playwright.dev/docs/test-configuration
  */
-module.exports = defineConfig({
+export default defineConfig({
   testDir: './tests',
   /* Run tests in files in parallel */
   //fullyParallel: false,
@@ -19,45 +20,45 @@ module.exports = defineConfig({
   forbidOnly: !!process.env.CI,
   /* Retry on CI only */
   //retries: process.env.CI ? 2 : 0,
-  retries:2,
+  retries: 2,
   /* Opt out of parallel tests on CI. */
   workers: process.env.CI ? 1 : undefined,
   /* Reporter to use. See https://playwright.dev/docs/test-reporters */
- // reporter: 'html',
+  // reporter: 'html',
   //reporter: 'list',
   //reporter:[['json',{outputFile:'results.json'}]],
   //reporter:[['junit',{outputFile:'results.xml'}]],
   //reporter: [['allure-playwright',{outputFolder: 'allure-results'}]],
 
   reporter: [['html'],
-            ['list'],
-            ['json',{outputFile:'results.json'}],
-            ['junit',{outputFile:'results.xml'}],
-            ['allure-playwright',{outputFolder: 'allure-results'}]], //mutiple reports
+  ['list'],
+  ['json', { outputFile: 'results.json' }],
+  ['junit', { outputFile: 'results.xml' }],
+  ['allure-playwright', { outputFolder: 'allure-results' }]], //mutiple reports
 
-/* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
+  /* Shared settings for all the projects below. See https://playwright.dev/docs/api/class-testoptions. */
   use: {
     /* Base URL to use in actions like `await page.goto('/')`. */
     // baseURL: 'http://127.0.0.1:3000',
 
-/* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
+    /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
     trace: 'retain-on-failure',
-    screenshot:'only-on-failure',
-    video:'retain-on-failure',
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
     //headless: false,   //--headed
-   headless: true,
+    headless: true,
   },
-  timeout:40000, //Default to 30000ms
-  expect: { timeout: 10000 } , //Defaults to 5000ms.
+  timeout: 40000, //Default to 30000ms
+  expect: { timeout: 10000 }, //Defaults to 5000ms.
 
-/* Configure projects for major browsers */
+  /* Configure projects for major browsers */
   projects: [
     {
       name: 'chromium',           //--project='chromium'
       use: { ...devices['Desktop Chrome'] },
     },
 
-/* Test against branded browsers. */     
+    /* Test against branded browsers. */
     {
       name: 'Edge',   //--project='Edge'
       use: { ...devices['Desktop Edge'], channel: 'msedge' },
@@ -79,7 +80,7 @@ module.exports = defineConfig({
     },
     */
 
-/* Test against mobile viewports. */
+    /* Test against mobile viewports. */
     // {
     //   name: 'Mobile Chrome',
     //   use: { ...devices['Pixel 5'] },
@@ -92,7 +93,7 @@ module.exports = defineConfig({
 
   ],
 
-/* Run your local dev server before starting the tests */
+  /* Run your local dev server before starting the tests */
   // webServer: {
   //   command: 'npm run start',
   //   url: 'http://127.0.0.1:3000',
