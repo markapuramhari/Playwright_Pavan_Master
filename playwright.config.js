@@ -19,8 +19,10 @@ dotenv.config({
  * @see https://playwright.dev/docs/test-configuration
  */
 export default defineConfig({
-  globalSetup: require.resolve('./Hooks/GlobalSetup.js'),
-  globalTeardown: require.resolve('./Hooks/GlobalTeardown.js'),
+
+  globalSetup: require.resolve('./globalHooks/GlobalSetup.js'),
+  globalTeardown: require.resolve('./globalHooks/GlobalTeardown.js'),
+  
   testDir: './tests',
   /* Run tests in files in parallel */
   //fullyParallel: false,
