@@ -21,6 +21,8 @@ test('Part 03 Homepage Test', { tag: ['@03To05', '@03To10'] }, async ({ playwrig
 	await expect(page).toHaveTitle('STORE')
 
 	await expect(page.getByRole('link', { name: 'Log in' })).toBeVisible()
+	const Btnlogin=page.locator("//a[@id='cartur']/parent::li/following-sibling::li/a[@id='login2']")
+	await expect(Btnlogin).toBeVisible()
 
 	await page.waitForTimeout(2000)
 	await page.close()
