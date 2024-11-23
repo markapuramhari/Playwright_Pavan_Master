@@ -5,7 +5,8 @@ import dotenv from "dotenv"
 
 dotenv.config({
 
-  path: ['env/.env.local','env/.env.QA'],
+  //path: ['env/.env.local','env/.env.QA'],
+    path:`./env/.env.${process.env.ENV}`,
 })
 
 

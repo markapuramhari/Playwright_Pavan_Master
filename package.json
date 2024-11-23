@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "alltest": "npx playwright test",
+    "homepage":"npx playwright test Part_03_HomepageTest.spec.js --headed --project=Chrome",
     "test": "npx playwright test --project=Chrome --headed --workers=4",
     "03To10": "npx playwright test --grep=@03To10 --headed --project=Chrome --retries=2",
     "11To20": "npx playwright test --grep=@11To20 --headed --project=Chrome --retries=2",
