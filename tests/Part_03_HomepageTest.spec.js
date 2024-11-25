@@ -10,7 +10,7 @@ test('Part 03 Homepage Test', { tag: ['@03To05', '@03To10'] }, async ({ playwrig
 	//await page.goto('https://www.demoblaze.com/index.html')
 	//await page.goto('/index.html') //base URL
 	
-	await page.goto(process.env.URL) //env URL    //$env:ENV="QA"; || $env:ENV="local";
+	await page.goto(process.env.URL_demoblaze) //env URL    //$env:ENV="QA"; || $env:ENV="local";
 
 	const pageURL = page.url()
 	console.log('pageURL: ', pageURL)
