@@ -12,7 +12,7 @@
     "21To30": "cross-env ENV=local npx playwright test --grep=@21To30 --headed --project=Edge --retries=2 --workers=3",
     "31To38": "cross-env ENV=QA npx playwright test --grep=@31To38 --headed --project=Chrome --retries=2 --workers=3",
     "DDT": "cross-env ENV=QA npx playwright test --grep=@39To40 --headed --project=Chrome --retries=2 --workers=1",
-    "rerun": "cross-env ENV=QA npx playwright test --grep=@39To40 --headed --project=Chrome --retries=2 --workers=1 --last-failed",
+    "rerun": "cross-env ENV=QA npx playwright test --headed --project=Chrome --retries=2 --workers=1 --last-failed",
     "cross_QA_env": "cross-env ENV=QA npx playwright test Part_03_HomepageTest.spec.js --headed --project=Chrome",
     "cross_local_env": "cross-env ENV=local npx playwright test Part_03_HomepageTest.spec.js --headed --project=Chrome",
     "cross_local_env_Login": "cross-env ENV=local npx playwright test Part_04_LoginpageTest.spec.js --headed --project=Chrome",
