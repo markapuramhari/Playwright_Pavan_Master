@@ -39,9 +39,9 @@ test('Part 35 Window Handling 1 Tab Test', {tag:['@31To38']},async ({ playwright
     
     await page2.waitForSelector("//img[@alt='linkedin logo']")
 
-    if(await page2.click('#CybotCookiebotDialogBodyButtonAccept')){
-        console.log('Cookies cliked')
-    }
+    // if(await page2.click('#CybotCookiebotDialogBodyButtonAccept')){
+    //     console.log('Cookies cliked')
+    // }
     
     await page2.click("//img[@alt='linkedin logo']")
     const pagePromisee = context.waitForEvent('page')
