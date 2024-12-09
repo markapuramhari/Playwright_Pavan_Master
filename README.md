@@ -38,55 +38,59 @@ Features of Playwright:
 21. Debugging
 22. High performance
 
-YouTube Videos:
----------------
+Tapics Practice:
+----------------
 
-Part 01: Introduction | Playwright Vs Selenium Vs Cypress
-Part 02: Installation
-Part 03: How To Create and Run Tests
-Part 04: Locating Web Elements | Locators-Property, XPath, CSS
-Part 05: Locating Web Elements | Playwright built-in locator methods
+Part_03_HomepageTest 
+Part_04_LoginpageTest 
+Part_04_PrintLinksAndProductsTest 
+Part_05_Built-in_Locators 
 
-Part 06: Record & Play Scripts In Playwright |Test Generator| Codegen
-Part 07: Assertions
-Part 08: Hard Assertions vs Soft Assertions
-Part 09: How to handle Input box & Radio Buttons
-Part 10: How to handle Checkboxes
+Part_07_Assertions 
+Part_08_SoftAssertions 
+Part_09_Inputbox 
+Part_09_RadioButtons 
+Part_10_Checkboxes 
 
-Part 11: How to handle DropDown
-Part 12: How to handle Multi Select DropDown
-Part 13: How to handle Bootstrap multi select DropDown
-Part 14: How to handle Auto Suggest/Auto Complete DropDown
-Part 15: How to Handle Hidden Items in DropDown
+Part_11_DropDowns 
+Part_12_MultiSelectDropDown 
+Part_13_BootstrapDropDown 
+Part_14_AutoSuggestDropDown 
+Part_15_HiddenDropDown 
 
-Part 16: How to Handle Dialogs Or Alerts | alert(),confirm(), prompt()
-Part 17: How to Handle Frames/iFrames
-Part 18: How to Handle Inner/Nested Frames
-Part 19: How to Handle WebTable/Pagination Table
-Part 20: How to Handle Date Pickers/Calendars
+Part_16_Alerts 
+Part_17_HandleFrames 
+Part_18_HandleInnerFrames 
+Part_19_Table 
+Part_20_DatePicker 
 
-Part 21: Mouse Hover Action
-Part 22: Mouse Right Click/Context Click Action
-Part 23: Mouse Double Click Action
-Part 24: Mouse Drag And Drop Action
-Part 25: Keyboard Actions in Playwright
+Part_21_MouseHover 
+Part_22_MouseRightClick 
+Part_23_MouseDoubleClick 
+Part_24_DragAndDrop 
+Part_25_KeyboardActions 
 
-Part 26: How To upload files in Playwright
-Part 27: Hooks - beforeEach, afterEach, beforeAll & afterAll
-Part 28: Grouping Tests - Describe Block
-Part 29: How to capture Screenshots
-Part 30: How to record videos for Tests
+Part_26_UploadFiles 
+Part_27_Hooks_All 
+Part_27_Hooks_Each 
+Part_27_Hooks 
+Part_28_Grouping_Hooks 
 
-Part 31: Trace Viewer
-Part 32: How to Tag playwright tests
-Part 33: Annotations | Only, Skip,Fail, Fixme & Slow
-Part 34: Page Object Model Pattern | POM
-Part 35: How To handle Multiple Pages/Windows | Browser Context
+Part_29_Screenshots 
+Part_30_RecordVideo_Screenshots 
+Part_31_Tracing 
+Part_32_Tags 
+Part_33_Annotations 
 
-Part 36: Reporters | List, Dot, Json, JUnit & HTML Reporters
-Part 37: How to Generate Allure Reports
-Part 38: How To Retry Failed Test Cases | Retries and Test Flakiness
-Part 39: Rest API Testing | HTTP Requests |Get,Post,Put & Delete
+Part_34_POMTest 
+Part_35_HandlingWindows 
+Part_36_Reporters 
+Part_38_ReTryTest 
+
+Part_39_DDT_JSON_Test 
+Part_40_DDT_CSV_Test 
+
+
 
 
 CLI Terminal commands:
