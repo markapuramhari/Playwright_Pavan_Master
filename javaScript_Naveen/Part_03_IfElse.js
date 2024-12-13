@@ -8,6 +8,8 @@ function checkAge(age) {
     }
 }
 checkAge(18)
+checkAge(11)
+checkAge(38)
 
 console.log('==============================')
 
@@ -24,6 +26,8 @@ function checkNumber(number) {
     }
 }
 checkNumber(0)
+checkNumber(-2)
+checkNumber(6)
 
 console.log('==============================')
 
@@ -56,7 +60,10 @@ function checkGrade(score) {    //Nested if-else
     }
     console.log(grade)
 }
-checkGrade(0)
+
+checkGrade(95)
+checkGrade(55)
+checkGrade(75)
 
 console.log('==============================')
 
@@ -74,5 +81,3 @@ else if (browser == 'firefox') {
 else {
     console.log('Please Pass right Browser: ' + browser)
 }
-
-

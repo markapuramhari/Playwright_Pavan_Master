@@ -3,6 +3,27 @@ CMD:
 
 npx playwright test --grep=@03To10 --grep='@03To10 | @11To20' --grep-invert=@11To20 --headed --project='Google Chrome' --project='Microsoft Edge' --workers=4 --reporter=html --retries=1 --last-failed --fail-on-flaky-tests --timeout=40000 --trace=retain-on-failure
 
+npm install @playwright/test@latest --> update latest version
+npx playwright --version
+
+
+Interview Q%A -PW
+-----------------
+
+https://www.youtube.com/playlist?list=PLrEdqqBKCEUfrX1MkaJOGzSz8Ul7vCtGh -->PW 
+https://www.youtube.com/watch?v=JBzjbpAzWH8 --> PW
+
+
+
+Interview Q%A -JavaScript
+-------------------------
+
+https://www.youtube.com/playlist?list=PLFGoYjJG_fqqJC5ODNTPLhv5MUKVkYakh --JS Naveen
+https://www.youtube.com/playlist?list=PLrEdqqBKCEUfw9EYnld79hhGCRircrcub -->JS Part 1
+https://www.youtube.com/playlist?list=PLrEdqqBKCEUcvRDM8dtC1mUsQ785B2nLV --> JS Part 2
+https://www.youtube.com/watch?v=OEQpRTXfxoo -->JS
+https://www.youtube.com/watch?v=4oDcgaIJOZ0 -->JS
+https://www.youtube.com/watch?v=O4uuPOHfefg&list=PL3aZbxdSiCbPq0iHyLPgD4N5q2rHrP8wR&index=2 -->JS
 
 
 Playwright with Javascript tutorial (Pavan SDET-QA):
@@ -31,7 +52,7 @@ Features of Playwright:
 14. Codegen
 15. Playwright inspector, trace viewer
 16. Community support
-17. Fast execution
+17. Fast execution (websocket)
 18. Headless Mode support
 19. API testing
 20. Mocha,Jest Frameworks support

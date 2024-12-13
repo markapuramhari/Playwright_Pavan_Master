@@ -17,7 +17,7 @@ console.log(CelTemp)
 
 console.log('==========================')
 
-//2. filter: 
+//2. FILTER: Return new Array based on input
 
 let num = [12, 24, 44, 45, 55]
 
@@ -40,7 +40,7 @@ console.log(femaleEmp)
 
 console.log('==========================')
 
-//3. reduce:
+//3. REDUCE:  Return value based on input
 
 let sum = numbers.reduce((acc, numb) => acc + numb, 0)
 console.log(sum)
@@ -48,7 +48,7 @@ let sum1 = num.reduce((acc, numb) => acc + numb, 0)
 console.log(sum1)
 
 
-//MAX number in array
+//find  MAX number in array using reduce function
 
 let top = [1, 3, 4, 4, 6, 4, 65, 43, 0, -8, -66]
 
@@ -63,7 +63,7 @@ let maxnum = top.reduce((max, num) => {
 
 console.log(maxnum)
 
-//MIN number in array
+//MIN number in array using reduce function
 
 let minnum = top.reduce((min, num) => {
     if (num < min) {
@@ -75,6 +75,8 @@ let minnum = top.reduce((min, num) => {
 }, top[0])
 
 console.log(minnum)
+
+console.log('-----------------------')
 
 let cartitems = [
     { name: 'Hari', price: 440 },

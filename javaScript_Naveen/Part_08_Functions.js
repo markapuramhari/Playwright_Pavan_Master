@@ -1,4 +1,5 @@
 //1. find unique values from array: spread operator
+
 const array = [1, 2, 3, 2, 3, 2, 5, 6, 2, 7, 7, 7, 7];
 const uniqueArray = [...new Set(array)];
 console.log(uniqueArray);
@@ -6,6 +7,7 @@ console.log(uniqueArray);
 console.log('====================')
 
 //2. int to string:
+
 const num = 32;
 const numStr = num + '';//'32'
 console.log(numStr + 10);//3210
@@ -16,6 +18,7 @@ console.log(numStr1 + 10);
 console.log('====================')
 
 //3. float to int:
+
 const floatNum = 3.76;
 const intNum = parseInt(floatNum);
 console.log(intNum);
@@ -23,6 +26,7 @@ console.log(intNum);
 console.log('====================')
 
 //4. check if a variable is a Number:
+
 const value = '10';
 if (typeof value === 'number' && !isNaN(value)) {
     console.log(value + ' is number');
@@ -35,6 +39,7 @@ else {
 console.log('====================')
 
 //5. swap variable values:
+
 let a = 5;
 let b = 10;
 [a, b] = [b, a];

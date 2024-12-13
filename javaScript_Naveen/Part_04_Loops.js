@@ -58,6 +58,7 @@ console.log('=======================')
 const browser = ['chrome', 'firefox', 'edge', 'IE']
 
 for (const e of browser) {
+    console.log(e)
     if (e == 'edge') {
         console.log('Launch Edge Browser')
         break
