@@ -9,14 +9,14 @@ test('Part 15 Hidden Dropdown Test', { tag: ['@11To15', '@11To20'] }, async ({ p
 	await page.getByText('PIM').click()
 	await page.click("(//div[@class='oxd-select-text-input'])[3]")
 
-	await page.waitForSelector("//div[@role='listbox']//span")   //setTimeout(function(){debugger;}, 5000)  in Console
+	await page.waitForSelector("//div[@role='listbox']//span")   //setTimeout(function(){debugger}, 5000)  in Console
 	const options = await page.$$("//div[@role='listbox']//span")
 
 	for (const option of options) {
 		const text = await option.textContent()
 		console.log('text: ', text)
 
-		if (text.includes('Social Media Marketer')) {
+		if (text.includes('Developer')) {
 			await option.click()
 			break
 		}

@@ -18,6 +18,8 @@ https://www.youtube.com/watch?v=JBzjbpAzWH8 --> PW
 Interview Q%A -JavaScript
 -------------------------
 
+https://factohr.com/javascript-coding-interview-questions-and-answers/
+
 https://www.youtube.com/playlist?list=PLFGoYjJG_fqqJC5ODNTPLhv5MUKVkYakh --JS Naveen
 https://www.youtube.com/playlist?list=PLrEdqqBKCEUfw9EYnld79hhGCRircrcub -->JS Part 1
 https://www.youtube.com/playlist?list=PLrEdqqBKCEUcvRDM8dtC1mUsQ785B2nLV --> JS Part 2
