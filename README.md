@@ -7,6 +7,19 @@ npm install @playwright/test@latest --> update latest version
 npx playwright --version
 
 
+WishInfinite Youtube
+--------------------
+
+Playwright with TypeScript / JavaScript Series - https://www.youtube.com/playlist?list=PL83cimSRP5ZmwhC6u255huRwSi9tlP-nc
+
+Playwright API Testing - https://www.youtube.com/playlist?list=PL83cimSRP5ZlwSHlydctQ2njy0nTtjpPZ
+
+Learn Playwright in 60 Seconds (Shorts Playlist) - https://www.youtube.com/playlist?list=PL83cimSRP5ZlgDL11AGCufbTmADTOwHhO
+
+Playwright Notes - https://docs.google.com/document/d/1O5NSFhHGc9icU3rfERSolAhLUxy2NxyiujsztN3ICL8/edit?usp=sharing
+
+
+
 Interview Q%A -PW
 -----------------
 
@@ -28,9 +41,16 @@ https://www.youtube.com/watch?v=4oDcgaIJOZ0 -->JS
 https://www.youtube.com/watch?v=O4uuPOHfefg&list=PL3aZbxdSiCbPq0iHyLPgD4N5q2rHrP8wR&index=2 -->JS
 
 
-Playwright with Javascript tutorial (Pavan SDET-QA):
+Playwright with Javascript tutorial (WishInfinite):
 ----------------------------------------------------
 
+https://www.youtube.com/playlist?list=PL83cimSRP5ZmwhC6u255huRwSi9tlP-nc
+
+https://docs.google.com/document/u/0/d/e/2PACX-1vQWL3T7iUD8DeMPM4OV2x6ZaW8aQgYw2Z7gIQTVmNYa-QhFeo5rT29BTJ5427-QqoBHKokVtLUbU1oy/pub?pli=1#h.h1ws1iewxy6m
+
+
+Playwright with Javascript tutorial (Pavan SDET-QA):
+----------------------------------------------------
 1. https://www.youtube.com/watch?v=_TAg4hpdlDU&list=PLFGoYjJG_fqrRjl9Mn0asiAIxmKC1X-N-&pp=iAQB
 2. https://github.com/markapuramhari/Playwright_Pavan_Master
 3. https://github.com/pavanoltraining/playwrightautomation
