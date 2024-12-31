@@ -48,6 +48,10 @@ https://www.youtube.com/playlist?list=PL83cimSRP5ZmwhC6u255huRwSi9tlP-nc
 
 https://docs.google.com/document/u/0/d/e/2PACX-1vQWL3T7iUD8DeMPM4OV2x6ZaW8aQgYw2Z7gIQTVmNYa-QhFeo5rT29BTJ5427-QqoBHKokVtLUbU1oy/pub?pli=1#h.h1ws1iewxy6m
 
+GIT:
+
+https://github.com/Wish-Infinite/playwright-tutorials-typescript-javascript.git
+
 
 Playwright with Javascript tutorial (Pavan SDET-QA):
 ----------------------------------------------------
