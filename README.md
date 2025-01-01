@@ -138,8 +138,6 @@ Part_39_DDT_JSON_Test
 Part_40_DDT_CSV_Test 
 
 
-
-
 CLI Terminal commands:
 ---------------------
 
@@ -210,516 +208,377 @@ reporter: [['allure-playwright',{outputFolder: 'my-allure-results'}]],   //confi
 ==============================================================================================
 
 
-03To05 
+
+
+----------------------------------------------------------------------------------------
+
+Numbers
+--------
+
+01. sum of all the numbers
+02. average value
+03. largest and smallest numbers
+04. prime or not
+05. even And Odd Numbers
+06. removes the duplicates
+07. ascending order
+08. removes all the false values
+09. factorial of a number
+10. Fibonacci sequence 
+11. single-dimensional array
+12. finds the index of a specific element
+
+
+
+
+01. Write a program that finds the sum of all the numbers in an array
+
+function sumOfNumbers(arr) {
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    return sum;
+}
+const numbers = [1, 2, 3, 4, 5];
+const result = sumOfNumbers(numbers);
+console.log("The sum of the numbers is:", result);
+
+----------------------------------------------------------------------------------
+
+02. Write a JavaScript function that shows an array's average value of numbers
+
+function calculateAverage(arr) {
+    if (arr.length === 0) {
+        return 0; // Handle empty array
+    }
+    let sum = 0;
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+    const average = sum / arr.length;
+    return average;
+}
+const numbers = [10, 20, 30, 40, 50];
+const averageValue = calculateAverage(numbers);
+console.log("The average value is:", averageValue);
+
+
+-------------------------------------------------------------------------------
+
+03. Write a function to find the largest and smallest numbers in the array from the set of a given array of numbers
+
+function findLargestAndSmallest(arr) {
+    let largest = arr[0];
+    let smallest = arr[0];
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i] > largest) {
+            largest = arr[i];
+        } else if (arr[i] < smallest) {
+            smallest = arr[i];
+        }
+    }
+    return { largest, smallest };
+}
+const numbers = [10, 5, 25, 8, 15];
+const result = findLargestAndSmallest(numbers);
+console.log("Largest number:", result.largest);
+console.log("Smallest number:", result.smallest);
+
+
+
+
+
+-------------------------------------------------------------------------------------
+
+04. Write a JavaScript program to check whether the given number is prime or not
+
+function isPrime(number) {
+    if (number <= 1) {
+        return false; // Numbers less than or equal to 1 are not prime
+    }
+    for (let i = 2; i * i <= number; i++) {
+        if (number % i === 0) {
+            return false; // If divisible by any number between 2 and the square root of a number, it's not prime
+        }
+    }
+    return true; // If the loop completes without finding a divisor, the number is prime
+}
+const num = 17;
+const isPrimeResult = isPrime(num);
+if (isPrimeResult) {
+    console.log(num, "is a prime number.");
+} else {
+    console.log(num, "is not a prime number.");
+}
+
+
+------------------------------------------------------------------------------------
+
+05. Write a JavaScript function that uses an array of numbers and only gives a new array with even And Odd Numbers
+
+function evenAndOddNumbers(numbers) {
+    const evenArray = [];
+    const oddArray = [];
+    for (let i = 0; i < numbers.length; i++) {
+        if (numbers[i] % 2 === 0) {
+            evenArray.push(numbers[i]);
+        } else if(numbers[i] % 2 === 1){
+            oddArray.push(numbers[i]);
+        }
+    }
+    return {evenArray,oddArray};
+}
+const numbers = [1, 2, 3, 4, 5, 6, 7, 8];
+const result = evenAndOddNumbers(numbers);
+console.log("Even numbers:", result.evenArray);
+console.log("Odd numbers:", result.oddArray);
+
+
+---------------------------------------------------------------------------
+
+
+06. Write a function that removes the duplicates from an array
+
+
+function removeDuplicates(arr) {
+    const uniqueSet = new Set(arr);
+    return Array.from(uniqueSet);
+}
+const numbers = [1, 2, 3, 2, 4, 5, 1, 4];
+const uniqueNumbers = removeDuplicates(numbers);
+console.log("Unique numbers:", uniqueNumbers);
+
+--------------------------------------------------------------------------------------
+
+
+
+07. Write a function that categorizes an array of numbers in ascending order
+
+
+function sortNumbersAscending(arr) {
+    return arr.sort((a, b) => a - b);
+}
+const numbers = [3, 1, 4, 1, 5, 9, 2, 6, 5];
+const sortedNumbers = sortNumbersAscending(numbers);
+console.log(sortedNumbers); // Output: [1, 1, 2, 3, 4, 5, 5, 6, 9]
+
+------------------------------------------------------------------------------
+
+
+08. Write a JavaScript function that removes all the false values (false, null, 0, “”, unidentified, NaN) from an array
+
+function removeFalseValues(arr) {
+    return arr.filter(Boolean); // Filter out false values using Boolean as the filter function
+}
+const inputArray = [1, 0, false, null, "", "hello", undefined, NaN, 2]; // Fixed the string "hello"
+const filteredArray = removeFalseValues(inputArray);
+console.log("Filtered array:", filteredArray);
+
+
+--------------------------------------------------------------------------------------------
+
+09. Write a JavaScript program that calculates the factorial of a number
+
+function factorial(n) {
+    if (n === 0 || n === 1) {
+        return 1;
+    } else {
+        return n * factorial(n - 1);
+    }
+}
+const number = 5;
+const result = factorial(number);
+console.log("Factorial of", number, "is", result);
+
+
+-----------------------------------------------------------------------------
+
+10. Write a JavaScript function that returns the Fibonacci sequence to a specified number
+
+
+function fibonacci(n) {
+    if (n <= 0) {
+        return [];
+    }
+    if (n === 1) {
+        return [0]; // Return [0] if n is 1
+    }
+    const sequence = [0, 1];
+    for (let i = 2; i < n; i++) {
+        sequence.push(sequence[i - 1] + sequence[i - 2]);
+    }
+    return sequence;
+}
+const terms = 10;
+const fibonacciSequence = fibonacci(terms);
+console.log(fibonacciSequence);
+
+
+----------------------------------------------------------------------------------------
+
+11. Write a function that flattens a nested array in a single-dimensional array
+
+
+function flattenArray(arr) {
+    const flattened = [];
+    function flattenHelper(nestedArr) {
+        for (let item of nestedArr) {
+            if (Array.isArray(item)) {
+                flattenHelper(item); // Recursively flatten nested arrays
+            } else {
+                flattened.push(item); // Add non-array items to the flattened array
+            }
+        }
+    }
+    flattenHelper(arr);
+    return flattened;
+}
+const nestedArray = [1, [2, 3], 4, [5, 6, [7, 8]]];
+const flattenedArray = flattenArray(nestedArray);
+console.log("Flattened array:", flattenedArray); // Output: [1, 2, 3, 4, 5, 6, 7, 8]
+
+
+
+
+
+------------------------------------------------------------------------
+
+12. Execute a function that finds the index of a specific element in an array, wherein if the element is not found, the function should return to -1
+
+function findIndexOfElement(arr, element) {
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === element) {
+            return i;
+        }
+    }
+    return -1;
+}
+const numbers = [10, 5, 25, 8, 15];
+const targetElement = 25;
+const index = findIndexOfElement(numbers, targetElement);
+if (index !== -1) {
+    console.log("Element", targetElement, "found at index:", index);
+} else {
+    console.log("Element", targetElement, "not found in the array.");
+}
+
+-------------------------------------------------------------------------
+
+
+================================================================================
+
+String
 -------
 
-import {test,expect} from '@playwright/test'
-test('Part 03 Homepage Test',async({page})=>{
+01. reverse & palindrome or not
+02. reverses of words
+03. first letter of every word should be in upper case
+04. counts each character
+05. alphabetical order
+
+
+
+------------------------------------------------------------------------------------
+
+01. Write a JavaScript program to reverse the given string & check palindrome or not
 
-	await page.goto('https://www.demoblaze.com/index.html')
-	
-	const pageURL= await page.url()
-	console.log('pageURL: ',pageURL)
-	await expect(await page).toHaveURL('https://www.demoblaze.com/index.html')
-	
-	const pageTitle= await page.title()
-	console.log('pageTitle: ',pageTitle)
-	await expect(await page).toHaveTitle('STORE')
-	
-	await expect(await page.getByRole('link',{name:'Log in'})).toBeVisible()
-	await expect(await page.getByRole('link',{name:'Sign up'})).toBeVisible()
-	
-	await page.waitForTimeout(3000)
-	await page.close()
-})
-
-----------------------------------------------------------------------------------------
-
-import {test,expect} from '@playwright/test'
-test('Part 04 Loginpage Test',async({page})=>{
-
-	await page.goto('https://www.demoblaze.com/index.html')
-	
-	await page.getByRole('link',{name:'Log in'}).click()
-	await page.fill('#loginusername','markapuram')
-	await page.fill('#loginpassword','markapuram')
-	await page.getByRole('button',{name:'Log in'}).click()
-	await page.getByRole('link',{name:'Log out'}).click()
-	await expect(await page.getByRole('link',{name:'Log in'})).toBeVisible()
-	
-	await page.waitForTimeout(3000)
-	await page.close()
-
-})
-
-
---------------------------------------------------------------------------------------------
-
-import {test,expect} from '@playwright/test'
-test('Part 04 Links and Products Test',async({page})=>{
-
-	await page.goto('https://www.demoblaze.com/index.html')
-
-//Links	
-
-	await page.waitForSelector('a')
-	const links=await page.$$('a')
-	
-	let status=false
-	for(const link of links){
-		const textLink= await link.textContent()
-		console.log('textLink: ',textLink)
-		if(textLink.includes('Log in')){
-			status=true
-			break
-		}
-	}
-	await expect(await status).toBeTruthy()
-	
-//Products
-
-	await page.waitForSelector("//div[@id='tbodyid']//div/h4/a")
-	const products= await page.$$("//div[@id='tbodyid']//div/h4/a")
-
-	
-	for(const product of products){
-	
-		const textProduct=await product.textContent()
-		console.log('textProduct: ',textProduct)
-		if(textProduct.includes('Samsung galaxy s7')){
-
-			await product.click()
-			break
-		}
-	}
-	
-	await expect(await page.getByRole('heading',{name:'Samsung galaxy s7'})).toBeVisible()
-	
-	await page.waitForTimeout(3000)
-	await page.close()
-	
-})
-
----------------------------------------------------------------------------------------------------
-import {test,expect} from '@playwright/test'
-test('Part 05 Built-in Locators',async({page})=>{
-
-	await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-	
-	await expect(await page.getByAltText('company-branding')).toBeVisible()
-	
-	await page.getByPlaceholder('Username').fill('Admin')
-	await page.getByPlaceholder('Password').fill('admin123')
-	await page.getByRole('button',{name:'Login'}).click()
-	
-	await expect(await page.getByRole('heading',{name:'Dashboard'})).toBeVisible()
-	await expect(await page.getByText('Time at Work')).toBeVisible()
-	
-	await page.click("//p[@class='oxd-userdropdown-name']")
-	await page.getByText('Logout').click()
-	
-	await expect(await page.getByAltText('company-branding')).toBeVisible()
-	
-	await page.waitForTimeout(3000)
-	await page.close()
-
-})
-
-================================================================================================
-
-07To10 ==> ALL TC's COMPLETED
-------------------------------
-/*
-
-1. URL ==> 
-2. Title ==>
-3. Visible ==> 
-4. Enabled ==> 
-5. Checked ==> 
-6. Attribute ==> 
-7. Text ==> 
-8. ContainText ==> 
-9. Value ==> 
-10. Count ==>
-
-*/
-
-import {test,expect} from '@playwright/test'
-test('Part 07 Hard Assertions Test',async({page})=>{
-
-
-	await page.goto('https://demo.nopcommerce.com/register')
-	
-//URL
-
-	await expect(await page).toHaveURL('https://demo.nopcommerce.com/register')
-	
-//Title
-	
-	await expect(await page).toHaveTitle('nopCommerce demo store. Register')
-	
-//Visible
-
-	await expect(await page.getByAltText('nopCommerce demo store')).toBeVisible()
-	
-//Enabled
-
-	const search=await page.getByRole('button',{name:'SEARCH'})
-	await expect(search).toBeEnabled()
-	
-//Checked
-
-	await expect(await page.locator('#Newsletter')).toBeChecked()
-	
-//Attribute
-
-	await expect(search).toHaveAttribute('type','submit')
-	
-//Text
-
-	await expect(await page.getByText('Company Details')).toHaveText('Company Details')
-	
-//ContainText
-
-	await expect(await page.getByText('Company Details')).toContainText('Details')
-	
-//Value
-
-	const text= await page.getByPlaceholder('Search store')
-	text.fill('HARI')
-	await expect(await text).toHaveValue('HARI')
-	
-//Count
-
-	await page.waitForSelector('a')
-	const count=await page.$$('a')
-	await expect(await count.length).toBe(61)
-	
-	
-	await page.waitForTimeout(3000)
-	await page.close()
-})
-
-------------------------------------------------------------------------------------------
-
-import {test,expect} from '@playwright/test'
-test('Part 10 Check boxes Test',async({page})=>{
-
-	await page.goto('https://testautomationpractice.blogspot.com/')
-	
-	const checkboxes=["//input[@id='monday']","//input[@id='wednesday']","//input[@id='friday']"]
-	
-	
-	for(const box of checkboxes){
-	
-		await page.locator(box).check()
-	
-	}
-	
-	await page.waitForTimeout(3000)
-	for(const box of checkboxes){
-	
-		await page.locator(box).uncheck()
-	
-	}
-	
-	await page.waitForTimeout(3000)
-	await page.close()
-
-})
-
-===============================================================================================
-
-11To15 ==> ALL TC's COMPLETED
-------------------------------
-
-import {test,expect} from '@playwright/test'
-test('Part 11 DropDown Test',async({page})=>{ 
+function reverseString(str) {
+    let reversed = "";
+    for (let i = str.length - 1; i >= 0; i--) {
+        reversed += str[i];
+    }
+    return reversed;
+}
 
-	await page.goto('https://testautomationpractice.blogspot.com/')
-	
-	await page.selectOption('#country',{label:'Japan'})
-	await page.selectOption('#country',{value:'usa'})
-	await page.selectOption('#country','India')
-	await page.selectOption('#country',{index:8})
-	
-//Count
-
-	const options=await page.$$("//select[@id='country']/option")
-	await expect(await options.length).toBe(10)
-
-    
-//present or not
-
-	let status=false
-	for(const option of options){
-	
-		const textOptions=await option.textContent()
-		console.log('textOptions: ',textOptions)
-		if(textOptions.includes('Japan')){
-		
-			status=true
-			break
-		}
-	
-	}
-	await expect(await status).toBeTruthy()
-
-	
-	
-	await page.waitForTimeout(3000)
-	await page.close()
-
-})
-
-------------------------------------------------------------------------------------------------
-import {test,expect} from '@playwright/test'
-test('Part 12 Multi Select Dropdown Test',async({page})=>{
-
-	await page.goto('https://testautomationpractice.blogspot.com/')
-	
-	
-	await page.selectOption('#animals',['Cat','Deer','Dog','Zebra'])
-	
-	
-//Count
-
-	const options= await page.$$("//select[@id='animals']/option")
-	await expect(await options.length).toBe(10)
-	
-//present or not
-
-	let status=false
-	for(const option of options){
-	
-		const textOptions=await option.textContent()
-		console.log('textOptions: ',textOptions)
-		if(textOptions.includes('Dog')){
-		
-			status=true
-			//break
-		}
-	}
-	await expect(await status).toBeTruthy()
-	
-	await page.waitForTimeout(3000)
-	await page.close()
-	
-
-
-})
-
--------------------------------------------------------------------------------------------
-
-import {test,expect} from '@playwright/test'
-test('Part 13 Bootstarp DropDown Test',async({page})=>{
-
-	await page.goto('https://www.jquery-az.com/boots/demo.php?ex=63.0_2')
-	
-	await page.click('.multiselect')
-	
-//Count
-
-	const count= await page.$$("//ul[@class='multiselect-container dropdown-menu']/li//input")
-	await expect(count.length).toBe(11)
-	
-//Present or not    
-	const options= await page.$$("//ul[@class='multiselect-container dropdown-menu']/li//label")
-	
-	
-	for(const option of options){
-	
-		const textOption= await option.textContent()
-		console.log('textOption: ',textOption)
-		if(textOption.includes('Java')|| (textOption.includes('Angular'))) {
-			await option.click()
-		}
-	}
-	
-	await page.waitForTimeout(3000)
-	
-	for(const option of options){
-	
-		const textOption= await option.textContent()
-		console.log('textOption: ',textOption)
-		if(textOption.includes('HTML')|| (textOption.includes('CSS'))) {
-			await option.click()
-		}
-	}
-	
-	await page.waitForTimeout(3000)
-	await page.close()
-	
-
-})
-
-----------------------------------------------------------------------------------------------------
-import {test,expect} from '@playwright/test'
-test('Part 14 Google Search Test',async({page})=>{
-
-	await page.goto('https://www.google.com/')
-	
-	await page.fill('#APjFqb','Playwright')
-	
-	await page.waitForSelector("//div[@class='wM6W7d']/span")
-	const options= await page.$$("//div[@class='wM6W7d']/span")
-	
-	
-	for(const option of options){
-	
-		const textOption=await option.textContent()
-		console.log('textOption: ',textOption)
-		if(textOption.includes('playwright vs selenium')){
-		
-			await option.click()
-            break
-		
-		}
-	}
-	
-	await page.waitForTimeout(3000)
-    await page.close()
-	
+const inputString = "M Hari Babu";
+const newString = reverseString(inputString);
+console.log("Reversed string:", newString);  // ubaB iraH M
 
-})
-
-------------------------------------------------------------------------------------------------
-import {test,expect} from '@playwright/test'
-test('Part 15 Hidden DropDown Test',async({page})=>{
-
-	await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')
-	
-	await page.getByPlaceholder('Username').fill('Admin')
-	await page.getByPlaceholder('Password').fill('admin123')
-	await page.getByRole('button',{name:'Login'}).click()
-	await page.locator("//span[normalize-space()='PIM']").click()
-	await page.click("(//div[@class='oxd-select-text-input'])[3]")
+if (newString === inputString) {
+    console.log(inputString, " :is a palindrome.");
+} else {
+    console.log(inputString, " :is not a palindrome.");
 	
-	await page.waitForSelector("//div[@role='listbox']//span")
-	const options=await page.$$("//div[@role='listbox']//span")
-	
-	for(const option of options){
-		
-		const textOption=await option.textContent()
-		console.log('textOption: ',textOption)
-		if(textOption.includes('HR Manager')){
-		
-			await option.click()
-			break
-		}
-	}
-	
-	await page.waitForTimeout(3000)
-	await page.close()
-
-})
-
-==================================================================================================
-
-16To20
-------
+}
 
-import {test,expect} from '@playwright/test'
-test('Part 16 alert ,confirm ,prompt Test',async({page})=>{
 
-	await page.goto('https://testautomationpractice.blogspot.com/')
-	
-	
-	// page.on('dialog',async dialog=>{
-	// 	expect(dialog.type()).toContain('alert')
-	// 	expect(dialog.message()).toContain('I am an alert box!')
-	// 	await dialog.accept()
-	// })
-	// await page.click('#alertBtn')
-	
-	
+----------------------------------------------------------------------------------
 
-	page.on('dialog',async dialog=>{
-		expect(dialog.type()).toContain('confirm')
-		expect(dialog.message()).toContain('Press a button!')
-		//await dialog.accept()
-		await dialog.dismiss()
-	})
-	await page.click('#confirmBtn')
-    await expect(await page.locator('#demo')).toHaveText('You pressed Cancel!')
-	
-	
+02.write a program that reverses of words in a sentence
 
 
+function reverseWords(sentence) {
+    const words = sentence.split(" ");
+    const reversedWords = [];
+    for (let i = words.length - 1; i >= 0; i--) {
+        reversedWords.push(words[i]);
+    }
+    return reversedWords.join(" ");
+}
+const inputSentence = "M Hari Babu";
+const reversedSentence = reverseWords(inputSentence); // Babu Hari M
+console.log("Reversed sentence:", reversedSentence);
 
+------------------------------------------------------------------------------
 
-	// page.on('dialog',async dialog=>{
-	// 	expect(dialog.type()).toContain('prompt')
-	// 	expect(dialog.message()).toContain('Please enter your name:')
-	// 	expect(dialog.defaultValue()).toContain('Harry Potter')
-	// 	await dialog.accept('HARI')
-	// })
-	// await page.click('#promptBtn')
-    // await expect(await page.locator('#demo')).toContainText('HARI')
-	
-	
+03. Write a JavaScript function that bifurcates the strings in alphabetical order
 
+function bifurcateStrings(strings) {
+    const firstHalf = [];
+    const secondHalf = [];
+    // Calculate the middle index
+    const midIndex = Math.floor(strings.length / 2);
+    // Get the reference string for comparison
+    const referenceString = strings[midIndex];
+    for (const str of strings) {
+        if (str.localeCompare(referenceString) <= 0) {
+            firstHalf.push(str);
+        } else {
+            secondHalf.push(str);
+        }
+    }
+    return [firstHalf, secondHalf];
+}
+const strings = ["apple", "banana", "cherry", "date", "elderberry", "fig", "grape"];
+const bifurcatedStrings = bifurcateStrings(strings);
+console.log(bifurcatedStrings);
 
-	await page.waitForTimeout(5000)
-	await page.close()
+--------------------------------------------------------------
 
-})
+04. Write a JavaScript program to change the string to title (first letter of every word should be in upper case)
 
---------------------------------------------------------------------------------------------
 
-import {test,expect} from '@playwright/test'
-test('Part 17 Frames Test',async({page})=>{
 
-	await page.goto('https://ui.vision/demo/webtest/frames/')
-	
-	const allFrames= await page.frames()
-	console.log('allFrames Count: ',allFrames.length)
-	
-	const frame1=await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_1.html'})
-	frame1.fill("//input[@name='mytext1']",'1')
-    await page.waitForTimeout(2000)
-	
-	const frame2=await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_2.html'})
-	frame2.fill("//input[@name='mytext2']",'2')
-    await page.waitForTimeout(2000)
-	
-	const frame3= await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_3.html'})
-	frame3.fill("//input[@name='mytext3']",'3')
-    await page.waitForTimeout(2000)
-	
-	const frame4=await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_4.html'})
-	frame4.fill("//input[@name='mytext4']","4")
-    await page.waitForTimeout(2000)
-	
-	const frame5=await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_5.html'})
-	frame5.fill("//input[@name='mytext5']",'5')
-	
-	
-	
-	await page.waitForTimeout(2000)
-	await page.close()
-})
+function capitalizeFirstLetterOfEachWord(str) {
+    const words = str.split(" ");
+    const capitalizedWords = words.map(word => {
+        return word.charAt(0).toUpperCase() + word.slice(1);
+    });
+    return capitalizedWords.join(" ");
+}
+const inputString = "hello world this is a sample string";
+const capitalizedString = capitalizeFirstLetterOfEachWord(inputString);
+console.log("Capitalized string:", capitalizedString);
+       
 
--------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------
 
-import {test,expect} from '@playwright/test'
-test('Part 18 Inner Frames Test',async({page})=>{
+05. Write a function that counts each character in the given string
 
-	await page.goto('https://ui.vision/demo/webtest/frames/')
-	
-	const frame3= await page.frame({url:'https://ui.vision/demo/webtest/frames/frame_3.html'})
-	frame3.fill("//input[@name='mytext3']","HARI")
-	
-	const childFrames= await frame3.childFrames()
-    await childFrames[0].locator("//div[@id='i5']/div[3]/div").check()
-
-	await page.waitForTimeout(3000)
-	await page.close()
-	
+function countCharacterOccurrences(str) {
+    const charCount = {};
+    for (let char of str) {
+        charCount[char] = (charCount[char] || 0) + 1;
+    }
+    return charCount;
+}
+const inputString = "hello world";
+const characterCounts = countCharacterOccurrences(inputString);
+console.log("Character counts:", characterCounts);
 
+----------------------------------------------------------------------
 
-})
 
 
-----------------------------------------------------------------------------------------
 
