@@ -1,9 +1,11 @@
 //const {test,expect}= require('@playwright/test')
-import { test, expect } from '@playwright/test'
+import { test, expect,chromium } from '@playwright/test'
 test.describe.configure({ mode: 'serial' })
-test('Part 03 Homepage Test', { tag: ['@03To05', '@03To10'] }, async ({ playwright }) => {
 
-	const browser = await playwright.chromium.launch({ channel: 'chrome',headless:false }) //msedge
+test('Part 03 Homepage Test', { tag: ['@03To05', '@03To10'] }, async () => {
+
+	//const browser = await playwright.chromium.launch({ channel: 'chrome',headless:false }) //msedge
+	const browser = await chromium.launch({ channel: 'chrome',headless:false })
 	const context = await browser.newContext()
 	const page = await context.newPage()
 
