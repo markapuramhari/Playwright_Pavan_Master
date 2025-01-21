@@ -1,0 +1,40 @@
+{
+  "name": "playwright_pavan_master",
+  "version": "1.0.0",
+  "description": "playwright with javascript",
+  "main": "index.js",
+  "scripts": {
+    "alltest": "cross-env ENV=local npx playwright test",
+    "homepage": "cross-env ENV=QA npx playwright test Part_03_HomepageTest.spec.js --headed --project=Chrome",
+    "test": "cross-env ENV=QA npx playwright test --project=Chrome --headed --workers=4",
+    "03To10": "cross-env ENV=QA npx playwright test --grep=@03To10 --headed --project=Chrome --retries=2",
+    "11To20": "cross-env ENV=QA npx playwright test --grep=@11To20 --headed --project=Chrome --retries=2",
+    "21To30": "cross-env ENV=local npx playwright test --grep=@21To30 --headed --project=Edge --retries=2 --workers=3",
+    "31To38": "cross-env ENV=QA npx playwright test --grep=@31To38 --headed --project=Chrome --retries=2 --workers=3",
+    "DDT": "cross-env ENV=QA npx playwright test --grep=@39To40 --headed --project=Chrome --retries=2 --workers=1",
+    "rerun": "cross-env ENV=QA npx playwright test --headed --project=Chrome --retries=2 --workers=1 --last-failed",
+    "cross_QA_env": "cross-env ENV=QA npx playwright test Part_03_HomepageTest.spec.js --headed --project=Chrome",
+    "cross_local_env": "cross-env ENV=local npx playwright test Part_03_HomepageTest.spec.js --headed --project=Chrome",
+    "cross_local_env_Login": "cross-env ENV=local npx playwright test Part_04_LoginpageTest.spec.js --headed --project=Chrome",
+    "cross_QA_env_Login": "cross-env ENV=QA npx playwright test Part_04_LoginpageTest.spec.js --headed --project=Chrome"
+  },
+  "keywords": [],
+  "author": "Hari Babu M",
+  "license": "ISC",
+  "devDependencies": {
+    "@cucumber/cucumber": "^11.0.1",
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.7.5",
+    "allure-playwright": "^3.0.5",
+    "javascript": "^1.0.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "cross-env": "^7.0.3",
+    "crypto-js": "^4.2.0",
+    "csv-parse": "^5.5.6",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0"
+  }
+}
