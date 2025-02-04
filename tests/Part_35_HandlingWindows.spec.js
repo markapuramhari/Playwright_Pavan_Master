@@ -43,9 +43,10 @@ test('Part 35 Window Handling 1 Tab Test', {tag:['@31To38']},async ({ playwright
     //     console.log('Cookies cliked')
     // }
     
-    await page2.click("//img[@alt='linkedin logo']")
     const pagePromisee = context.waitForEvent('page')
+    await page2.click("//img[@alt='linkedin logo']")
     const page3 = await pagePromisee
+
     const LinkedIntext = page3.locator('.authwall-join-form__title')
     await expect(LinkedIntext).toContainText('LinkedIn')
     console.log('LinkedIntext:', await LinkedIntext.textContent())

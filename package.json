@@ -4,7 +4,7 @@
   "description": "playwright with javascript",
   "main": "index.js",
   "scripts": {
-    "alltest": "cross-env ENV=local npx playwright test",
+    "alltest": "cross-env ENV=local npx playwright test --headed",
     "homepage": "cross-env ENV=QA npx playwright test Part_03_HomepageTest.spec.js --headed --project=Chrome",
     "test": "cross-env ENV=QA npx playwright test --project=Chrome --headed --workers=4",
     "03To10": "cross-env ENV=QA npx playwright test --grep=@03To10 --headed --project=Chrome --retries=2",
