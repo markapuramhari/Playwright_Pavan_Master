@@ -6,6 +6,7 @@ npx playwright test --grep=@03To10 --grep='@03To10 | @11To20' --grep-invert=@11T
 npm install @playwright/test@latest --> update latest version
 npx playwright --version
 
+npx kill-port 9323
 
 WishInfinite Youtube
 --------------------
