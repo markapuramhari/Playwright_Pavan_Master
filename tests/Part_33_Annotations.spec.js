@@ -1,4 +1,5 @@
 import { test, expect } from '@playwright/test'
+test.describe.configure({ mode: 'parallel' })  //  serial
 
 // only:  test.only()
 test('Part 33 Annotations Test1', { tag: ['@31To38'] }, async () => {

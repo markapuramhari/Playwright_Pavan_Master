@@ -1,5 +1,5 @@
 import { test } from '@playwright/test'
-test.describe.configure({ mode: 'serial' })
+test.describe.configure({ mode: 'parallel' })  //  serial
 
 test.beforeAll(async () => {
     console.log('this is before all Hook...')

@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test'
-test.describe.configure({ mode: 'serial' })
+test.describe.configure({ mode: 'parallel' })  //  serial
 test('Part 27 Homepage Test', { tag: ['@26To30', '@21To30'] }, async ({ page }) => {
 
     //Login

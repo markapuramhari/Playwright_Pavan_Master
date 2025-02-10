@@ -1,4 +1,6 @@
 import { test, expect } from '@playwright/test'
+test.describe.configure({ mode: 'parallel' })  //  serial
+
 test('Part 36 Test1', { tag: ['@31To38'] }, async ({ page }) => {
 
     await page.goto('https://opensource-demo.orangehrmlive.com/web/index.php/auth/login')

@@ -1,5 +1,5 @@
 import { test } from '@playwright/test'
-//test.describe.configure({mode:'serial'})
+test.describe.configure({ mode: 'parallel' })  //  serial
 test('Part 29 page screenshot', { tag: ['@26To30', '@21To30'] }, async ({ page }) => {
 
 
