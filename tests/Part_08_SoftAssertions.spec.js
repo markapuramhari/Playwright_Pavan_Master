@@ -48,10 +48,10 @@ test('Part 08 Soft Assertions Test', { tag: ['@07To10','@03To10'] }, async ({ pa
 	//Count
 
 	const count1 = page.locator('a')
-	await expect.soft(count1).toHaveCount(61)
+	await expect.soft(count1).toHaveCount(62)
 
 	const count = await page.$$('a')
-	expect.soft(count.length).toBe(61)
+	expect.soft(count.length).toBe(62)
 
 	await page.waitForTimeout(2000)
 	await page.close()

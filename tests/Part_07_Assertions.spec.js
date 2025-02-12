@@ -48,10 +48,10 @@ test('Part 07 Assertions Test', { tag: ['@07To10','@03To10'] }, async ({ page })
 	//Count
 
 	const count1 = page.locator('a')
-	await expect(count1).toHaveCount(61)
+	await expect(count1).toHaveCount(62)
 
 	const count = await page.$$('a')
-	expect(count.length).toBe(61)
+	expect(count.length).toBe(62)
 
 	await page.waitForTimeout(2000)
 	await page.close()
