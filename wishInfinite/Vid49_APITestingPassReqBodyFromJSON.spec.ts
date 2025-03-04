@@ -1,5 +1,5 @@
 import { expect, test } from "@playwright/test";
-import ApiJson from "../testdata/apidata.json";
+import ApiJson from "../testdata";
 
 test("API Testing - Pass Request body from JSON For Post Call", async ({
   request,

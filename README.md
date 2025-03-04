@@ -20,6 +20,12 @@ Learn Playwright in 60 Seconds (Shorts Playlist) - https://www.youtube.com/playl
 Playwright Notes - https://docs.google.com/document/d/1O5NSFhHGc9icU3rfERSolAhLUxy2NxyiujsztN3ICL8/edit?usp=sharing
 
 
+Reslove Playwright install errors
+------------------------------------
+
+set-ExecutionPolicy RemoteSigned -Scope CurrentUser
+Get-ExecutionPolicy
+Get-ExecutionPolicy -list
 
 Interview Q%A -PW
 -----------------

@@ -1,6 +1,15 @@
+import { Locator, Page } from "@playwright/test"
+
 export class LoginPage {
 
-    constructor(page) {
+    readonly page: Page
+    readonly loginLink: Locator
+    readonly usernameInput: Locator
+    readonly passwordInput: Locator
+    readonly loginButton: Locator
+
+
+    constructor(page:Page) {
         this.page = page
         this.loginLink = page.locator('#login2')
         this.usernameInput = page.locator('#loginusername')
@@ -12,7 +21,7 @@ export class LoginPage {
         await this.page.goto('https://www.demoblaze.com/index.html')
     }
 
-    async login(username, password) {
+    async login(username: string, password:string) {
         await this.loginLink.click()
         await this.usernameInput.fill(username)
         await this.passwordInput.fill(password)
