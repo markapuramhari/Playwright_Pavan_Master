@@ -35,7 +35,7 @@ test('Part 35 Window Handling 1 Tab Test', {tag:['@31To38']},async ({ playwright
     await page1.click("//a[normalize-space()='OrangeHRM, Inc']")
     const page2 = await pagePromise
     
-    await expect(page2).toHaveTitle('Human Resources Management Software | OrangeHRM')
+    await expect(page2).toHaveTitle('Human Resources Management Software | OrangeHRM HR Software')
     const text = page2.locator("//div[@class='homepage-slider-content']/h1")
     await expect(text).toContainText('Intuitive Platform')
     
