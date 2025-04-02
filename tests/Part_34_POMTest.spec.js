@@ -16,13 +16,13 @@ test('Part 34 POM test', { tag: ['@31To38'] }, async ({ page }) => {
 
     //with POM
 
-    //Loginpage
+//Loginpage
     const login = new LoginPage(page)
     await login.gotoLoginPage()
     await login.login('markapuram', 'markapuram')
     await page.waitForTimeout(2000)
 
-    //HomePage    
+//HomePage    
     const home = new HomePage(page)
     await page.waitForTimeout(2000)
     await home.addProductToCart('Samsung galaxy s6')
@@ -31,7 +31,7 @@ test('Part 34 POM test', { tag: ['@31To38'] }, async ({ page }) => {
 
 
 
-    //CartPage
+//CartPage
 
     const cart = new CartPage(page)
     await page.waitForTimeout(2000)
@@ -47,21 +47,19 @@ test('Part 34 POM test', { tag: ['@31To38'] }, async ({ page }) => {
 test.skip('Part 34 POM PageManager test', { tag: ['@31To38'] }, async ({ page }) => {
     const pm=new PageManager(page)
 
-    //Loginpage
+//Loginpage
     await pm.onLoginPage.gotoLoginPage()
     await pm.onLoginPage.login('markapuram', 'markapuram')
     await page.waitForTimeout(2000)
 
-    //HomePage    
-    await pm.onHomePage.page.waitForTimeout(2000)
+//HomePage    
+    await pm.onHomePage.waitForTimeout(2000)
     await pm.onHomePage.addProductToCart('Samsung galaxy s6')
     await pm.onHomePage.page.waitForTimeout(2000)
     await pm.onHomePage.gotoCart()
 
-
-
-    //CartPage
-    await pm.onCartPage.page.waitForTimeout(2000)
+//CartPage
+    await pm.onCartPage.waitForTimeout(2000)
     const status = await pm.onCartPage.checkProductInCart('Samsung galaxy s6')
     expect(status).toBe(true)
 
